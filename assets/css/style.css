@@ -47,7 +47,7 @@ body {
 
 .navLogo img {
   width: auto;
-  height: 40px;
+  height: 30px;
 }
 
 .navLogoText {
@@ -74,7 +74,7 @@ body {
 
 .navLine {
   position: absolute;
-  left: calc(50% - 13px);
+  left: calc(50% - 7px);
   top: 15px;
   height: calc(100% - 30px);
   width: 0;
@@ -400,6 +400,37 @@ body {
   font-size: 30px;
   transform: translateY(-50%);
   cursor: pointer;
+}
+
+.page-actions {
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+.page-actions a img {
+  width: 25px;
+  height: auto;
+}
+
+.my-report-trigger {
+  position: relative;
+}
+
+.my-report-trigger span {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  width: 17px;
+  height: 17px;
+  background-color: #ed1d25;
+  font-size: 9px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: 500;
 }
 
 @media (max-width: 1399px) {
