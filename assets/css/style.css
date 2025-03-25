@@ -1,0 +1,767 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.mainNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  background-color: #212121;
+}
+
+.mainNavBG {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #2f2f2f;
+  z-index: 2;
+  padding: 0;
+  margin: 0;
+  transition: all 0.5s ease-in-out;
+  display: none;
+}
+
+.mainNavBG.active {
+  height: 70px;
+  display: none;
+}
+
+.navLogo {
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-color: #212121;
+  padding: 15px 25px;
+}
+
+.navLogo img {
+  width: auto;
+  height: 40px;
+}
+
+.navLogoText {
+  margin-left: 40px;
+}
+
+.navLogoText p {
+  color: #8f8f8f;
+}
+
+.navLogoText p:nth-child(1) {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1;
+}
+
+.navLogoText p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+  line-height: 1;
+}
+
+.navLine {
+  position: absolute;
+  left: calc(50% - 13px);
+  top: 15px;
+  height: calc(100% - 30px);
+  width: 0;
+  padding: 0;
+  margin: 0;
+  border-left: 1px solid #8f8f8f;
+}
+
+.searhAndNavButton {
+  display: flex;
+  align-items: center;
+  background-color: #313131;
+  padding: 0 0 0 20px;
+}
+
+.navButton {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 20px 25px 20px 20px;
+  background-color: #000;
+}
+
+.lineOne,
+.lineTwo,
+.lineThree {
+  display: inline-block;
+  background-color: #ffffff;
+  height: 3px;
+  margin: 0;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.lineOne {
+  width: 35px;
+  margin-bottom: 7px;
+  margin-top: 3.5px;
+}
+
+.lineTwo {
+  width: 25px;
+  margin-bottom: 7px;
+}
+
+.lineThree {
+  width: 25px;
+  transition-delay: 0.15s;
+  margin-bottom: 3.5px;
+}
+
+.navButton:hover .lineTwo {
+  width: 35px;
+}
+
+.navButton:hover .lineThree {
+  width: 35px;
+}
+
+.fixedNavContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #2f2f2f;
+  z-index: 10;
+  transition: all 0.75s;
+  transform: translateX(100%);
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+.fixedNavContainer.active {
+  visibility: visible;
+  transform: translateX(0);
+}
+
+.logoAndClose {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  transition-delay: 0.6s;
+}
+
+.fixedNavContainer.active .logoAndClose {
+  opacity: 1;
+}
+
+.closeIcon {
+  font-size: 30px;
+  cursor: pointer;
+  color: #d5d5d5;
+  transition: all 0.5s ease-in-out;
+}
+
+.closeIcon:hover {
+  color: #ffffff;
+}
+
+.NavMasLogo {
+  width: auto;
+  height: 40px;
+}
+
+.navLines {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: auto;
+  z-index: -1;
+}
+
+.NavItemMainContainer {
+  padding: 0 60px;
+  margin-top: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navItem {
+  width: calc(25% - 30px);
+  height: 100%;
+  margin: 0;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.5s;
+}
+
+.fixedNavContainer.active .navItem {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.navImageContainer {
+  position: relative;
+  width: 100%;
+  height: 46%;
+}
+
+.navImage {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.navImage img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+
+.navItem:hover .navImage img {
+  transform: scale(1.1);
+}
+
+.navArrowContainer {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(-30%, 50%);
+  transition: all 0.5s;
+}
+
+.navItem:hover .navArrowContainer {
+  transform: translate(-30%, 50%) rotateZ(90deg);
+}
+
+.navArrowContainer img {
+  width: 30px;
+  height: auto;
+}
+
+.navSectionText {
+  color: #717171;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.navTextContainer {
+  background-color: transparent;
+  padding: 30px;
+  transition: all 0.5s;
+  width: 100%;
+  height: 100%;
+}
+
+.navTextMobileWrapper {
+  height: 54%;
+}
+
+.navTextContainer.active {
+  background-color: #fff;
+}
+
+.navTextContainer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  transition: all 0.5s;
+  visibility: hidden;
+}
+
+.navTextContainer.active.navTextContainer ul {
+  visibility: visible;
+  opacity: 1;
+}
+
+.navTextContainer ul li {
+  line-height: 1.2;
+  margin-bottom: 10px;
+  transition: all 0.4s;
+  position: relative;
+  padding-left: 25px;
+}
+
+.navTextContainer li::before {
+  content: url("../images/arrow-right-grey.svg");
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 17px;
+  height: 17px;
+}
+
+.navTextContainer a {
+  color: #717171;
+  text-decoration: none;
+  font-size: 17px;
+  transition: all 0.4s;
+}
+
+.navTextContainer ul li:hover a,
+.navTextContainer ul li.current-link a {
+  color: #ed1d24;
+}
+
+.navImageMobile {
+  display: none;
+}
+
+.NavSearchIcon i {
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.searchWrapper {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  visibility: hidden;
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.5s ease-in-out;
+}
+
+.searchWrapper.active {
+  visibility: visible;
+  z-index: 11;
+  opacity: 1;
+}
+
+.searchWrapper form {
+  border-bottom: 2px solid #fff;
+  width: 60%;
+}
+
+.searchWrapper input {
+  width: calc(100% - 52px);
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
+  outline: none;
+  color: #fff;
+  padding: 15px;
+}
+
+.searchWrapper button {
+  background-color: transparent;
+  padding: 15px;
+  border: none;
+}
+
+.searchWrapper button i {
+  color: #fff;
+  font-size: 17px;
+}
+
+#closeIconSearch {
+  position: absolute;
+  top: 25%;
+  right: 20%;
+  color: #fff;
+  font-size: 30px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+@media (max-width: 1399px) {
+  .navImageContainer {
+    height: auto;
+  }
+
+  .navImage {
+    height: auto;
+  }
+
+  .navImage img {
+    height: auto;
+  }
+
+  .navTextContainer {
+    padding: 25px 15px;
+    height: 100%;
+  }
+
+  .navSectionText {
+    font-size: 30px;
+  }
+
+  .navArrowContainer {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .fixedNavContainer {
+    justify-content: flex-start;
+    padding-bottom: 0;
+    overflow-y: auto;
+    width: 40vw;
+  }
+
+  .NavItemMainContainer {
+    padding: 40px;
+    margin-top: 0;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .navItem {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .navSectionText {
+    display: none;
+  }
+
+  .navImageContainer {
+    display: none;
+  }
+
+  .navImageMobile {
+    background-position: top center;
+    background-size: cover;
+    padding: 35px 20px;
+    display: block;
+  }
+
+  .navImageMobileOne {
+    background: linear-gradient(rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)),
+      url("../images/nav_image_one.webp");
+  }
+
+  .navImageMobileTwo {
+    background: linear-gradient(rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)),
+      url("../images/nav_image_two.webp");
+  }
+
+  .navImageMobileThree {
+    background: linear-gradient(rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)),
+      url("../images/nav_image_three.webp");
+  }
+
+  .navImageMobileFour {
+    background: linear-gradient(rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)),
+      url("../images/nav_image_four.webp");
+  }
+
+  .navImageMobile h1 {
+    font-size: 30px;
+    color: #fff;
+    margin: 0;
+  }
+
+  .navTextContainer {
+    padding: 20px 15px;
+    height: auto;
+    background-color: #fff;
+  }
+
+  .navTextMobileWrapper {
+    padding: 0;
+    margin: 0;
+    display: none;
+  }
+
+  .navTextContainer ul {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .navLogoText {
+    display: none;
+  }
+
+  .navLine {
+    display: none;
+  }
+
+  .navLines {
+    display: none;
+  }
+
+  .NavMasLogo {
+    display: none;
+  }
+
+  .logoAndClose {
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 991px) {
+  .fixedNavContainer {
+    justify-content: flex-start;
+    padding-bottom: 0;
+    overflow-y: auto;
+    width: 50vw;
+  }
+
+  .NavItemMainContainer {
+    padding: 40px;
+    margin-top: 0;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .navItem {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .navSectionText {
+    display: none;
+  }
+
+  .navImageContainer {
+    display: none;
+  }
+
+  .navImageMobile {
+    background-position: top center;
+    background-size: cover;
+    padding: 35px 20px;
+    display: block;
+  }
+
+  .navImageMobileOne {
+    background: linear-gradient(rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)),
+      url("../images/nav_image_one.webp");
+  }
+
+  .navImageMobileTwo {
+    background: linear-gradient(rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)),
+      url("../images/nav_image_two.webp");
+  }
+
+  .navImageMobileThree {
+    background: linear-gradient(rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)),
+      url("../images/nav_image_three.webp");
+  }
+
+  .navImageMobileFour {
+    background: linear-gradient(rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)),
+      url("../images/nav_image_four.webp");
+  }
+
+  .navImageMobile h1 {
+    font-size: 30px;
+    color: #fff;
+    margin: 0;
+  }
+
+  .navTextContainer {
+    padding: 20px 15px;
+    height: auto;
+    background-color: #fff;
+  }
+
+  .navTextMobileWrapper {
+    padding: 0;
+    margin: 0;
+    display: none;
+  }
+
+  .navTextContainer ul {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .navLogoText {
+    display: none;
+  }
+
+  .navLine {
+    display: none;
+  }
+
+  .navLines {
+    display: none;
+  }
+
+  .NavMasLogo {
+    display: none;
+  }
+
+  .logoAndClose {
+    justify-content: flex-end;
+  }
+
+  .navLogo img {
+    height: 35px;
+  }
+
+  .navButton {
+    padding: 17.5px 25px 17.5px 20px;
+  }
+
+  .mainNavBG.active {
+    height: 65px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navLines {
+    display: none;
+  }
+
+  .fixedNavContainer {
+    justify-content: flex-start;
+    padding-bottom: 0;
+    overflow-y: auto;
+    width: 100vw;
+  }
+
+  .NavItemMainContainer {
+    padding: 40px;
+    margin-top: 0;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .navItem {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .navSectionText {
+    display: none;
+  }
+
+  .navImageContainer {
+    display: none;
+  }
+
+  .navImageMobile {
+    background-position: top center;
+    background-size: cover;
+    padding: 35px 20px;
+    display: block;
+  }
+
+  .navImageMobileOne {
+    background: linear-gradient(rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)),
+      url("../images/nav_image_one.webp");
+  }
+
+  .navImageMobileTwo {
+    background: linear-gradient(rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)),
+      url("../images/nav_image_two.webp");
+  }
+
+  .navImageMobileThree {
+    background: linear-gradient(rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)),
+      url("../images/nav_image_three.webp");
+  }
+
+  .navImageMobileFour {
+    background: linear-gradient(rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)),
+      url("../images/nav_image_four.webp");
+  }
+
+  .navImageMobile h1 {
+    font-size: 30px;
+    color: #fff;
+    margin: 0;
+  }
+
+  .navTextContainer {
+    padding: 20px 15px;
+    height: auto;
+    background-color: #fff;
+  }
+
+  .navTextMobileWrapper {
+    padding: 0;
+    margin: 0;
+    display: none;
+  }
+
+  .navTextContainer ul {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .navLogoText {
+    display: none;
+  }
+
+  .navLine {
+    display: none;
+  }
+
+  .NavMasLogo {
+    display: block;
+  }
+
+  .logoAndClose {
+    justify-content: space-between;
+  }
+
+  .navLogo {
+    padding: 10px 15px;
+  }
+
+  .navLogo img {
+    height: 30px;
+  }
+
+  .searhAndNavButton {
+    padding: 0 0 0 15px;
+  }
+
+  .NavSearchIcon i {
+    font-size: 20px;
+  }
+
+  .navButton {
+    padding: 10px 15px;
+  }
+
+  .mainNavBG.active {
+    height: 50px;
+  }
+}
