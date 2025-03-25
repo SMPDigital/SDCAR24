@@ -1,0 +1,405 @@
+@charset "utf-8";
+/* CSS Document */
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.download-center {
+  font-family: "Poppins", Arial, sans-serif;
+  margin-top: 30px;
+  padding: 30px 30px;
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.1);
+
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.download-center h1 {
+  font-size: 20px !important;
+  line-height: 28px !important;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  text-decoration-line: none;
+  font-weight: 400;
+  color: #219694 !important;
+}
+
+.frwrap {
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 1);
+  margin: 0px 50px;
+}
+
+.dm-body {
+  margin-top: 0px;
+  background: rgba(255, 255, 255, 0.5);
+}
+.dm-body .menus {
+  width: 100%;
+  padding: 15px 10px 15px 10px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.dm-body .menus .menu-img {
+  width: 50px;
+  height: 50px;
+}
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.dm-body .menus .text_lines {
+  width: calc(100% - 50px);
+  padding-left: 20px;
+}
+
+.card {
+  word-wrap: break-word;
+}
+
+.dm-body .menus .text_lines .one-half {
+  width: calc(100% - 110px);
+}
+
+.dm-body .menus .text_lines .one-half p {
+  margin-bottom: 0rem;
+  font-size: 16px;
+}
+
+.dm-body .menus .text_lines .one-half h3 {
+  color: #02041e;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 0.2rem;
+}
+
+.dm-body .menus .text_lines .one-third {
+  width: 110px;
+  text-align: center;
+}
+
+.dm-body .menus .text_lines .one-forth {
+  width: 110px;
+  text-align: center;
+}
+
+/* .my-report{
+	font-family: "Poppins", Arial, sans-serif;
+	margin-top: 20px;
+padding: 30px 15px;
+box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.1);
+background: #fff;
+border-radius: 5px;	
+	background: rgba(255, 255, 255, 0.2);
+	
+}
+
+.my-report h1{
+	font-size: 30px;
+	line-height: 35px;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+
+	
+}
+
+
+.my-report .dm-body .menus .text_lines {
+  width: calc(100% - 20px);
+  padding-left: 20px;
+}
+
+.my-report .cusbtn .fa{
+font-size: 30px;
+margin-right: 10px;
+outline: none;
+font-weight: 100;
+line-height: 35px;
+vertical-align: middle;
+} */
+
+/* Download Manager Stlyes */
+.download-manager-acc {
+  margin-bottom: 0px;
+}
+
+.download-manager-acc .sub-menu-title {
+  padding: 15px 35px 15px 0px;
+  color: var(--seccondary-color);
+  text-decoration: none;
+  display: flex;
+  align-items: center !important;
+  justify-content: left;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.02);
+  border-bottom: 1px solid #219694;
+  position: relative;
+  border-radius: 0px 0px 10px 10px;
+  border-left: 1px solid #219694;
+  border-right: 1px solid #219694;
+  margin-bottom: 5px;
+
+  background-image: linear-gradient(to right, #f9feff, #fff);
+}
+.download-manager-acc .sub-menu-title h4 {
+  font-size: 20px;
+  margin-bottom: 0;
+  color: #464646;
+  font-weight: 400;
+  margin: 0px 0px 0px 12px;
+}
+.download-manager-acc .sub-menu-content {
+  display: none;
+  padding: 10px 0;
+}
+.download-manager-acc .fa-angle-down {
+  color: #219694;
+  transition: 300ms;
+  position: absolute;
+  right: 30px;
+}
+.download-manager-acc .fa-angle-down.close {
+  transform: rotate(180deg);
+  text-align: left;
+  font-size: 16px;
+  color: var(--seccondary-color);
+}
+.download-manager td i {
+  color: var(--seccondary-color);
+  cursor: pointer;
+}
+/* Download Manager Styles End */
+
+.thecard {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+  border-radius: 4px;
+  transition: 400ms ease;
+  text-align: left;
+}
+
+.card-img {
+  display: block;
+  max-height: none;
+  overflow: hidden;
+}
+
+.card-img img {
+  display: block;
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+}
+
+.card-caption {
+  position: relative;
+  padding: 5px 10px 5px 10px;
+}
+
+.card-caption h1 {
+  font-size: 17px;
+  line-height: 22px;
+  padding: 5px 0px;
+  margin-bottom: 0px;
+  color: var(--color-blue1);
+}
+
+.card-outmore {
+  padding: 10px 10px;
+  border-radius: 0 0 4px 4px;
+  border-top: 1px solid #e0e0e0;
+  background: #efefef;
+  color: #222;
+  transition: 400ms ease;
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+  background-image: linear-gradient(
+    to right,
+    rgba(3, 160, 127, 0.75),
+    rgba(3, 162, 156, 0.75),
+    rgba(0, 154, 182, 0.75)
+  );
+}
+
+.thecard:hover .card-outmore {
+  background: #585858;
+  color: #fff !important;
+}
+
+.thecard:hover .card-outmore i {
+  transition: all 300ms ease 0s;
+  margin-left: 12px;
+  background-color: #2e2e2e;
+  color: white;
+}
+.card-outmore i {
+  padding: 8px 8px;
+  border-radius: 50%;
+  line-height: 12px;
+  height: 29px;
+  margin-top: 5px;
+  margin-left: 10px;
+  background-color: #585858;
+  color: white;
+  vertical-align: middle;
+  transition: 400ms ease;
+}
+a.card-outmore {
+  text-decoration: none;
+}
+
+a.card-outmore:hover {
+  text-decoration: none;
+}
+
+.card-outmore h5 {
+  font-weight: normal;
+  font-size: 15px;
+  color: #333;
+  line-height: 18px;
+  padding: 0px;
+  margin: 10px 0px 10px 0px;
+}
+
+.thecard:hover .card-outmore h5 {
+  color: #fff !important;
+}
+
+@media (max-width: 991px) {
+  .dm-body .menus .text_lines .one-half h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+  }
+
+  .download-manager-acc .sub-menu-title h4 {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-bottom: 0;
+  }
+
+  .frwrap {
+    margin: 0px 5px;
+  }
+
+  .card-caption h1 {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 0px;
+    margin-bottom: 0px;
+  }
+
+  .dm-body .menus .menu-img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .download-center {
+    margin-top: 20px;
+    padding: 15px 15px;
+  }
+
+  .my-report {
+    margin-top: 10px;
+    padding: 17px 15px;
+  }
+
+  .my-report .cusbtn .fa {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+
+  .dm-body .menus {
+    display: flex;
+  }
+
+  .dm-body .menus .text_lines .one-third {
+    width: 50px;
+    text-align: center;
+  }
+
+  .dm-body .menus .text_lines .one-forth {
+    width: 50px;
+    text-align: center;
+  }
+
+  .dm-body .menus .text_lines {
+    width: calc(100% - 50px);
+    padding-left: 10px;
+  }
+
+  .frwrap {
+    margin: 40px 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dm-body .menus .text_lines .one-half h3 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+    margin-top: 0px;
+    line-height: 18px;
+  }
+
+  .dm-body .menus .text_lines .one-half p {
+    margin-bottom: 0rem;
+    font-size: 12px;
+  }
+
+  .dm-body .menus .menu-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .dm-body .menus .text_lines .one-third {
+    width: 50px;
+    text-align: center;
+  }
+
+  .dm-body .menus .text_lines .one-forth {
+    width: 50px;
+    text-align: center;
+  }
+
+  .dm-body .menus .text_lines .one-half {
+    width: calc(100% - 60px);
+    padding-right: 10px;
+  }
+
+  .frwrap {
+    margin: 40px 50px;
+  }
+
+  .download-manager-acc .sub-menu-title h4 {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .frwrap {
+    margin: 40px 40px;
+  }
+  .dm-body .menus .text_lines {
+    width: calc(100% - 30px);
+    padding-left: 5px;
+  }
+
+  .dm-body .menus {
+    padding: 10px 10px 10px 10px;
+  }
+}
