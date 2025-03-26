@@ -186,15 +186,6 @@ body {
   height: 40px;
 }
 
-.navLines {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: auto;
-  z-index: -1;
-}
-
 .NavItemMainContainer {
   padding: 0 60px;
   margin-top: 30px;
@@ -548,10 +539,6 @@ body {
     display: none;
   }
 
-  .navLines {
-    display: none;
-  }
-
   .NavMasLogo {
     display: none;
   }
@@ -648,10 +635,6 @@ body {
     display: none;
   }
 
-  .navLines {
-    display: none;
-  }
-
   .NavMasLogo {
     display: none;
   }
@@ -674,10 +657,6 @@ body {
 }
 
 @media (max-width: 767px) {
-  .navLines {
-    display: none;
-  }
-
   .fixedNavContainer {
     justify-content: flex-start;
     padding-bottom: 0;
