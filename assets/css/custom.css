@@ -124,6 +124,76 @@ body {
   font-size: 3.2rem;
 }
 
+/*Styles adding*/
+
+.textBolder{
+	font-weight: 700;
+	
+}
+.armainlogo {
+	border-bottom: 2px solid #DAAB28;
+	width: 50%;
+}
+
+.armainlogo img {
+	width: 80%;
+	height: auto;
+}
+
+.arsubdivs {
+	border: 2px solid #DAAB28;
+	height: 100%;
+	padding: 5px;
+	background-color: white;
+}
+
+.armaincontainer {
+	background-color: #F9F6F0;
+}
+
+.arsptopic {
+	position: absolute;
+	top: -40px;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 10px;
+	background-color: #F9F6F0;
+	font-size: 18px;
+  	line-height: 22px;
+	text-align: center;
+}
+
+.arsptopic strong {
+	margin: 0;
+	padding: 0;
+	color: #4A2545;
+}
+
+.argoldtext strong {
+	color: #B48E2E;
+}
+
+.ararrowleft {
+	position: absolute;
+	bottom: -30px;
+	left: 0;
+	width: 15px !important;
+	height: auto;
+	transform: translateX(-50%);
+}
+
+.ararrowright {
+	position: absolute;
+	bottom: -30px;
+	right: 0;
+	width: 15px !important;
+	height: auto;
+	transform: translateX(50%);
+}
+
+/*Styles adding stop*/
+
+
 p strong {
   font-weight: 500;
 }
