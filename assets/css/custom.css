@@ -325,6 +325,14 @@ p.lifter {
   font-weight: 500;
 }
 
+p.lifter1 {
+  color: #209593;
+  font-size: 2.0rem;
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
 /*a,
 input {
   font-size: 1.6rem;
