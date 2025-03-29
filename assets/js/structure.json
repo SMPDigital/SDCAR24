@@ -5,7 +5,7 @@
     "children": [
       {
         "name": "About the Report",
-        "slug": ""
+        "slug": "about_the_report/about_the_report.html"
       }
     ]
   },
@@ -15,27 +15,27 @@
     "children": [
       {
         "name": "Highlights",
-        "slug": ""
+        "slug": "highlights/highlights.html"
       }
     ]
   },
   {
-    "name": "Chairman’s Statement",
+    "name": "Chairman\u00e2\u20ac\u2122s Statement",
     "slug": "#",
     "children": [
       {
-        "name": "Chairman’s Statement",
-        "slug": ""
+        "name": "Chairman\u00e2\u20ac\u2122s Statement",
+        "slug": "chairmans_statement/chairmans_statement.html"
       }
     ]
   },
   {
-    "name": "Chief Executive Officer’s Message",
+    "name": "Chief Executive Officer\u00e2\u20ac\u2122s Message",
     "slug": "#",
     "children": [
       {
-        "name": "Chief Executive Officer’s Message",
-        "slug": ""
+        "name": "Chief Executive Officer\u00e2\u20ac\u2122s Message",
+        "slug": "chief_executive_officers_message/chief_executive_officers_message.html"
       }
     ]
   },
@@ -45,11 +45,11 @@
     "children": [
       {
         "name": "History of Saudi Economic and Development Company",
-        "slug": ""
+        "slug": "who_we_are/history_of_saudi_economic_and_development_company.html"
       },
       {
         "name": "Driving Prosperity for Generations to Come",
-        "slug": ""
+        "slug": "who_we_are/driving_prosperity_for_generations_to_come.html"
       }
     ]
   },
@@ -58,32 +58,32 @@
     "slug": "#",
     "children": [
       {
-		"name": "Strategic Direction",
-		"slug": ""
-	  },
-	  {
-		"name": "Strategic Enablers",
-		"slug": ""
-	  },
-	  {
-		"name": "Progress in Motion",
-		"slug": ""
-	  },
+        "name": "Strategic Direction",
+        "slug": "strategic_direction/strategic_direction.html"
+      },
+      {
+        "name": "Strategic Enablers",
+        "slug": "strategic_direction/strategic_enablers.html"
+      },
+      {
+        "name": "Progress in Motion",
+        "slug": "strategic_direction/progress_in_motion.html"
+      },
       {
         "name": "Our Business Model",
-        "slug": ""
+        "slug": "strategic_direction/our_business_model.html"
       },
-	  {
-		"name": "Digitalization",
-		"slug": ""
-	  },
+      {
+        "name": "Digitalization",
+        "slug": "strategic_direction/digitalization.html"
+      },
       {
         "name": "Investor Relations",
-        "slug": ""
+        "slug": "strategic_direction/investor_relations.html"
       },
       {
         "name": "Our Team",
-        "slug": ""
+        "slug": "strategic_direction/our_team.html"
       }
     ]
   },
@@ -93,11 +93,11 @@
     "children": [
       {
         "name": "Corporate Investment",
-        "slug": ""
+        "slug": "investment_impact/corporate_investment.html"
       },
       {
         "name": "Real Estate Group",
-        "slug": ""
+        "slug": "investment_impact/real_estate_group.html"
       }
     ]
   },
@@ -107,19 +107,19 @@
     "children": [
       {
         "name": "Fulfilling our Sustainability Promise",
-        "slug": ""
+        "slug": "social_and_environmental_impact/fulfilling_our_sustainability_promise.html"
       },
-	  {
+      {
         "name": "Environmental Review",
-        "slug": ""
+        "slug": "social_and_environmental_impact/environmental_review.html"
       },
-	  {
+      {
         "name": "Social Review",
-        "slug": ""
+        "slug": "social_and_environmental_impact/social_review.html"
       },
-	  {
+      {
         "name": "2024 Awards and Achievements",
-        "slug": ""
+        "slug": "social_and_environmental_impact/2024_awards_and_achievements.html"
       }
     ]
   },
@@ -129,15 +129,15 @@
     "children": [
       {
         "name": "Board of Directors",
-        "slug": ""
+        "slug": "our_ethics/board_of_directors.html"
       },
-	  {
+      {
         "name": "Executive Team",
-        "slug": ""
+        "slug": "our_ethics/executive_team.html"
       },
-	  {
+      {
         "name": "Corporate Governance",
-        "slug": ""
+        "slug": "our_ethics/corporate_governance.html"
       }
     ]
   },
@@ -147,15 +147,15 @@
     "children": [
       {
         "name": "Mapped Material Topics",
-        "slug": ""
+        "slug": "annexes/mapped_material_topics.html"
       },
-	  {
+      {
         "name": "Human Resource",
-        "slug": ""
+        "slug": "annexes/human_resource.html"
       },
-	  {
+      {
         "name": "GRI content Index",
-        "slug": ""
+        "slug": "annexes/gri_content_index.html"
       }
     ]
   }
