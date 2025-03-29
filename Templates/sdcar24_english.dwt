@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/libs/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/libs/fontawesome.css" />
+    <link rel="stylesheet" href="../assets/css/custom.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  <!-- TemplateBeginEditable name="doctitle" -->
+    <title>Document</title>
+    <!-- TemplateEndEditable -->
+	  
+  <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
+	  
+  </head>
+  <body>
+    <div class="fixedNavContainer">
+      <div class="logoAndClose">
+        <a href="index.html">
+          <img
+            src="../assets/images/sedco_logo.svg"
+            alt="Sedco Logo"
+            class="NavMasLogo"
+          />
+        </a>
+
+        <i class="fa-solid fa-x closeIcon" id="closeIcon"></i>
+      </div>
+      <div class="NavItemMainContainer">
+        <div class="navItem" style="transition-delay: 0.6s">
+          <div class="navImageContainer">
+            <div class="navImage">
+              <img src="../assets/images/sample.webp" alt="Nav Image" />
+            </div>
+            <div class="navArrowContainer">
+              <img src="../assets/images/grey_right_arrow.svg" alt="" />
+            </div>
+          </div>
+          <div class="navImageMobile navImageMobileOne">
+            <h1>Sample Link</h1>
+          </div>
+          <div class="navTextMobileWrapper">
+            <div class="navTextContainer">
+              <h1 class="navSectionText">Sample Link</h1>
+              <ul>
+                <li>
+                  <a href="#">Sample Link</a>
+                </li>
+                <li>
+                  <a href="#">Sample Link</a>
+                </li>
+                <li>
+                  <a href="#">Sample Link</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="navItem" style="transition-delay: 0.7s">
+          <div class="navImageContainer">
+            <div class="navImage">
+              <img src="../assets/images/sample.webp" alt="Nav Image" />
+            </div>
+            <div class="navArrowContainer">
+              <img src="../assets/images/grey_right_arrow.svg" alt="" />
+            </div>
+          </div>
+          <div class="navImageMobile navImageMobileTwo">
+            <h1>Sample Link</h1>
+          </div>
+          <div class="navTextMobileWrapper">
+            <div class="navTextContainer">
+              <h1 class="navSectionText">Sample Link</h1>
+              <ul>
+                <li>
+                  <a href="#">Sample Link</a>
+                </li>
+                <li>
+                  <a href="#">Sample Link</a>
+                </li>
+                <li>
+                  <a href="#">Sample Link</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="navItem" style="transition-delay: 0.8s">
+          <div class="navImageContainer">
+            <div class="navImage">
+              <img src="../assets/images/sample.webp" alt="Nav Image" />
+            </div>
+            <div class="navArrowContainer">
+              <img src="../assets/images/grey_right_arrow.svg" alt="" />
+            </div>
+          </div>
+          <div class="navImageMobile navImageMobileThree">
+            <h1>Sample Link</h1>
+          </div>
+          <div class="navTextMobileWrapper">
+            <div class="navTextContainer">
+              <h1 class="navSectionText">Sample Link</h1>
+              <ul>
+                <li>
+                  <a href="#">Sample Link</a>
+                </li>
+                <li>
+                  <a href="#">Sample Link</a>
+                </li>
+                <li>
+                  <a href="#">Sample Link</a>
+                </li>
+                <li>
+                  <a href="#">Sample Link</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="navItem" style="transition-delay: 0.9s">
+          <div class="navImageContainer">
+            <div class="navImage">
+              <img src="../assets/images/sample.webp" alt="Nav Image" />
+            </div>
+            <div class="navArrowContainer">
+              <img src="../assets/images/grey_right_arrow.svg" alt="" />
+            </div>
+          </div>
+          <div class="navImageMobile navImageMobileFour">
+            <h1>Sample Link</h1>
+          </div>
+          <div class="navTextMobileWrapper">
+            <div class="navTextContainer">
+              <h1 class="navSectionText">Sample Link</h1>
+              <ul>
+                <li>
+                  <a href="#">Sample Link</a>
+                </li>
+                <li>
+                  <a href="#">Sample Link</a>
+                </li>
+                <li>
+                  <a href="#">Sample Link</a>
+                </li>
+                <li>
+                  <a href="#">Sample Link</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mainNavBG"></div>
+    <nav class="mainNav">
+      <div class="navLogo">
+        <a href="index.html"
+          ><img src="../assets/images/sedco_logo.svg" alt="Sedco Logo" />
+        </a>
+        <div class="navLine"></div>
+        <div class="navLogoText">
+          <p>Sedco Holdings</p>
+          <p>Annual Report 2024</p>
+        </div>
+      </div>
+
+      <div class="searhAndNavButton">
+        <div class="searchWrapper">
+          <i class="fa-solid fa-x" id="closeIconSearch"></i>
+          <form action="services/search.html" method="get">
+            <input type="search" name="s" required placeholder="Search..." />
+            <button type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+
+        <div class="page-actions">
+          <div class="NavSearchIcon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <a
+            href="#"
+            tooltip="Accessibility Panel"
+            class="d-none d-md-inline-block toggle_accessibility_panel"
+          >
+            <img
+              src="../assets/images/icons/accessibility_icon.svg"
+              alt="accessibility icon"
+            />
+          </a>
+
+          <a
+            href="services/pdf/masir23.pdf"
+            tooltip="Download Full PDF"
+            target="_blank"
+            class="d-none d-md-inline-block"
+          >
+            <img
+              src="../assets/images/icons/download_pdf.svg"
+              alt="download pdf"
+            />
+          </a>
+        </div>
+
+        <div class="navButton" id="navButton">
+          <span class="lineOne"></span>
+          <span class="lineTwo"></span>
+          <span class="lineThree"></span>
+        </div>
+      </div>
+    </nav>
+	  
+	<!-- TemplateBeginEditable name="content-area" -->
+	<section class="content-area">
+		 <div class="container">
+			<div class="row">
+				<div class="col-md-8 mx-auto">
+				</div>
+			</diV>
+		</div>		
+	</section>
+	  
+	<!-- TemplateEndEditable -->
+
+    <script src="../assets/js/libs/jquery-3.7.1.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+	  
+	<!-- TemplateBeginEditable name="scripts" -->
+	<!-- TemplateEndEditable -->
+  </body>
+</html>

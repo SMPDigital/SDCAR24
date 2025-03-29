@@ -1,0 +1,162 @@
+[
+  {
+    "name": "About the Report",
+    "slug": "#",
+    "children": [
+      {
+        "name": "About the Report",
+        "slug": ""
+      }
+    ]
+  },
+  {
+    "name": "Highlights",
+    "slug": "#",
+    "children": [
+      {
+        "name": "Highlights",
+        "slug": ""
+      }
+    ]
+  },
+  {
+    "name": "Chairman’s Statement",
+    "slug": "#",
+    "children": [
+      {
+        "name": "Chairman’s Statement",
+        "slug": ""
+      }
+    ]
+  },
+  {
+    "name": "Chief Executive Officer’s Message",
+    "slug": "#",
+    "children": [
+      {
+        "name": "Chief Executive Officer’s Message",
+        "slug": ""
+      }
+    ]
+  },
+  {
+    "name": "Who We Are",
+    "slug": "#",
+    "children": [
+      {
+        "name": "History of Saudi Economic and Development Company",
+        "slug": ""
+      },
+      {
+        "name": "Driving Prosperity for Generations to Come",
+        "slug": ""
+      }
+    ]
+  },
+  {
+    "name": "Strategic Direction",
+    "slug": "#",
+    "children": [
+      {
+		"name": "Strategic Direction",
+		"slug": ""
+	  },
+	  {
+		"name": "Strategic Enablers",
+		"slug": ""
+	  },
+	  {
+		"name": "Progress in Motion",
+		"slug": ""
+	  },
+      {
+        "name": "Our Business Model",
+        "slug": ""
+      },
+	  {
+		"name": "Digitalization",
+		"slug": ""
+	  },
+      {
+        "name": "Investor Relations",
+        "slug": ""
+      },
+      {
+        "name": "Our Team",
+        "slug": ""
+      }
+    ]
+  },
+  {
+    "name": "Investment Impact",
+    "slug": "#",
+    "children": [
+      {
+        "name": "Corporate Investment",
+        "slug": ""
+      },
+      {
+        "name": "Real Estate Group",
+        "slug": ""
+      }
+    ]
+  },
+  {
+    "name": "Social and Environmental Impact",
+    "slug": "#",
+    "children": [
+      {
+        "name": "Fulfilling our Sustainability Promise",
+        "slug": ""
+      },
+	  {
+        "name": "Environmental Review",
+        "slug": ""
+      },
+	  {
+        "name": "Social Review",
+        "slug": ""
+      },
+	  {
+        "name": "2024 Awards and Achievements",
+        "slug": ""
+      }
+    ]
+  },
+  {
+    "name": "Our ethics",
+    "slug": "#",
+    "children": [
+      {
+        "name": "Board of Directors",
+        "slug": ""
+      },
+	  {
+        "name": "Executive Team",
+        "slug": ""
+      },
+	  {
+        "name": "Corporate Governance",
+        "slug": ""
+      }
+    ]
+  },
+  {
+    "name": "Annexes",
+    "slug": "#",
+    "children": [
+      {
+        "name": "Mapped Material Topics",
+        "slug": ""
+      },
+	  {
+        "name": "Human Resource",
+        "slug": ""
+      },
+	  {
+        "name": "GRI content Index",
+        "slug": ""
+      }
+    ]
+  }
+]
