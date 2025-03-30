@@ -243,6 +243,19 @@ body {
 	padding-top: 10px;
 }
 
+.purple-box{
+	background-color: #6F408E;
+	color: white !important;
+	font-weight: 600 !important;
+	padding: 25px 25px 0px 25px;
+}
+
+.white-counter-text{
+	font-size: 2em;
+	color: white;
+	font-weight: 600;
+}
+
 
 /*Styles adding stop*/
 
