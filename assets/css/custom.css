@@ -256,6 +256,34 @@ body {
 	font-weight: 600;
 }
 
+.dark-green-bg{
+background-color: #97C494;
+	padding: 5px;
+}
+.dark-purple-bg{
+	background-color: #9D73A8;
+	padding: 5px;
+}
+.dark-yellow-bg{
+	background-color: #E1CE96;
+	padding: 5px;
+}
+.dark-blue-bg{
+	background-color: #8D99BF;
+	padding: 5px;
+}
+.light-green-bg{
+	background-color: #EDF3EB;
+	padding: 5px;
+}
+.light-purple-bg{
+	background-color: #EBE5EF;
+	padding: 5px;
+}
+.light-yellow-bg{
+	background-color: #F3EDDD;
+	padding: 5px;
+}
 
 /*Styles adding stop*/
 
