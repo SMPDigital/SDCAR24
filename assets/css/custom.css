@@ -285,6 +285,29 @@ background-color: #97C494;
 	padding: 5px;
 }
 
+
+.green-circle {
+      display: inline-block; 
+      width: 20px; 
+      height: 20px; 
+      background-color: #97C494; 
+      color: white; 
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 12px; 
+      font-weight: bold; 
+	margin-top: 5px;
+}
+
+.grey-box{
+	background-color: #ECE9EF;
+	padding: 30px;
+	color: #3A2D79;
+	
+	
+}
 /*Styles adding stop*/
 
 
