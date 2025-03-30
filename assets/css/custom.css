@@ -22,10 +22,10 @@ body {
   --color-red1: #a81d47;
   --color-green1: #9ac43c;
   --color-green2: #5b8727;
-  --color-green3: #219694;
+  --color-green3: #443479;
   --color-green4: #ecf7ed;
   --color-green5: #41ad49;
-  --color-green6: #219694;
+  --color-green6: #443479;
 }
 
 /* Text Colors */
@@ -191,6 +191,16 @@ body {
 	transform: translateX(50%);
 }
 
+.box-border{
+	border: 2px solid #A88D49;
+	padding: 15px;
+	
+}
+.margin15{
+	margin-top: 15px;
+	
+}
+
 /*Styles adding stop*/
 
 
@@ -209,7 +219,7 @@ p a strong {
 }
 
 p a {
-  color: #219694;
+  color: #443479;
   text-decoration: none;
 }
 
@@ -253,7 +263,7 @@ h1 {
   font-size: 8rem;
   font-weight: 100;
   text-decoration-line: underline;
-  text-decoration-color: #209593;
+  text-decoration-color: #443479;
   text-decoration-thickness: 1px;
   text-underline-offset: 10px;
   line-height: 1;
@@ -263,17 +273,17 @@ h1 {
 }
 
 h2 {
-  color: #686868;
-  font-size: 3rem;
+  color: #A88D49;
+  font-size: 2.5rem;
   line-height: 1;
   margin: 0;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 15px;
 }
 
 h3 {
   font-size: 2rem;
-  color: #219694;
+  color: #A88D49;
   font-weight: 500;
   margin: 0;
   line-height: 1;
@@ -318,7 +328,7 @@ p {
 }
 
 p.lifter {
-  color: #209593;
+  color: #443479;
   font-size: 2.5rem;
   margin: 0;
   margin-bottom: 15px;
@@ -326,7 +336,7 @@ p.lifter {
 }
 
 p.lifter1 {
-  color: #209593;
+  color: #443479;
   font-size: 2.0rem;
   margin: 0;
   margin-bottom: 15px;
@@ -375,7 +385,7 @@ input {
   position: relative;
   top: 3px;
   content: "\2022";
-  color: #209593;
+  color: #443479;
   padding-right: 10px;
   margin-left: -20px;
 }
@@ -384,7 +394,7 @@ input {
 }
 
 .list-disc.text-green > li:before {
-  color: #219694;
+  color: #443479;
 }
 
 .list-disc > li {
@@ -445,7 +455,7 @@ ul.list-disc {
   top: 10px;
   width: 100%;
   height: 1px;
-  background-color: #219694;
+  background-color: #443479;
 }
 
 .list-image.after-none > li:after {
@@ -577,18 +587,18 @@ thead tr {
 }
 
 thead tr:first-child {
-  border-top: 3px #209593 solid;
+  border-top: 3px #443479 solid;
   vertical-align: top;
 }
 
 thead tr:last-child {
   border-top: 1px solid #272f36;
-  border-bottom: 1px solid #209593;
+  border-bottom: 1px solid #443479;
   vertical-align: top;
 }
 
 tbody tr:last-child {
-  border-bottom: 2px #209593 solid;
+  border-bottom: 2px #443479 solid;
   vertical-align: top;
 }
 
@@ -609,12 +619,12 @@ table.right3 tbody td + td + td {
 
 tr.lineThin td,
 td.lineThin {
-  border-bottom: 1px #209593 solid;
+  border-bottom: 1px #443479 solid;
 }
 
 tr.lineThick td,
 td.lineThick {
-  border-bottom: 2px #209593 solid;
+  border-bottom: 2px #443479 solid;
 }
 
 tr.lineNone td,
@@ -627,7 +637,7 @@ table.ft td + td {
 }
 
 table.ft thead tr:first-child {
-  border-top: 1px #209593 solid;
+  border-top: 1px #443479 solid;
 }
 
 /*table.ft thead tr:first-child td+td {text-align:center; border-bottom:1px #999 solid; }*/
@@ -636,11 +646,11 @@ table.ft thead tr + tr td + td {
 }
 
 table.ft thead tr:last-child {
-  border-bottom: 3px #209593 solid;
+  border-bottom: 3px #443479 solid;
 }
 
 table.ft tbody tr:last-child {
-  border-bottom: 1px #209593 solid;
+  border-bottom: 1px #443479 solid;
 }
 
 table.ft1 td + td {
@@ -656,7 +666,7 @@ table.ft1 tbody tr td + td {
 }
 
 table.ft1 .blue-font td + td + td {
-  color: #209593;
+  color: #443479;
 }
 
 table.ft1 tbody tr:last-child {
@@ -668,7 +678,7 @@ table.ft1.review td {
 }
 
 table.ft1.review tbody tr td {
-  border-bottom: 1px #209593 solid;
+  border-bottom: 1px #443479 solid;
 }
 
 table.gt td + td {
@@ -677,7 +687,7 @@ table.gt td + td {
 }
 
 table.gt thead tr:first-child td:first-child {
-  border-top: 1px #209593 solid;
+  border-top: 1px #443479 solid;
   background-color: #0067b1 !important;
   color: white;
 }
@@ -687,23 +697,23 @@ table.gt thead tr:last-child td {
 }
 
 table.gt thead tr:last-child {
-  border-bottom: 2px #209593 solid;
+  border-bottom: 2px #443479 solid;
 }
 
 table.gt tbody tr:last-child {
-  border-bottom: 1px #209593 solid !important;
+  border-bottom: 1px #443479 solid !important;
 }
 
 table.gt tbody tr td {
   vertical-align: top !important;
   color: black;
-  border-bottom: 1px #209593 solid;
+  border-bottom: 1px #443479 solid;
 }
 
 div.table-border {
   padding: 12px;
   border-radius: 10px;
-  border: 1px solid #209593;
+  border: 1px solid #443479;
 }
 
 table.gt1 {
@@ -715,7 +725,7 @@ table.gt1 td + td {
 }
 
 table.gt1 thead tr:first-child td {
-  border: 1px solid #209593;
+  border: 1px solid #443479;
   color: #ffffff;
   background: none !important;
 }
@@ -738,13 +748,13 @@ table.gt1 tbody tr:nth-child(odd) td {
 }
 
 table.gt1 tbody tr:last-child {
-  border-bottom: 1px #209593 solid;
+  border-bottom: 1px #443479 solid;
 }
 
 table.gt1 tbody tr td {
   vertical-align: top !important;
   color: black;
-  border: 1px #209593 solid;
+  border: 1px #443479 solid;
 }
 
 table.gt2 td + td {
@@ -753,7 +763,7 @@ table.gt2 td + td {
 }
 
 table.gt2 thead tr:first-child td:first-child {
-  border-top: 1px #209593 solid;
+  border-top: 1px #443479 solid;
 }
 
 table.gt2 thead tr:last-child td {
@@ -761,11 +771,11 @@ table.gt2 thead tr:last-child td {
 }
 
 table.gt2 thead tr:last-child {
-  border-bottom: 2px #209593 solid;
+  border-bottom: 2px #443479 solid;
 }
 
 table.gt2 tbody tr:last-child {
-  border-bottom: 1px #209593 solid !important;
+  border-bottom: 1px #443479 solid !important;
 }
 
 table.gt2 tbody tr td {
@@ -798,7 +808,7 @@ table.gt3 thead tr:last-child td {
 }
 
 table.gt3 thead tr:last-child {
-  border-bottom: 2px #209593 solid;
+  border-bottom: 2px #443479 solid;
 }
 
 table.gt3 thead tr td + td {
@@ -806,7 +816,7 @@ table.gt3 thead tr td + td {
 }
 
 table.gt3 tbody tr:last-child {
-  border-bottom: 1px #209593 solid !important;
+  border-bottom: 1px #443479 solid !important;
 }
 
 table.gt3 tbody tr td {
@@ -829,17 +839,17 @@ table.small80 {
 }
 
 tr.total-g td {
-  border-top: 1px #209593 solid;
+  border-top: 1px #443479 solid;
   border-bottom: 1px #272f36 solid;
 }
 
 tr.total-d td {
-  border-top: 1px #209593 solid;
-  border-bottom: 1px #209593 solid;
+  border-top: 1px #443479 solid;
+  border-bottom: 1px #443479 solid;
 }
 
 tr.total-t td {
-  border-top: 2px #209593 solid !important;
+  border-top: 2px #443479 solid !important;
 }
 
 tr.blue-bg td {
@@ -857,7 +867,7 @@ td.lineNone {
 
 td.cy {
   background-color: #f3f9fa;
-  color: #209593;
+  color: #443479;
 }
 
 td.cy-yellow {
