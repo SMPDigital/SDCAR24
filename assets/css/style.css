@@ -1129,6 +1129,87 @@ body {
   border-bottom: none;
 }
 
+.summary_custome table tbody tr:nth-child(2) td:last-child p {
+  font-weight: bold;
+}
+.summary_custome table tbody tr:nth-child(3) td:last-child p {
+  font-weight: bold;
+}
+.summary_custome table tbody tr:nth-child(4) td:last-child p {
+  font-weight: bold;
+}
+.summary_custome table tbody tr:nth-child(5) td:last-child p {
+  font-weight: bold;
+}
+.summary_custome table tbody tr:nth-child(6) td:last-child p {
+  font-weight: bold;
+}
+.summary_custome table tbody tr:nth-child(2) td:last-child img {
+  width: 60px;
+  margin: 0 0px 10px 20px;
+}
+.summary_custome table tbody tr:nth-child(3) td:last-child img {
+  width: 60px;
+  margin: 0 0px 10px 20px;
+}
+.summary_custome table tbody tr:nth-child(4) td:last-child img {
+  width: 60px;
+  margin: 0 0px 10px 20px;
+}
+.summary_custome table tbody tr:nth-child(5) td:last-child img {
+  width: 60px;
+  margin: 0 0px 10px 20px;
+}
+.summary_custome table tbody tr:nth-child(6) td:last-child img {
+  width: 60px;
+  margin: 0 0px 10px 20px;
+}
+
+.summary_custome1 table tbody tr:nth-child(2) td:last-child p {
+  font-weight: bold;
+}
+.summary_custome1 table tbody tr:nth-child(3) td:last-child p {
+  font-weight: bold;
+}
+.summary_custome1 table tbody tr:nth-child(4) td:last-child p {
+  font-weight: bold;
+}
+.summary_custome1 table tbody tr:nth-child(5) td:last-child p {
+  font-weight: bold;
+}
+.summary_custome1 table tbody tr:nth-child(2) td:last-child img {
+  width: 60px;
+  margin: 0 0px 10px 20px;
+}
+.summary_custome1 table tbody tr:nth-child(3) td:last-child img {
+  width: 60px;
+  margin: 0 0px 10px 20px;
+}
+.summary_custome1 table tbody tr:nth-child(4) td:last-child img {
+  width: 60px;
+  margin: 0 0px 10px 20px;
+}
+.summary_custome1 table tbody tr:nth-child(5) td:last-child img {
+  width: 60px;
+  margin: 0 0px 10px 20px;
+}
+
+.summary_custome2 table tbody tr:nth-child(2) td:last-child p {
+  font-weight: bold;
+}
+.summary_custome2 table tbody tr:nth-child(3) td:last-child p {
+  font-weight: bold;
+}
+
+.summary_custome2 table tbody tr:nth-child(2) td:last-child img {
+  width: 60px;
+  margin: 0 0px 10px 20px;
+}
+.summary_custome2 table tbody tr:nth-child(3) td:last-child img {
+  width: 60px;
+  margin: 0 0px 10px 20px;
+}
+
 
 /*kanishka end */
 
