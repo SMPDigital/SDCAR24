@@ -932,6 +932,7 @@ img.section-header-main-title-bg {
     flex-direction: column;
     justify-content: space-between;
     background: #f9f3e0;
+	z-index: 2
 }
 
 .section-header-main-sectionimage {
@@ -979,6 +980,8 @@ a.util-link-item span {
     justify-content: flex-end;
 	padding: 3%;
 	padding-bottom: 5%;
+	background: #f9f3e0;
+	position: relative;
 }
 
 a.slidedown-tooltip  {
@@ -992,6 +995,22 @@ a.slidedown-tooltip img {
 
 a.slidedown-tooltip span {
     display: none;
+}
+
+a#prevlink span, a#nextlink span {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0;
+    display: block;
+    background: #f9f3e0;
+	transition: all 0.5s ease-in-out;
+	z-index: -1;
+}
+
+a#prevlink:hover span, a#nextlink:hover span{
+	top: 100%;
 }
 
 /* header section css start */
