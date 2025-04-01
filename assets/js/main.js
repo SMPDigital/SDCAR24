@@ -31,3 +31,14 @@ $(document).ready(function () {
     $(".searchWrapper").removeClass("active");
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+
+    ScrollSmoother.create({
+        wrapper: "#smooth-wrapper",
+        content: "#smooth-content",
+        smooth: 2, // Adjust smoothness
+        effects: true // Enable effects for ScrollTrigger animations
+    });
+});
