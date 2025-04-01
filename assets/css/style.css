@@ -928,6 +928,9 @@ img.section-header-main-title-bg {
 .section-header-main-directionbox {
     width: 26%;
     height: 60%;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: #f9f3e0;
 }
 
@@ -944,6 +947,54 @@ img.section-header-main-sectionimg {
 	object-position: center;
     margin-top: -5%;
 }
+
+.util-link-box {
+    display: flex;
+    padding: 3%;
+}
+
+a.util-link-item {
+    width: 50%;
+    display: inline;
+    font-size: 16px;
+    line-height: 17px;
+	padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+a.util-link-item img {
+    width: 28px;
+	height: auto;
+    margin-right: 5px;
+}
+
+a.util-link-item span {
+    vertical-align: middle;
+    padding-bottom: 3px;
+}
+
+.next-previous-box {
+    display: flex;
+    justify-content: flex-end;
+	padding: 3%;
+	padding-bottom: 5%;
+}
+
+a.slidedown-tooltip  {
+    padding: 2% 4%;
+}
+
+a.slidedown-tooltip img {
+	height: 45px;
+	width: auto;
+}
+
+a.slidedown-tooltip span {
+    display: none;
+}
+
+/* header section css start */
 
 /*kanishka */
 
