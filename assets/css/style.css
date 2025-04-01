@@ -997,6 +997,15 @@ a.slidedown-tooltip span {
     display: none;
 }
 
+a.slidedown-tooltip img {
+	scale: 1;
+	transition: all 0.6s ease-in-out;
+}
+
+a.slidedown-tooltip:hover img {
+	scale: 1.05;
+}
+
 a#prevlink span, a#nextlink span {
     position: absolute;
     height: 90px;
