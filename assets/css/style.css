@@ -2032,6 +2032,50 @@ img.img-fluid.section-header-charimanbgimage {
   background-color:#d8aa27; 
 }
 
+/* new  */
+.join_for_main_blu {
+  background-color: #e0f2fc;
+  padding: 20px;
+}
+.join_line_blu {
+  width: 1px;
+  height: 100%;
+  background-color:#1f5c9d; 
+}
+
+.join_for_main_yellow {
+  background-color: #fbf7ef;
+  padding: 20px;
+}
+
+.line_heading_desing {
+  height: 7px;
+  width: 100%;
+  border-top: 1px solid #A88D49;
+  border-right: 1px solid #A88D49;
+}
+
+.join_for_main_yellow .join_border_bottom {
+  border-bottom: 1px solid #A88D49;
+  margin-bottom: 10px;
+}
+
+.line_heding_container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.line_heding_container h3 {
+  width: 70%;
+}
+
+.purple_bg_container {
+  background-color: #efeaf4;
+  color: #7d3995;
+  padding: 20px;
+}
+
 
 
 /*kanishka end */
