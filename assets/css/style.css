@@ -5,6 +5,102 @@ body {
   overflow-x: hidden;
 }
 
+.loader-wrap {
+  position: fixed;
+  z-index: 10;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: transparent;
+  z-index: 99999999999999;
+  pointer-events: none;
+}
+
+.loader-wrap svg {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 110vh;
+  fill: #f5f7f9;
+}
+
+.loader-wrap .loader-wrap-heading .load-text {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  z-index: 20; 
+}
+
+.load-text span {
+  -webkit-animation: loading 1s infinite alternate;
+  animation: loading 1s infinite alternate;
+}
+
+.load-text span:nth-child(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.load-text span:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.load-text span:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.load-text span:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.load-text span:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.load-text span:nth-child(6) {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+.load-text span:nth-child(7) {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+@-webkit-keyframes loading {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes loading {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 .mainNav {
   display: flex;
   justify-content: space-between;
@@ -927,6 +1023,7 @@ img.section-header-main-title-bg {
 }
 
 .section-header-main-directionbox {
+	position: relative;
     width: 26%;
     height: 60%;
 	display: flex;
@@ -951,9 +1048,21 @@ img.section-header-main-sectionimg {
 }
 
 .util-link-box {
+	position: relative;
     display: flex;
-    padding: 1% 3%;
 	background: #ffffff;
+    padding: 1% 3%;	
+	z-index: 1 !important;
+}
+
+.bg-pattern {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: auto;
+	height: 100%;
+	mix-blend-mode: plus-lighter;
+	z-index: 0;
 }
 
 a.util-link-item {
@@ -1124,13 +1233,13 @@ img.section-header-main-title-bg.chairman {
 }
 
 .section-header-main-directionbox.chairman {
+	position: relative;
     width: 100%;
     height: 30%;
 	display: flex;
     flex-direction: column;
     justify-content: space-between;
     background: #f9f3e0;
-	z-index: 2
 }
 
 .section-header-main-sectionimage {
@@ -1148,8 +1257,20 @@ img.section-header-main-sectionimg {
 }
 
 .util-link-box.chairman {
+	position: relative;
     display: flex;
-    padding: 1% 3%;
+    padding: 1% 3%;	
+	z-index: 1 !important;
+}
+
+.bg-pattern {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: auto;
+	height: 100%;
+	mix-blend-mode: plus-lighter;
+	z-index: 0;
 }
 
 a.util-link-item {
@@ -1163,7 +1284,7 @@ a.util-link-item {
 }
 
 a.util-link-item img {
-    width: 28px;
+    width: 26px;
 	height: auto;
     margin-right: 5px;
 }
@@ -1263,7 +1384,7 @@ img.img-fluid.section-header-charimanbgimage {
     position: absolute;	
     bottom: 0;
 	height: 110%;
-	margin-bottom: 10%;
+	margin-bottom: 6%;
     object-fit: cover;
     object-position: left;
 }
@@ -1271,7 +1392,7 @@ img.img-fluid.section-header-charimanbgimage {
 .section-header-chariman-message {
     width: 45%;
     display: flex;
-    padding: 2%;
+    padding: 2% 5% 2% 2%;
     align-items: center;
 }
 
@@ -1282,7 +1403,7 @@ img.img-fluid.section-header-charimanbgimage {
 
 
 
-/* chariman section header css start */
+/* chariman section header css end */
 
 /*kanishka */
 
