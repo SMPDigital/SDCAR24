@@ -2188,6 +2188,91 @@ img.img-fluid.section-header-charimanbgimage {
   }
 }
 
+/* new  */
+
+.en_review {
+  display: flex;
+  background-color: #eee9f4;
+  padding: 20px;
+  position: relative;
+  margin-top: 25px;
+}
+
+.review_header {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  background: linear-gradient(to right, #3a2e80, #aa70ae);
+}
+
+.review_header h3 {
+  color: white;
+  padding: 5px 15px 7px 15px;
+  margin: 0;
+}
+
+.en_review p {
+  color: #84469b;
+}
+
+.en_review_left {
+  flex: 1;
+  border-right: 1px solid #84469b;
+  margin-right: 27px;
+}
+
+.en_review_right {
+  flex: 1;
+}
+.en_review_bottom {
+  border-bottom: 1px solid #84469b;
+}
+
+.impact_number {
+  background-color: #e8f4eb;
+  padding: 20px;
+  position: relative;
+  margin: 20px 0;
+}
+
+.impact_number_header {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  background: linear-gradient(to right, #26b472, #70b18b);
+}
+
+.impact_number_header h4 {
+  color: white;
+  padding: 5px 15px 7px 15px;
+  margin: 0;
+}
+
+.impact_number h3 {
+  color: #2ab473;
+  font-size: 30px;
+}
+
+.impact_number p {
+  color: #2ab473;
+}
+
+.impact_number_left {
+  flex: 1;
+  padding-right: 15px;
+}
+
+.impact_number_bottom {
+  border-bottom: 1px solid #2ab473;
+  padding-bottom: 10px;
+}
+
+.impact_number_right {
+  flex: 1;
+  border-left: 1px solid #2ab473;
+  padding-left: 15px;
+}
+
 /*kanishka end */
 
 
