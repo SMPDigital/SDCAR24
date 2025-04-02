@@ -5,35 +5,89 @@ $(function () {
     /* =============================================================================
     -------------------------------  Preloader svg   -------------------------------
     ============================================================================= */
+	gsap.registerPlugin(SplitText);
 
-    const svg = document.getElementById("svg");
-    const tl = gsap.timeline();
-    const curve = "M0 502S175 272 500 272s500 230 500 230V0H0Z";
-    const flat = "M0 2S175 1 500 1s500 1 500 1V0H0Z";
+	// Use GSAP's SplitText (not SplitType)
+	const splitText = new SplitText(".section-header-main-hedding", { type: "words" });
+	const splitTextSub = new SplitText(".section-header-main-subtitle h2", { type: "words" });
+	const splitTextPhara = new SplitText(".section-header-main-intro p", { type: "words" });
 
-    tl.to(".loader-wrap-heading .load-text , .loader-wrap-heading .cont", {
-        delay: 1.5,
-        y: -100,
-        opacity: 0,
-    });
-    tl.to(svg, {
-        duration: 0.5,
-        attr: { d: curve },
-        ease: "power2.easeIn",
-    }).to(svg, {
-        duration: 0.5,
-        attr: { d: flat },
-        ease: "power2.easeOut",
-    });
-//    tl.from(
-//        ".header-section .section-img-container img",
-//        {
-//            scale: 1.7,
-//            duration: 2.5,
-//            ease: "power2.easeOut",
-//        },
-//        "<"
-//    );
+	const svg = document.getElementById("svg");
+	const tl = gsap.timeline();
+	const curve = "M0 502S175 272 500 272s500 230 500 230V0H0Z";
+	const flat = "M0 2S175 1 500 1s500 1 500 1V0H0Z";
+
+	tl.to(".loader-wrap-heading .load-text , .loader-wrap-heading .cont", {
+		delay: 1.5,
+		y: -100,
+		opacity: 0,
+	});
+
+	tl.to(svg, {
+		duration: 0.5,
+		attr: { d: curve },
+		ease: "power2.easeIn",
+	}).to(svg, {
+		duration: 0.5,
+		attr: { d: flat },
+		ease: "power2.easeOut",
+	});
+
+	tl.to(".section-header-main-title-bgbox", {
+		right: "0%",
+		duration: 1,
+		ease: "power2.easeOut",
+	}, "<");
+
+	tl.to(".section-header-leftbar-img", {
+		bottom: "-5%",
+		duration: 1.5, // Increased duration for a smoother effect
+		ease: "power2.inOut",
+	}, "<");
+
+	tl.fromTo(
+		".section-header-leftbar-img",
+		{ scale: 1.15 }, // Starting scale (from)
+		{ scale: 1, duration: 2.5, ease: "power2.inOut" }, // Ending scale (to)
+		"-=0.8"
+	);
+	
+	tl.fromTo(
+		".section-header-main-sectionimg",
+		{ scale: 1.15 }, // Starting scale (from)
+		{ scale: 1, duration: 2.5, ease: "power2.inOut" }, // Ending scale (to)
+		"-=1.8"
+	);
+
+	tl.from(splitText.words, {  
+		opacity: 0,
+		y: 30, 
+		duration: 1.5,
+		delay: 0.4,
+		ease: "power2.out",
+		stagger: 0.1,
+	}, "<");
+	
+	tl.from(splitTextSub.words, {  
+		opacity: 0,
+		y: 30, 
+		duration: 1.5,
+		delay: 0.4,
+		ease: "power2.out",
+		stagger: 0.1, 
+	}, "<"); 
+	
+	tl.from(splitTextPhara.words, {  
+		opacity: 0,
+		y: 30, 
+		duration: 1.5,
+		delay: 0.4,
+		ease: "power2.out",
+		stagger: 0.1, 
+	}, "<"); 
+	
+	
+	
 //    tl.from(
 //        ".header-section .section-info h2",
 //        {
