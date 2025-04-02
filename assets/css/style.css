@@ -1355,6 +1355,7 @@ a#prevlink:hover span, a#nextlink:hover span{
 .summary_custome table tbody tr:nth-child(2) td:nth-child(4) {
   border-bottom: 1px solid #793894;
   background: white;
+  text-align: left;
 }
 
 .summary_custome table tbody tr:nth-child(2) td:nth-child(5) {
@@ -1373,6 +1374,7 @@ a#prevlink:hover span, a#nextlink:hover span{
 .summary_custome table tbody tr:nth-child(3) td:nth-child(4) {
   border-bottom: 1px solid #793894;
   background: white;
+  text-align: left;
 }
 
 .summary_custome table tbody tr:nth-child(3) td:nth-child(5) {
@@ -1391,6 +1393,7 @@ a#prevlink:hover span, a#nextlink:hover span{
 .summary_custome table tbody tr:nth-child(4) td:nth-child(4) {
   border-bottom: 1px solid #793894;
   background: white;
+  text-align: left;
 }
 
 .summary_custome table tbody tr:nth-child(4) td:nth-child(5) {
@@ -1409,6 +1412,7 @@ a#prevlink:hover span, a#nextlink:hover span{
 .summary_custome table tbody tr:nth-child(5) td:nth-child(4) {
   border-bottom: 1px solid #793894;
   background: white;
+  text-align: left;
 }
 
 .summary_custome table tbody tr:nth-child(5) td:nth-child(5) {
@@ -1426,6 +1430,7 @@ a#prevlink:hover span, a#nextlink:hover span{
 
 .summary_custome table tbody tr:nth-child(6) td:nth-child(4) {
   background: white;
+  text-align: left;
 }
 
 .summary_custome table tbody tr:nth-child(6) td:nth-child(5) {
@@ -1477,6 +1482,7 @@ a#prevlink:hover span, a#nextlink:hover span{
 .summary_custome1 table tbody tr:nth-child(2) td:nth-child(4) {
   border-bottom: 1px solid #007ab4;
   background: white;
+  text-align: left;
 }
 
 .summary_custome1 table tbody tr:nth-child(2) td:nth-child(5) {
@@ -1495,6 +1501,7 @@ a#prevlink:hover span, a#nextlink:hover span{
 .summary_custome1 table tbody tr:nth-child(3) td:nth-child(4) {
   border-bottom: 1px solid #007ab4;
   background: white;
+  text-align: left;
 }
 
 .summary_custome1 table tbody tr:nth-child(3) td:nth-child(5) {
@@ -1513,6 +1520,7 @@ a#prevlink:hover span, a#nextlink:hover span{
 .summary_custome1 table tbody tr:nth-child(4) td:nth-child(4) {
   border-bottom: 1px solid #007ab4;
   background: white;
+  text-align: left;
 }
 
 .summary_custome1 table tbody tr:nth-child(4) td:nth-child(5) {
@@ -1530,6 +1538,7 @@ a#prevlink:hover span, a#nextlink:hover span{
 
 .summary_custome1 table tbody tr:nth-child(5) td:nth-child(4) {
   background: white;
+  text-align: left;
 }
 
 .summary_custome1 table tbody tr:nth-child(5) td:nth-child(5) {
@@ -1560,8 +1569,6 @@ a#prevlink:hover span, a#nextlink:hover span{
 }
 
 /* grn table  */
-
-/* blu table  */
 .summary_custome2 table tbody tr:first-child td p {
   background-color: #4d724c;
   color: white;
@@ -1592,6 +1599,7 @@ a#prevlink:hover span, a#nextlink:hover span{
 .summary_custome2 table tbody tr:nth-child(2) td:nth-child(4) {
   border-bottom: 1px solid #4d724c;
   background: white;
+  text-align: left;
 }
 
 .summary_custome2 table tbody tr:nth-child(2) td:nth-child(5) {
@@ -1609,6 +1617,7 @@ a#prevlink:hover span, a#nextlink:hover span{
 
 .summary_custome2 table tbody tr:nth-child(3) td:nth-child(4) {
   background: white;
+  text-align: left;
 }
 
 .summary_custome2 table tbody tr:nth-child(3) td:nth-child(5) {
