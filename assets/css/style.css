@@ -15,7 +15,7 @@ body {
   top: 0;
   width: 100%;
   z-index: 3;
-  background-color: #212121;
+  background-color: #ffffff;
 }
 
 .mainNavBG {
@@ -41,7 +41,7 @@ body {
   display: flex;
   position: relative;
   align-items: center;
-  background-color: #212121;
+  background-color: #ffffff;
   padding: 15px 25px;
 }
 
@@ -86,7 +86,7 @@ body {
 .searhAndNavButton {
   display: flex;
   align-items: center;
-  background-color: #313131;
+  background-color: #ffffff;
   padding: 0 0 0 20px;
 }
 
@@ -95,14 +95,14 @@ body {
   flex-direction: column;
   cursor: pointer;
   padding: 20px 25px 20px 20px;
-  background-color: #000;
+  background-color: #ffffff;
 }
 
 .lineOne,
 .lineTwo,
 .lineThree {
   display: inline-block;
-  background-color: #ffffff;
+  background-color: #000000;
   height: 3px;
   margin: 0;
   border-radius: 10px;
@@ -860,6 +860,7 @@ header {
     font-size: 65px;
     font-weight: 500;
     margin-bottom: 0px;
+	text-decoration: none;
 }
 
 .section-header-main-title-bgbox {
@@ -1027,7 +1028,243 @@ a#prevlink:hover span, a#nextlink:hover span{
 	top: 100%;
 }
 
-/* header section css start */
+/* header section css end */
+
+/* chariman section header css start */
+
+.section-header.chairman {
+	height: 650px;
+}
+
+.section-header-row.chairman {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.section-header-left.chairman {
+    width: 90px;
+    height: 100%;	
+}
+
+.section-header-left-imagebox.chairman {
+    height: 80%;
+    position: relative;
+	overflow: hidden;
+}
+
+.section-header-leftbar-img.chairman {
+    position: absolute;
+    bottom: 0;
+    height: 110%;
+    object-fit: cover;
+	margin-bottom: 10%;
+}
+
+.section-header-left-plainbox.chairman {
+    width: 100%;
+    background: #F9F3E0;
+    aspect-ratio: 1 / 1;
+}
+
+.section-header-main.chairman {
+    width: calc( 100% - 90px );
+}
+
+.section-header-main-firstcolumn {
+    height: 80%;
+    max-height: 80%;
+   	width: 26%;
+}
+
+.section-header-main-title.chairman {
+    width: 100%;
+    position: relative;
+    background: #671835;
+    display: flex;
+    align-items: self-end;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+.section-header-main-title.chairman h1 {
+    z-index: 3;
+    position: relative;
+    vertical-align: bottom;
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 500;
+    margin-bottom: 0px;
+	text-decoration: none;
+}
+
+.section-header-main-title-bgbox.chairman {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: color-burn;
+    z-index: 2;
+}
+
+img.section-header-main-title-bg.chairman {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 115%;
+    object-fit: cover;
+    margin-bottom: 10%;
+}
+
+.section-header-main-subtitlecontent {
+    width: 74%;
+    display: flex;
+    background: background: rgb(255,255,255);
+    background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 1) 24%, rgba(249, 242, 223, 1) 73%);
+    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1) 24%, rgba(249, 242, 223, 1) 73%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 24%, rgba(249, 242, 223, 1) 73%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#f9f2df",GradientType=1);
+}
+
+.section-header-main-subtitle {
+    width: 55%;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+.section-header-main-subtitle h2 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #073251;
+    width: 90%;
+    margin-bottom: 0px;
+}
+
+.section-header-main-intro {
+    width: 45%;
+    display: flex;
+    padding: 2%;
+    align-items: center;
+}
+
+.section-header-main-intro p {
+    font-size: 20px;
+}
+
+.section-header-main-secondrow {
+    height: 50%;
+	display: flex;
+}
+
+.section-header-main-directionbox {
+    width: 26%;
+    height: 60%;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #f9f3e0;
+	z-index: 2
+}
+
+.section-header-main-sectionimage {
+    width: 40%;
+    height: 110%;
+    overflow: hidden;
+}
+
+img.section-header-main-sectionimg {
+    width: 100%;
+    height: 115%;
+    object-fit: cover;
+	object-position: center;
+    margin-top: -5%;
+}
+
+.util-link-box {
+    display: flex;
+    padding: 3%;
+}
+
+a.util-link-item {
+    width: 50%;
+    display: inline;
+    font-size: 16px;
+    line-height: 17px;
+	padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+a.util-link-item img {
+    width: 28px;
+	height: auto;
+    margin-right: 5px;
+}
+
+a.util-link-item span {
+    vertical-align: middle;
+    padding-bottom: 3px;
+}
+
+.next-previous-box {
+    display: flex;
+    justify-content: flex-end;
+	padding: 3%;
+	padding-bottom: 5%;
+	background: #f9f3e0;
+	position: relative;
+}
+
+a.slidedown-tooltip  {
+    padding: 2% 4%;
+}
+
+a.slidedown-tooltip img {
+	height: 45px;
+	width: auto;
+}
+
+a.slidedown-tooltip span {
+    display: none;
+}
+
+a.slidedown-tooltip img {
+	scale: 1;
+	transition: all 0.6s ease-in-out;
+}
+
+a.slidedown-tooltip:hover img {
+	scale: 1.05;
+}
+
+a#prevlink span, a#nextlink span {
+    position: absolute;
+    height: 90px;
+    width: 100%;
+    top: 0%;
+    left: 0;
+    display: block;
+    background: #f9f3e0;
+	padding: 5%;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+/*    border: 1px solid #000000;*/
+	transition: all 0.5s ease-in-out;
+	z-index: -1;
+}
+
+a#prevlink:hover span, a#nextlink:hover span{
+	top: 100%;
+}
+
+/* chariman section header css start */
 
 /*kanishka */
 
