@@ -49,6 +49,78 @@
 		.st39{fill:url(#SVGID_00000082361689704014901980000004442006641874019519_);stroke:url(#SVGID_00000181067405118242782620000002783486189587087287_);stroke-width:0.5;stroke-miterlimit:10;}
 	.st40{fill:none;stroke:url(#SVGID_00000152233988810772000710000000922475348139279516_);stroke-width:0.5;stroke-miterlimit:10;}
 	.st41{fill:none;stroke:url(#SVGID_00000023260825671540256210000002710515128888688044_);stroke-width:0.5;stroke-miterlimit:10;}
+	
+	
+	
+	#ic1,#ic2,#ic3,#ic4,#ic5
+	{
+	animation-name: zoom; 
+	animation-duration: 3s; 
+	transition-timing-function: ease-out; 
+	opacity:0; animation-fill-mode: forwards;	
+	transform-origin: 162.2px 161.35px;
+	}
+
+
+	#ic1 { animation-delay: 0s;}
+	#ic2 { animation-delay: 0.25s;}
+	#ic3{ animation-delay: 0.5s;}
+	#ic4{ animation-delay: 2s;}
+	#ic5{ animation-delay: 1s;}
+
+	
+
+	
+    #c1,#c2,#c3,#c4,#c5,#c6,#c7,#c8
+	{
+	animation-name: zoom; 
+	animation-duration: 4s; 
+	transition-timing-function: ease-out; 
+	opacity:0; animation-fill-mode: forwards;	
+	animation-delay: 2s;
+	transform-origin: 162.2px 161.35px;
+	}
+
+	
+
+	#icon1,#icon2,#icon3,#icon4,#icon5,#icon6
+	{
+	animation-name: zoom; 
+	animation-duration: 4s; 
+	transition-timing-function: ease-out; 
+	opacity:0; animation-fill-mode: forwards;	
+	animation-delay: 3s;
+	}
+
+	
+	#icon1 {transform-origin: 207.35px 85.3px;}
+	#icon2 {transform-origin: 252.6px 163.45px;}
+	#icon3 {transform-origin: 207.45px 235.25px;}
+	#icon4 {transform-origin: 117.2px 236.7px;}
+	#icon5 {transform-origin: 72.6px 155.15px;}
+	#icon6 {transform-origin: 117.2px 84.35px;}
+	
+	
+		
+	@keyframes zoom {
+	0% {
+       transform: scale(0, 0);
+		opacity:0;
+    	}
+    65% {
+        transform: scale(1.05, 1.05);
+		opacity:1;
+    }
+	  100% {
+        transform: scale(1, 1);
+		opacity:1;
+    }
+}
+	
+	
+	
+	
+	
 </style>
 <g id="shadow" class="st0">
 	<g>

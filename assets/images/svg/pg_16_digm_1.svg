@@ -35,6 +35,82 @@
 	.st29{fill:none;stroke:#B48E2E;stroke-width:0.35;stroke-dasharray:1.365,1.365;}
 	.st30{fill:none;stroke:#B48E2E;stroke-width:0.35;stroke-dasharray:1.381,1.381;}
 	.st31{fill:none;stroke:#B48E2E;stroke-width:0.35;stroke-dasharray:1.408,1.408;}
+	
+	
+	#ic1,#ic2,#ic3,#ic4,#ic5
+	{
+	animation-name: zoom; 
+	animation-duration: 3s; 
+	transition-timing-function: ease-out; 
+	opacity:0; animation-fill-mode: forwards;	
+	transform-origin: 142.6px 141.5px;
+	}
+
+
+	#ic1 { animation-delay: 0s;}
+	#ic2 { animation-delay: 0.25s;}
+	#ic3{ animation-delay: 0.5s;}
+	#ic4{ animation-delay: 2s;}
+	#ic5{ animation-delay: 1s;}
+
+	
+
+	
+    #c1,#c2,#c3,#c4,#c5,#c6,#c7,#c8
+	{
+	animation-name: zoom; 
+	animation-duration: 4s; 
+	transition-timing-function: ease-out; 
+	opacity:0; animation-fill-mode: forwards;	
+	animation-delay: 2s;
+	transform-origin: 142.6px 141.5px;
+	}
+
+	
+
+
+
+
+
+	#t1,#t2,#t3,#t4,#t5,#t6
+	{
+	animation-name: zoom; 
+	animation-duration: 4s; 
+	transition-timing-function: ease-out; 
+	opacity:0; animation-fill-mode: forwards;	
+	animation-delay: 3s;
+	}
+
+	
+	#t1 {transform-origin: 238.8px 91.5px;}
+	#t2 {transform-origin: 327.8998px 142.4px;}
+	#t3 {transform-origin: 329.6px 243.9px;}
+	#t4 {transform-origin: 238.8px 297.3px;}
+	#t5 {transform-origin: 147.3px 243.9px;}
+	#t6 {transform-origin: 149.5998px 142.4px;}
+	
+	
+		
+	@keyframes zoom {
+	0% {
+       transform: scale(0, 0);
+		opacity:0;
+    	}
+    65% {
+        transform: scale(1.05, 1.05);
+		opacity:1;
+    }
+	  100% {
+        transform: scale(1, 1);
+		opacity:1;
+    }
+}
+	
+	
+	
+	
+	
+	
 </style>
 <g id="shadow" class="st0">
 	<g>
@@ -2560,7 +2636,7 @@ ERERERHRt4H/I8AAxtlCoNB0L/sAAAAASUVORK5CYII=" transform="matrix(0.5 0 0 0.5 -45.
 	<line class="st9" x1="82.4" y1="225" x2="142.5" y2="142.8"/>
 	<polyline class="st9" points="45.2,109.9 142.5,142.8 239.1,109.9 	"/>
 </g>
-<g id="ic2_00000055688374902529019770000002938898902200384941_">
+<g id="ic2">
 	<path class="st2" d="M142.6,188.2c25.8,0,46.7-20.9,46.7-46.7c0-25.8-20.9-46.7-46.7-46.7s-46.7,20.9-46.7,46.7
 		C95.9,167.3,116.8,188.2,142.6,188.2"/>
 </g>
@@ -2769,11 +2845,11 @@ ERERERHRt4H/I8AAxtlCoNB0L/sAAAAASUVORK5CYII=" transform="matrix(0.5 0 0 0.5 -45.
 			c-1-0.4-1.6-0.9-1.6-1.7c0-0.5,0.2-0.8,0.5-1.1c0.3-0.3,0.8-0.4,1.3-0.4C171.9,152.5,172.5,152.7,173,153.1z"/>
 	</g>
 </g>
-<g id="ic3_00000034797316716127123320000001590050633932635298_">
+<g id="ic3">
 	
 		<ellipse transform="matrix(1 -4.999860e-03 4.999860e-03 1 -0.7059 0.7146)" class="st22" cx="142.6" cy="141.5" rx="101.9" ry="101.9"/>
 </g>
-<g id="ic4_00000036227811550725543620000008270162803992032643_">
+<g id="ic4">
 	<g>
 		<path class="st23" d="M59.4,64l-0.8,0.9l-4.2-3.9l0.8-0.9l1.7,1.6l1.7-1.8l-1.7-1.6l0.8-0.9l4.2,3.9l-0.8,0.9l-1.8-1.7l-1.7,1.8
 			L59.4,64z"/>
