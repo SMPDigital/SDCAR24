@@ -1805,6 +1805,41 @@ img.img-fluid.section-header-charimanbgimage {
   width: 60px;
 }
 
+/* new  */
+.cop_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.cop_div img {
+  width: 60px;
+}
+
+.div_cop {
+  display: flex;
+  flex-direction: column;
+}
+
+.div_cop > div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 100%;
+}
+
+.div_cop > div p {
+  color: #7d3995;
+}
+
+.div_cop > .cf_purple {
+  background-color: #eae3f0;
+}
+
+.div_cop > .cf_green {
+  background-color: #e3f1e4;
+}
+
 
 /*kanishka end */
 
