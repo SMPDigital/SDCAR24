@@ -1881,6 +1881,31 @@ img.img-fluid.section-header-charimanbgimage {
   }  
 }
 
+/* new  */
+
+.join_for_main {
+  background-color: #e3f1e4;
+  padding: 20px;
+}
+
+.join_for_con {
+  display: flex;
+  gap: 10px;
+}
+
+.join_for_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.join_line {
+  width: 1px;
+  height: 100%;
+  background-color:#d8aa27; 
+}
+
 
 
 /*kanishka end */
