@@ -1419,6 +1419,220 @@ a#prevlink:hover span, a#nextlink:hover span{
 	}
 }
 
+@media(max-width:1024px){
+	.section-header {
+		height: 450px;
+	}
+	.section-header-left {
+		width: 60px;	
+	}
+	.section-header-main {
+		width: calc( 100% - 60px );
+	}
+	a#prevlink span, a#nextlink span {
+		height: 60px;
+		font-size: 14px;
+        line-height: 16px;
+	}
+	.section-header-main-title h1 {
+		font-size: 40px;
+		line-height: 43px;
+	}
+	.section-header-main-subtitle h2 {
+    	font-size: 28px;
+		line-height: 32px;
+	}
+	a.util-link-item {
+		padding: 5px;
+		line-height: 16px;
+	}
+	a.util-link-item img {
+        width: 27px;
+        margin-right: 5px;
+    }
+	.util-link-box, .next-previous-box {
+        padding: 6px 5px;
+    }
+	.section-header-main-title, .section-header-main-subtitle {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
+	a.util-link-item {
+		width: 50%;
+		display: flex;
+	}
+	.section-header-main-intro p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media(max-width:991px){
+	nav .logo {
+		margin: 0 20px 0 20px;
+	}
+	header {
+    	padding-top: 65px;
+	}
+	.section-header {
+        height: 400px;
+    }
+	.section-header-left {
+		width: 55px;	
+	}
+	.section-header-main {
+		width: calc( 100% - 55px );
+	}
+	a#prevlink span, a#nextlink span {
+		display: none;
+	}
+	.section-header-main-title h1 {
+		font-size: 38px;
+		line-height: 42px;
+	}
+	.section-header-main-subtitle h2 {
+    	font-size: 27px;
+        line-height: 30px;
+	}
+	.page-actions {
+		gap: 18px;
+		margin-right: 10px;
+	}
+	.logo.icon-img-160 img {
+		width: auto !important;
+        height: 35px;
+	}
+	.laguage-box {
+		margin-left: 0px;
+		padding: 2px 20px 7px 20px;
+	}
+}
+
+@media(max-width:900px){
+	.section-header {
+        height: 360px;
+    }
+	.section-header-left {
+        width: 50px;
+    }
+	.section-header-main {
+		width: calc( 100% - 50px );
+	}
+	.section-header-main-title h1 {
+		font-size: 34px;
+        line-height: 38px;
+	}
+	.section-header-main-subtitle h2 {
+    	font-size: 24px;
+        line-height: 27px;
+	}
+	.section-header-main-intro p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+	a.util-link-item {
+        font-size: 12px;
+		line-height: 14px;
+    }
+}
+@media(max-width:800px){
+	.section-header {
+        height: 320px;
+    }
+	.section-header-left {
+        width: 45px;
+    }
+	.section-header-main {
+		width: calc( 100% - 45px );
+	}
+	a.util-link-item img {
+        width: 24px;
+        margin-right: 5px;
+    }
+	a.util-link-item {
+        padding: 3px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+	.section-header-main-subtitle h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+	.section-header-main-title h1 {
+        font-size: 32px;
+        line-height: 35px;
+    }
+	a.slidedown-tooltip img {
+        height: 30px;
+        width: auto;
+    }
+}
+@media(max-width:767px){
+	.section-header {
+        height: fit-content;
+    }
+	.section-header-left {
+        width: 45px;
+        height: auto;
+    }
+	.section-header-main-sectionimage {
+		display: none;
+	}
+	.section-header-main-title h1 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+	.section-header-main-firstrow {
+		height: fit-content;
+		max-height: fit-content;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.section-header-main-title {
+        width: 100%;
+		padding: 15px;
+    }
+	.section-header-main-subtitlecontent {
+        width: 100%;
+		height: fit-content;
+    }
+	.section-header-main-secondrow {
+		height: fit-content;
+		display: flex;
+		flex-direction: row;
+	}
+	.section-header-main-subtitle {
+		width: 50%
+	}
+	.section-header-main-directionbox {
+		width: 50%;
+		width: fit-content;
+		height: fit-content;
+		display: flex;
+		flex-direction: row;
+	}
+	.util-link-box, .next-previous-box {
+        padding: 6px 5px;
+        margin: 5px;
+    }
+	.next-previous-box {
+        padding: 6px 5px;
+        mmargin-left: 20px;
+        gap: 15px;
+		align-items: center;
+    }
+	    a.util-link-item {
+        align-items: center;
+    }
+	.section-header-left-imagebox {
+		height: 100%;
+	}
+	.section-header-left-plainbox {
+		display: none;
+	}
+}
 /* header section css end */
 
 /* chariman section header css start */
