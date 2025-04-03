@@ -2507,6 +2507,17 @@ footer p a {
   background: linear-gradient(to right, #3a2e80, #aa70ae);
 }
 
+.review_header::after {
+  content: '';
+  position: absolute;
+  right: -15px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-left: 15px solid #3c2f82;
+  border-top: 15px solid transparent;
+}
+
 .review_header h3 {
   color: white;
   padding: 5px 15px 7px 15px;
@@ -2542,6 +2553,17 @@ footer p a {
   top: -15px;
   left: 0;
   background: linear-gradient(to right, #26b472, #70b18b);
+}
+
+.impact_number_header::after {
+  content: '';
+  position: absolute;
+  right: -15px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-left: 15px solid #4d724c;
+  border-top: 15px solid transparent;
 }
 
 .impact_number_header h4 {
