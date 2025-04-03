@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="../assets/css/libs/fontawesome.css" />
     <link rel="stylesheet" href="../assets/css/custom.css" />
     <link rel="stylesheet" href="../assets/css/style.css" />
+	<link rel="stylesheet" href="../assets/css/myreportpanel.css" />
+	<link rel="stylesheet" href="../assets/css/libs/aos.css" />
+	<link rel="stylesheet" href="../assets/css/download-center.css" />
+	<link rel="stylesheet" href="../assets/css/accessibility-panel.css" />
+	<link rel="stylesheet" href="../assets/slide-in-panel/css/slide_panel.css" />
   <!-- InstanceBeginEditable name="doctitle" -->
     <title>SEDCO Integrated Annual Report 2024 | About the Report</title>
   <!-- InstanceEndEditable -->
@@ -160,15 +165,13 @@
     </div>
     <div class="mainNavBG"></div>
     <nav class="mainNav">
-      <div class="navLogo">
-        <a href="index.html"
-          ><img src="../assets/images/sedco_logo.svg" alt="Sedco Logo" />
-        </a>
-        <div class="navLine"></div>
+      <div class="navLogo">        
         <div class="navLogoText">
-          <p>Sedco Holdings</p>
-          <p>Annual Report 2024</p>
+          	<a href="../index.html">Integrated Annual Report 2024</a>
         </div>
+		<div class="laguage-box">
+			<a href="" class="langchange">العربية</a>
+		</div>
       </div>
 
       <div class="searhAndNavButton">
@@ -183,31 +186,37 @@
         </div>
 
         <div class="page-actions">
-          <div class="NavSearchIcon">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </div>
-          <a
-            href="#"
-            tooltip="Accessibility Panel"
-            class="d-none d-md-inline-block toggle_accessibility_panel"
-          >
-            <img
-              src="../assets/images/icons/accessibility_icon.svg"
-              alt="accessibility icon"
-            />
-          </a>
+			<div class="NavSearchIcon">
+				<i class="fa-solid fa-magnifying-glass"></i>
+			</div>
+			
+			<div class="services-page-icon">
+				<a href="../services/download_center.html" tooltip="Download Center">
+					<img src="../assets/images/icons/download_center.svg" alt="">
+				</a>
+			</div>
 
-          <a
-            href="services/pdf/masir23.pdf"
-            tooltip="Download Full PDF"
-            target="_blank"
-            class="d-none d-md-inline-block"
-          >
-            <img
-              src="../assets/images/icons/download_pdf.svg"
-              alt="download pdf"
-            />
-          </a>
+			<div class="tt-sliding-cart-trigger d-none d-md-block services-page-icon">			
+				<a href="#" class="tt-hti-btn tt-sliding-cart-trigger-icon toptip" tooltip="My Report">
+				  <img src="../assets/images/icons/my_report.svg" alt=""/>
+				  <span class="tt-hti-btn-count tt-sliding-cart-trigger-count">0</span>
+			  </a>
+		  	</div>
+			
+			<a
+				href="#"
+				tooltip="Accessibility Panel"
+				class="d-none d-md-inline-block toggle_accessibility_panel"
+			  >
+				<img
+				  src="../assets/images/icons/accessibility_icon.svg"
+				  alt="accessibility icon"
+				/>
+			</a>
+			
+			<a class="logo icon-img-160" href="index.html">
+				<img src="../assets/images/logo-black.svg" alt="Sedco Logo" />
+			</a>
         </div>
 
         <div class="navButton" id="navButton">
@@ -218,7 +227,131 @@
       </div>
     </nav>
 	  
-	<main>
+	<div class="reading_mask">
+      <div class="reading_mask_top"></div>
+      <div class="reading_mask_bottom"></div>
+    </div>
+	  
+	<aside class="accessibility_panel">
+      <div class="accessibility_panel_body">
+        <div class="accessibility_panel_grid">
+    
+          <div class="accessibility_panel_box" id="zoom_text">
+            <div class="panel_box_icon" tooltip="Enlarge Text">
+              <div>
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                  viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M3 6.2V5h11v1.2M8 5v14m-3 0h6m2-6.8V11h8v1.2M17 11v8m-1.5 0h3" />
+                </svg>
+              </div>
+            </div>
+          </div>
+    
+          <div class="accessibility_panel_box" id="reading_mask">
+            <div class="panel_box_icon" tooltip="Reading Mask">
+              <div>
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                  width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-width="2"
+                    d="M21 12c0 1.2-4.03 6-9 6s-9-4.8-9-6c0-1.2 4.03-6 9-6s9 4.8 9 6Z" />
+                  <path stroke="currentColor" stroke-width="2" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+    
+          <div class="accessibility_panel_box" id="highlight_link">
+            <div class="panel_box_icon" tooltip="Highlight Links">
+              <div>
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                  width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M13.213 9.787a3.391 3.391 0 0 0-4.795 0l-3.425 3.426a3.39 3.39 0 0 0 4.795 4.794l.321-.304m-.321-4.49a3.39 3.39 0 0 0 4.795 0l3.424-3.426a3.39 3.39 0 0 0-4.794-4.795l-1.028.961" />
+                </svg>
+              </div>
+            </div>
+          </div>
+    
+          <div class="accessibility_panel_box" id="invert_colors">
+            <div class="panel_box_icon" tooltip="Invert Colors">
+              <div>
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                  width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M12 5V3m0 18v-2M7.05 7.05 5.636 5.636m12.728 12.728L16.95 16.95M5 12H3m18 0h-2M7.05 16.95l-1.414 1.414M18.364 5.636 16.95 7.05M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z" />
+                </svg>
+              </div>
+            </div>
+          </div>
+    
+          <div class="accessibility_panel_close toggle_accessibility_panel">
+            <div class="panel_box_icon">
+              <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M6 18 17.94 6M18 18 6.06 6" />
+              </svg>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </aside>
+	  
+    <div class="tt-sliding-cart-wrap">
+      <div class="tt-sliding-cart my-report">
+        <div class="tt-sliding-cart-inner">
+          <h4 class="tt-sliding-cart-heading">My Report</h4>
+          <div class="tt-sliding-cart-content tt-custom-scrollbar">
+
+            <div class="empty-my-report">
+              <p>At the moment, there are no entries available for display</p>
+            </div>
+
+            <ul class="tt-sliding-cart-product-list">
+
+            </ul>
+          </div>
+
+          <div class="tt-sliding-cart-footer download-full-pdf">
+            <div class="tt-btn tt-btn-primary tt-btn-block">
+              <a href="" data-hover="Download as PDF">Download as PDF</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="tt-sliding-cart-close hide-cursor" title="Close">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+
+      <div class="tt-sliding-cart-cover cursor-close"></div>
+    </div>
+	  
+	<div class="loader-wrap">
+        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+            <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+
+        <div class="loader-wrap-heading">
+            <div class="load-text">
+                <span>L</span>
+                <span>o</span>
+                <span>a</span>
+                <span>d</span>
+                <span>i</span>
+                <span>n</span>
+                <span>g</span>
+            </div>
+        </div>
+    </div>
+	  
+	<div id="smooth-wrapper">
+        <div id="smooth-content">	
+	  
+	<main class="enalrgable">
 		<header>
 			<!-- InstanceBeginEditable name="header-Section" -->
 				<h1>About the Report</h1>
@@ -350,11 +483,39 @@ across the Kingdom</strong></p>
 		</section>
 		<!-- InstanceEndEditable -->
 	</main>
+			
+		</div>
+	</div>
+	  
+	 <!-- Slide panel -->
+    <div class="cd-panel from-right">
+      <header class="cd-panel-header"> <a href="#0" class="cd-panel-close">Close</a> </header>
+      <div class="cd-panel-container">
+        <div class="cd-panel-content"></div>
+      </div>
+    </div>
+    <!-- End Slide panel -->
 
     <script src="../assets/js/libs/jquery-3.7.1.min.js"></script>
+	<script src="../assets/js/libs/bootstrap.min.js"></script>	
     <script src="../assets/js/main.js"></script>
+	<script src="../assets/js/functions.js"></script>
+	<script src="../assets/js/myreportpanel.js"></script>
+	<script src="../assets/js/jquery.table2excel.js"></script>	
+	<script src="../assets/js/libs/gsap.min.js"></script>
+	<script src="../assets/js/libs/SplitText.min.js"></script>
+	<script src="../assets/js/libs/ScrollSmoother.min.js"></script>
+	<script src="../assets/js/libs/ScrollToPlugin.min.js"></script>
+	<script src="../assets/js/libs/ScrollTrigger.min.js"></script>	
+	<script src="../assets/js/accessibility-panel.js"></script>
+	<script src="../assets/js/libs/aos.js"></script>
 	  
 	<!-- InstanceBeginEditable name="scripts" -->
 	<!-- InstanceEndEditable -->
+	  
+	<script>
+		AOS.init();
+	</script>
+	  
   </body>
 <!-- InstanceEnd --></html>
