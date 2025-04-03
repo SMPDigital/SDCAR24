@@ -70,7 +70,7 @@ function nextPrevPages() {
     let prevPath = ROOT + prev.slug;
 
     prevElement.find("span").text(prev.name);
-    prevElement.find("a").attr("href", prevPath);
+    prevElement.attr("href", prevPath);
   } else {
     prevElement.remove();
     $(".next_prev_links .white_line").remove();
