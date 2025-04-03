@@ -50,7 +50,15 @@
 	.st40{fill:none;stroke:url(#SVGID_00000152233988810772000710000000922475348139279516_);stroke-width:0.5;stroke-miterlimit:10;}
 	.st41{fill:none;stroke:url(#SVGID_00000023260825671540256210000002710515128888688044_);stroke-width:0.5;stroke-miterlimit:10;}
 	
-	
+	*{
+        -webkit-animation-play-state: paused;
+                animation-play-state: paused;
+    }
+
+    .play-svg-anim *{
+        -webkit-animation-play-state: running;
+                animation-play-state: running;
+    }
 	
 	#ic1,#ic2,#ic3,#ic4,#ic5
 	{

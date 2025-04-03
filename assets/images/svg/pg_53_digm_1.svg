@@ -20,7 +20,15 @@
 	.st13{fill:#414042;}
 	.st14{fill:#DAAB28;}
 	
-	
+	*{
+        -webkit-animation-play-state: paused;
+                animation-play-state: paused;
+    }
+
+    .play-svg-anim *{
+        -webkit-animation-play-state: running;
+                animation-play-state: running;
+    }
 	#c0,#c1,#c2,#c4,#c6,#c8,#c10,#c12,#c1,#c3,#c5,#c7,#c9,#c11,#txt0,#txt1,#txt2,#txt4,#txt6,#txt8,#txt10,#txt12,#txt1,#txt3,#txt5,#txt7,#txt9,#txt11,#title1,#title2,#title3,#l2,#l3
 	{	
 	 opacity: 0;

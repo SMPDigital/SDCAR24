@@ -25,6 +25,19 @@
 	.st19{fill:url(#SVGID_00000125601489704614745580000000408571884282642105_);}
 	.st20{fill:url(#SVGID_00000023990105540643631370000006638507974551256196_);}
 	
+	
+	
+	*{
+        -webkit-animation-play-state: paused;
+                animation-play-state: paused;
+    }
+
+    .play-svg-anim *{
+        -webkit-animation-play-state: running;
+                animation-play-state: running;
+    }
+	
+	
 	#icon
 	{
     opacity: 0;

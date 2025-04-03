@@ -70,6 +70,20 @@
 		.st53{clip-path:url(#SVGID_00000003078460194511137230000014929520867841368470_);fill:url(#SVGID_00000022545555798189250710000000875352175340065192_);}
 	.st54{fill:#DBB026;}
 	.st55{clip-path:url(#SVGID_00000093157014542355061040000016783008277038950322_);fill:#DBB026;}
+	
+	
+	
+	*{
+        -webkit-animation-play-state: paused;
+                animation-play-state: paused;
+    }
+
+    .play-svg-anim *{
+        -webkit-animation-play-state: running;
+                animation-play-state: running;
+    }
+	
+	
 	#b1
 	{		opacity: 0;
 		            animation-fill-mode: forwards; 

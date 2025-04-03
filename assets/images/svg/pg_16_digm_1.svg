@@ -33,6 +33,18 @@
 	.st27{fill:url(#SVGID_00000111898303907463519050000007584690861835900560_);}
 	
 	
+	*{
+        -webkit-animation-play-state: paused;
+                animation-play-state: paused;
+    }
+
+    .play-svg-anim *{
+        -webkit-animation-play-state: running;
+                animation-play-state: running;
+    }
+	
+	
+	
 	#ic1,#ic2,#ic3,#ic4,#ic5
 	{
 	animation-name: zoom; 
