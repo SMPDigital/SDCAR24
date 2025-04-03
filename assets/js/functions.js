@@ -60,7 +60,7 @@ function nextPrevPages() {
     let nextPath = ROOT + next.slug;
 
     nextElement.find("span").text(next.name);
-    nextElement.find("a").attr("href", nextPath);
+    nextElement.attr("href", nextPath);
   } else {
     nextElement.remove();
     $(".next_prev_links .white_line").remove();
@@ -85,7 +85,7 @@ function downloadPdf(page, setUrl, lang) {
   pdfUrl = pdfUrl.replace(".html", ".pdf");
 
   if (setUrl) {
-    let pdfElement = $("#dwnpdficn a");
+    let pdfElement = $("a#download-pdf");
     pdfElement.attr("href", pdfUrl);
   }
 
@@ -234,7 +234,7 @@ function renderMyReport() {
     $(".tt-sliding-cart-product-list").append(html);
     $(".my-report .empty-my-report").hide();
     $(".tt-sliding-cart-trigger span").show();
-    $(".topIcons span.myReportNumber").text(myReport.length);
+    $(".tt-hti-btn span.tt-hti-btn-count").text(myReport.length);
     $(".download-full-pdf").show();
     downloadMyReport();
   } else {

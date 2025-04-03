@@ -20,21 +20,21 @@
     ]
   },
   {
-    "name": "Chairman\u00e2\u20ac\u2122s Statement",
+    "name": "Chairman's Statement",
     "slug": "#",
     "children": [
       {
-        "name": "Chairman\u00e2\u20ac\u2122s Statement",
+        "name": "Chairman's Statement",
         "slug": "chairmans_statement/chairmans_statement.html"
       }
     ]
   },
   {
-    "name": "Chief Executive Officer\u00e2\u20ac\u2122s Message",
+    "name": "Chief Executive Officer's Message",
     "slug": "#",
     "children": [
       {
-        "name": "Chief Executive Officer\u00e2\u20ac\u2122s Message",
+        "name": "Chief Executive Officer's Message",
         "slug": "chief_executive_officers_message/chief_executive_officers_message.html"
       }
     ]
