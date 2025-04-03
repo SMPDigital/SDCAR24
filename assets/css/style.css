@@ -476,6 +476,11 @@ body {
   gap: 5px;
 }
 
+.nav_item_one {
+  grid-column: span 2 / span 2;
+  grid-column-start: 3;
+}
+
 /* New Navigation */
 
 .NavSearchIcon i {
@@ -1074,7 +1079,7 @@ img.section-header-main-title-bg {
 .section-header-main-subtitlecontent {
     width: 74%;
     display: flex;
-    background: background: rgb(255,255,255);
+    background: rgb(255,255,255);
     background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 1) 24%, rgba(249, 242, 223, 1) 73%);
     background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1) 24%, rgba(249, 242, 223, 1) 73%);
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 24%, rgba(249, 242, 223, 1) 73%);
