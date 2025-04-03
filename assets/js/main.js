@@ -144,6 +144,20 @@ $(function () {
     });
 });
 
+$(document).ready(function () {
+  $(window).on("scroll", function () {
+    let scrolledHeight = $(window).scrollTop();
+
+    if (scrolledHeight > 50) {
+      $(".top-next-previousbox").addClass("active");
+//      $(".page_up").addClass("active");
+    } else {
+      $(".top-next-previousbox").removeClass("active");
+//      $(".page_up").removeClass("active");
+    }
+  });
+});
+
 $(".sub-menu-title").on("click", function (e) {
   e.preventDefault();
   $(this).parent().find(".sub-menu-content").slideToggle();
