@@ -1094,6 +1094,24 @@ img.section-header-main-sectionimg {
     margin-top: -5%;
 }
 
+.section-header-main-subtitle.none-heading {
+	padding: 0 !important;
+}
+
+.section-header-main-subtitle .section-header-main-sectionimage {
+    width: 100%;
+    height: 110%;
+    overflow: hidden;
+}
+
+.section-header-main-subtitle img.section-header-main-sectionimg {
+    width: 100%;
+    height: 115%;
+    object-fit: cover;
+	object-position: center;
+    margin-top: -5%;
+}
+
 .util-link-box {
 	position: relative;
     display: flex;
@@ -1640,6 +1658,59 @@ img.img-fluid.section-header-charimanbgimage {
 
 
 /* chariman section header css end */
+
+/* content arear section css start*/
+
+main .content-area {
+    padding: 60px 0 100px 0;
+}
+
+/* content arear section css  end*/
+
+/* footer css start */
+
+.footer {
+    background-color: rgb(57, 57, 57);
+}
+
+footer .footer > div:first-child {
+    padding: 20px 65px 20px 65px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: rgb(57, 57, 57);
+    width: 100%;
+    margin: auto;
+}
+
+footer .footer > div:last-child {
+    padding: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: black;
+}
+
+footer .footer > div:last-child p {
+    font-size: 12px !important;
+    color: rgb(179, 179, 179);
+    margin: 0;
+}
+
+footer p a {
+    color: #B9A673;
+}
+
+@media (max-width:768px){
+	footer .footer >div:first-child {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 15px;
+    }
+}
+
+/* footer css start */
 
 /*kanishka */
 

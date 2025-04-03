@@ -1,4 +1,4 @@
-const REPORT_NAME = "ALFAR24";
+const REPORT_NAME = "SDCAR24";
 
 let INDEX_LOCATION = new URL("../../index.html", import.meta.url).pathname;
 let CURRENT_URL = window.location.pathname;
