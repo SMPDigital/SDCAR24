@@ -29,7 +29,7 @@
 	.st20{fill:#3D3184;}
 	
 	
-		*{
+	*{
         -webkit-animation-play-state: paused;
                 animation-play-state: paused;
     }
@@ -39,13 +39,7 @@
                 animation-play-state: running;
     }
 	
-	@keyframes down {
-	0% {opacity: 1;}
-  	20% {transform: translateY(100px);	opacity: 1; }
-  	60% { transform: translateY(-3px); }
-  	90% { transform: translateY(0px); }
-  	100% { opacity: 1; transform: translateY(0px); }
-	}
+
 	
 	
 	#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9
@@ -82,7 +76,13 @@
 	#box1 { animation-delay: 0.25s; transform-origin: 251.5px 125.75px;}
 	#box2 { animation-delay: 1s; transform-origin: 251.5px 125.75px;}
 
-	
+		@keyframes down {
+	0% {opacity: 1;}
+  	20% {transform: translateY(100px);	opacity: 1; }
+  	60% { transform: translateY(-3px); }
+  	90% { transform: translateY(0px); }
+  	100% { opacity: 1; transform: translateY(0px); }
+	}
 	
 	
 	@keyframes zoom {

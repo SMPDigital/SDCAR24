@@ -118,6 +118,34 @@ $(function () {
     });
 });
 
+
+
+// SVG animation start
+$(window).on("load", function () {
+  let svgAnimObjects = $(".svg-animate");
+
+  for (let object of svgAnimObjects) {
+    let objectElement = $(object).contents();
+    let svgElement = $(objectElement).find("svg");
+
+    ScrollTrigger.create({
+      trigger: object,
+      start: "top 99%",
+      onEnter: playSvgAnimation,
+    });
+
+    function playSvgAnimation() {
+      svgElement.addClass("play-svg-anim");
+    }
+  }
+});
+
+
+
+
+
+
+
 $(document).ready(function () {
   $(window).on("scroll", function () {
     let scrolledHeight = $(window).scrollTop();
@@ -388,24 +416,6 @@ if($(window).width() > 992){
 // ScrollTrigger.create()
 
 
-// SVG animation start
-$(window).on("load", function () {
-  let svgAnimObjects = $(".svg-animate");
 
-  for (let object of svgAnimObjects) {
-    let objectElement = $(object).contents();
-    let svgElement = $(objectElement).find("svg");
-
-    ScrollTrigger.create({
-      trigger: object,
-      start: "top 99%",
-      onEnter: playSvgAnimation,
-    });
-
-    function playSvgAnimation() {
-      svgElement.addClass("play-svg-anim");
-    }
-  }
-});
 
 
