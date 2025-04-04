@@ -752,6 +752,7 @@ body {
   aspect-ratio: 5/4;
   position: relative;
   overflow: hidden;
+  height: auto;
 }
 
 .bod_member_one {
@@ -816,6 +817,11 @@ body {
   right: 0;
   bottom: 0;
   transform: translate(20%, 40%);
+}
+
+.bod_filler {
+  height: auto;
+  aspect-ratio: 5/4;
 }
 
 @media (min-width: 1200px) {
