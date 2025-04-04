@@ -395,7 +395,7 @@ $(document).ready(function () {
 		  trigger: ".bod_one",
 		  start: "top 65%",
 		  scrub: false,
-		  markers: true,
+		//   markers: true,
 		  toggleActions: "play none none reverse"
 	  }
   });
