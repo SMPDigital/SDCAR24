@@ -45,11 +45,11 @@ function preloaderStart(){
 		ease: "power2.easeOut",
 	}, "<");
 
-	tl.to(".section-header-leftbar-img", {
-		bottom: "-5%",
-		duration: 1.5, // Increased duration for a smoother effect
-		ease: "power2.inOut",
-	}, "<");
+//	tl.to(".section-header-leftbar-img", {
+//		bottom: "-5%",
+//		duration: 1.5, // Increased duration for a smoother effect
+//		ease: "power2.inOut",
+//	}, "<");
 
 	tl.fromTo(
 		".section-header-leftbar-img",
@@ -59,9 +59,23 @@ function preloaderStart(){
 	);
 	
 	tl.fromTo(
+		".section-header-leftbar-img-services",
+		{ scale: 1.15, bottom: "-50%", }, // Starting scale (from)
+		{ scale: 1,bottom: "10%", duration: 2.5, ease: "power2.inOut" },
+		"<" // Start at the same time as the previous animation
+	);
+	
+	tl.fromTo(
 		".section-header-main-title-bg",
 		{ scale: 1.2, bottom: "-100%", opacity: 0 }, // Starting scale (from)
 		{ scale: 1, bottom:"0%", opacity:1, duration: 2.5, ease: "power2.inOut" },
+		"<" // Start at the same time as ".section-header-leftbar-img"
+	);
+	
+	tl.fromTo(
+		".section-header-main-title-bg-services",
+		{ scale: 1.2, bottom: "-100%", opacity: 0 }, // Starting scale (from)
+		{ scale: 1, bottom:"-25%", opacity:1, duration: 2.5, ease: "power2.inOut" },
 		"<" // Start at the same time as ".section-header-leftbar-img"
 	);
 	
