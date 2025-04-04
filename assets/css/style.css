@@ -2031,19 +2031,33 @@ a.slidedown-tooltip:hover img {
   width: 100%;
   top: 0%;
   left: 0;
-  display: block;
-  background: #f9f3e0;
+  display: flex;
+  visibility: hidden;
+  align-items: baseline;
+  justify-content: flex-end;
+  background: #EAE3CF;
   padding: 10px;
   font-size: 20px;
   color: #000000;
-  display: block;
   transition: all 0.5s ease-in-out;
   z-index: -1;
 }
 
 .next-previous-box a#prevlink:hover span,
 .next-previous-box a#nextlink:hover span {
-  top: 100%;
+  	top: 100%;
+	visibility: visible;
+}
+
+.direction-text {
+    width: fit-content;
+    background: #ffffff8c;
+    color: #B48E2E;
+    font-size: 16px;
+    fill-opacity: 40%;
+    padding: 5px 15px;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
 }
 
 .tt-hti-btn {
