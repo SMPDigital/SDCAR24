@@ -5269,7 +5269,7 @@ footer p a {
 .esg_fram_blue {
   background: linear-gradient(to top, #d9e3f0, #ffffff);
   padding: 10px;
-  min-height: 471px;
+  min-height: 448px;
 }
 .esg_fram_blue p:first-child {
   color: #007ab4;
@@ -5297,6 +5297,10 @@ footer p a {
 
 .esg_fram_blue1 p:nth-child(2) {
   color: #5496c6;
+}
+
+.esg_fram_purple1 .esg_div {
+	min-height: 107px;
 }
 
 /* gri  */
@@ -5400,6 +5404,12 @@ footer p a {
 }
 
 /* responsive  */
+
+@media screen and (max-width: 1399px) {
+	.esg_fram_blue {
+    min-height: 470px;
+ }
+}
 
 @media screen and (max-width: 1199px) {
   .esg_top_container {
