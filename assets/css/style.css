@@ -1446,6 +1446,30 @@ body {
   .order_ten {
     order: 10;
   }
+
+  .bod_filler {
+    display: none;
+  }
+
+  .bod_member_eight_main {
+    transform: translateY(0%);
+  }
+
+  .bod_member_nine_main {
+    transform: translateY(0%);
+  }
+
+  .bod_main_container {
+    margin: 150px 0 0 0;
+  }
+
+  .bod_name {
+    font-size: 15px;
+  }
+
+  .bod_position {
+    font-size: 15px;
+  }
 }
 
 /* New Navigation */
