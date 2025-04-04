@@ -2346,7 +2346,7 @@ a.slidedown-tooltip:hover img {
 
 .section-header-leftbar-img.chairman {
     position: absolute;
-    bottom: 0;
+    bottom: -50%;
     height: 110%;
     object-fit: cover;
 	margin-bottom: 10%;
