@@ -4223,6 +4223,9 @@ footer p a {
 }
 
 @media screen and (max-width: 991px) {
+.pullup{ margin-top: -400px}
+.pullup1{ margin-top: -200px}
+	
   .bm_b_head1,
   .bm_b_head3 {
     border-radius: 0;
@@ -4305,6 +4308,9 @@ footer p a {
 }
 
 @media screen and (max-width: 567px) {
+.pullup{ margin-top: -400px}
+.pullup1{ margin-top: -100px}
+	
   .prvt_head {
     position: relative;
     display: flex;
@@ -5608,7 +5614,7 @@ footer p a {
 /*kanishka end */
 
 
-.pullup{ margin-top: -200px}
+.pullup{ margin-top: -250px}
 
 .pullup1{ margin-top: -100px}
 
