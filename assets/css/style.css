@@ -772,10 +772,6 @@ body {
 }
 
 @media (max-width: 1199px) {
-  .fixed_grid_nav_container {
-    width: 40%;
-  }
-
   .nav_grid {
     overflow-y: auto;
   }
@@ -928,10 +924,6 @@ body {
 }
 
 @media (max-width: 991px) {
-  .fixed_grid_nav_container {
-    width: 50%;
-  }
-
   .nav_grid {
     overflow-y: auto;
   }
@@ -1080,10 +1072,6 @@ body {
 }
 
 @media (max-width: 767px) {
-  .fixed_grid_nav_container {
-    width: 100%;
-  }
-
   .nav_grid {
     overflow-y: auto;
   }
