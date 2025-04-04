@@ -188,10 +188,12 @@ $(document).ready(function () {
 
   $(".nav_item").click(function() {
 	let target = $(this).find(".nav_dropdown_container");
+	$(this).toggleClass("active")
 	target.slideToggle();
   })
   $(".nav_item_five").click(function() {
 	let target = $(this).find(".nav_dropdown_container");
+	$(this).toggleClass("active")
 	target.slideToggle();
   })
 

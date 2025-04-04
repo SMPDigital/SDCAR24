@@ -830,6 +830,14 @@ body {
     justify-content: space-between;
     align-items: center;
   }
+
+  .nav_item_five.active .nav_dropdown_icon {
+    transform: rotateZ(180deg);
+  }
+
+  .nav_item.active .nav_dropdown_icon {
+    transform: rotateZ(180deg);
+  }
 }
 
 /* New Navigation */
