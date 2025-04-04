@@ -5,6 +5,75 @@ body {
   overflow-x: hidden;
 }
 
+.preloader {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(248,242,222);
+  background: linear-gradient(0deg, rgba(248,242,222,1) 0%, rgba(255,255,255,1) 100%);
+  z-index: 25;
+}
+.preloader img {
+  height: 75px;
+  width: auto;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  animation: blinkImage 2s linear infinite;
+}
+@keyframes blinkImage {
+  0% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.25;
+  }
+}
+.preloader .loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 30px;
+  align-items: center;
+}
+.preloader .loader .progress-bar {
+  height: 2px;
+  width: 100%;
+  background-color: rgb(255, 255, 255, 0.2);
+  position: relative;
+  margin-top: 5px;
+}
+.preloader .loader .progress-bar .progress-bar-inner {
+  height: 100%;
+  width: 100%;
+  background-color: #1876bc;
+}
+.preloader .loader .progress-bar .progress-bar-cover {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d3d8dc;
+}
+.preloader .loader p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #B48E2E;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+}
+
 /* pre loader css start */
 
 .loader-wrap {
@@ -850,6 +919,51 @@ body {
 
 .bod_member_nine_main {
   transform: translateY(-100%);
+}
+
+.bod_five_pattern {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(35%, 25%);
+}
+
+.bod_six_pattern {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(60%, 30%);
+}
+
+.bod_seven_pattern {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(-35%, 25%) rotateZ(180deg);
+}
+
+.bod_eight_pattern {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(-45%, 25%);
+}
+
+.bod_nine_pattern {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(40%, 55%);
 }
 
 @media (min-width: 1200px) {
@@ -2784,8 +2898,10 @@ width: fit-content;
   padding-left: 30px;
 }
 .history-timeline .history-block .image-wrapper img {
-  width: auto;
+  width: 100%;
   height: 100%;
+  object-fit: contain;
+  object-position: bottom;
 }
 .history-timeline .history-block .text-wrapper {
   background: rgb(221,238,231);
