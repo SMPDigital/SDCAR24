@@ -769,6 +769,15 @@ table.ft tbody tr:last-child {
   border-bottom: 1px #443479 solid;
 }
 
+table.ft1 thead tr:last-child {
+    border-top: none;
+	border-bottom: 2px solid #A88D49;
+}
+
+table.ft1 thead tr:last-child td{
+	background: #faf4e8;	
+}
+
 table.ft1 td + td {
   text-align: right;
 }
@@ -786,7 +795,7 @@ table.ft1 .blue-font td + td + td {
 }
 
 table.ft1 tbody tr:last-child {
-  border-bottom: 1px #272f36 solid;
+	border-bottom: 1px solid #A88D49;
 }
 
 table.ft1.review td {

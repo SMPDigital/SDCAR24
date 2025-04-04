@@ -6023,3 +6023,12 @@ font-size: 18px;
   }
 }
 /* End Search Page Styles */
+
+/* custom css start */
+
+div.table-wrap {
+	border: 1px solid #A88D49;
+	padding: 10px;
+}
+
+/* custom css end */
