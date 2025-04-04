@@ -381,11 +381,10 @@ h1 {
 
 h2 {
   color: #A88D49;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   line-height: 1;
   margin: 10px 0 5px 0;
   font-weight: 600;
-	  text-transform: uppercase;
   
 }
 
@@ -795,7 +794,7 @@ table.ft1 .blue-font td + td + td {
 }
 
 table.ft1 tbody tr:last-child {
-	border-bottom: 1px solid #A88D49;
+	border-bottom: 1px solid #e5c873;
 }
 
 table.ft1.review td {
@@ -841,45 +840,45 @@ div.table-border {
   border: 1px solid #443479;
 }
 
+table.gt1 thead tr:last-child {
+    border-top: none;
+	border-bottom: 2px solid #e5c873;
+}
 table.gt1 {
   margin-bottom: 0 !important;
 }
 
 table.gt1 td + td {
-  text-align: center;
+  text-align: left;
 }
 
 table.gt1 thead tr:first-child td {
-  border: 1px solid #443479;
-  color: #ffffff;
-  background: none !important;
+/*  border: 1px solid #443479;*/
+  color: #000;
+  background: #faf4e8;
 }
 
 table.gt1 thead tr:first-child {
-  background: linear-gradient(
-    163deg,
-    rgba(3, 160, 127, 1) 0%,
-    rgba(2, 157, 152, 1) 49%,
-    rgba(0, 154, 182, 1) 100%
-  );
+  
 }
 
 table.gt1 thead tr:last-child {
   /*  border-bottom: 2px #0067b1 solid;*/
 }
 
+/*
 table.gt1 tbody tr:nth-child(odd) td {
   background-color: #f3f9fa;
 }
+*/
 
 table.gt1 tbody tr:last-child {
-  border-bottom: 1px #443479 solid;
+  border-bottom: 1px #e5c873 solid;
 }
 
 table.gt1 tbody tr td {
-  vertical-align: top !important;
   color: black;
-  border: 1px #443479 solid;
+  border-bottom: 1px #e5c873 solid;
 }
 
 table.gt2 td + td {
