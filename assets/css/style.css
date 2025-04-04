@@ -1057,6 +1057,59 @@ body {
   transform: translate(40%, 55%);
 }
 
+.exe_main_container {
+  padding: 0 90px;
+  margin: 150px 0 0 0;
+}
+
+.exe_filler {
+  height: auto;
+  aspect-ratio: 5/4;
+}
+
+.exe_member_image {
+  overflow: hidden;
+}
+
+.exe_member_image img {
+  width: 100%;
+  height: auto;
+  transition: all 0.25s ease-in-out;
+}
+
+.exe_main:hover .exe_member_image img {
+  transform: scale(1.1);
+}
+
+.exe_common {
+  padding: 20px;
+  aspect-ratio: 5/4;
+  position: relative;
+  overflow: hidden;
+  height: auto;
+}
+
+.exe_name {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.exe_position {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0;
+}
+
 @media (min-width: 1200px) {
   .nav_item > div:first-child {
     overflow: hidden;
