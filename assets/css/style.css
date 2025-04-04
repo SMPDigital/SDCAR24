@@ -2616,10 +2616,18 @@ a.slidedown-tooltip:hover img {
 /* header section css end */
 
 /* history timeline */
-.history-timeline {
+.history-timeline-container {
   margin-top: 50px;
+  width: 100%;
+  background-color: yellow;
+  overflow: hidden;
+}
+.history-timeline {
   display: flex;
   flex-wrap: nowrap;
+}
+.history-timeline .history-block {
+  min-width: calc(100% / 3);
 }
 
 /* chariman section header css start */
