@@ -18,13 +18,13 @@
 }
 
 .download-center h1 {
-  font-size: 20px !important;
+  font-size: 18px !important;
   line-height: 28px !important;
   padding: 10px 20px;
   margin-bottom: 20px;
   text-decoration-line: none;
   font-weight: 400;
-  color: #219694 !important;
+  color: #B48E2E !important;
 }
 
 .frwrap {
@@ -141,15 +141,11 @@ vertical-align: middle;
   align-items: center !important;
   justify-content: left;
   font-size: 16px;
-  background: rgba(255, 255, 255, 0.02);
-  border-bottom: 1px solid #219694;
+  background: rgba(0, 0, 0, 0.02);
+  border-bottom: 1px solid #fff;
   position: relative;
   border-radius: 0px 0px 10px 10px;
-  border-left: 1px solid #219694;
-  border-right: 1px solid #219694;
   margin-bottom: 5px;
-
-  background-image: linear-gradient(to right, #f9feff, #fff);
 }
 .download-manager-acc .sub-menu-title h4 {
   font-size: 20px;
@@ -163,7 +159,6 @@ vertical-align: middle;
   padding: 10px 0;
 }
 .download-manager-acc .fa-angle-down {
-  color: #219694;
   transition: 300ms;
   position: absolute;
   right: 30px;
@@ -223,12 +218,7 @@ vertical-align: middle;
   display: inline-block;
   width: 100%;
   font-size: 14px;
-  background-image: linear-gradient(
-    to right,
-    rgba(3, 160, 127, 0.75),
-    rgba(3, 162, 156, 0.75),
-    rgba(0, 154, 182, 0.75)
-  );
+  background-image: #efefef;
 }
 
 .thecard:hover .card-outmore {

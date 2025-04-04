@@ -23,6 +23,16 @@
 	  
   </head>
   <body>
+	  
+  	<div class="preloader">
+
+      <div class="loader">
+        <p>LOADING <span class="progress-number">0</span>%</p>
+        <img src="../assets/images/sedco_logo.svg" alt="" />
+
+      </div>
+    </div>
+	  
     <div class="fixed_grid_nav_container">
       <div class="fixed_grid_relative_container">
         <img
@@ -447,24 +457,7 @@
       <div class="tt-sliding-cart-cover cursor-close"></div>
     </div>
 	  
-	<div class="loader-wrap">
-        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
-            <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
-        </svg>
 
-        <div class="loader-wrap-heading">
-            <div class="load-text">
-                <span>L</span>
-                <span>o</span>
-                <span>a</span>
-                <span>d</span>
-                <span>i</span>
-                <span>n</span>
-                <span>g</span>
-            </div>
-        </div>
-    </div>
-	  
 	<div id="smooth-wrapper">
         <div id="smooth-content">	
 	  
@@ -522,7 +515,7 @@
 									<img src="../assets/images/bg-pattern.svg" class="bg-pattern" alt="" />
 								</div>
 								<div class="section-header-main-sectionimage">
-									<img src="../assets/images/sectionimage.webp" class="img-fluid section-header-main-sectionimg" data-speed="0.8" alt="" />
+									<img src="../assets/images/sectionimage3.webp" class="img-fluid section-header-main-sectionimg" data-speed="0.8" alt="" />
 								</div>
 							</div>
 						</div>
@@ -536,8 +529,12 @@
 			 <div class="container">
 				<div class="row">
 					<div class="col-md-8 mx-auto">
+					
+<br>
+
 <div class="cream_gradient">
                 <p class="lifter">
+
                   In 2024, SEDCO received approval to create, a new subsidiary
                   that will
                   <strong class="textBolder"
@@ -546,7 +543,11 @@
                   >
                   Investment, Development, and Asset Management.
                 </p>
+
               </div>
+						<br>
+
+						
               <p>
                 Our current portfolio consists of a land bank (54%), built
                 assets (28%), real estate private equity (15%) and Real Estate
@@ -557,13 +558,26 @@
                 financial investor mindset, our real estate initiatives will
                 focus on delivering strong shareholder returns.
               </p>
-              <p>
-                <img
-                  class="img-fluid"
-                  src="../assets/images/corporate_investment/pg31_img.webp"
-                  alt=""
-                />
-              </p>
+						
+						
+						
+				 </div>		
+						
+						
+						<div class="col-md-12 mx-auto py-4">		
+											
+                <div class="full_width_parallax">
+                  <img src="../assets/images/corporate_investment/pg31_img.webp" alt="" data-speed="0.5">
+                </div>
+							
+						 </div>		
+					
+					
+					
+	<div class="col-md-8 mx-auto">						
+						
+						
+
               <h2>From Strategy to Action</h2>
               <p>
                 In 2024, Real Estate Group secured approval for its FY23-27
@@ -769,7 +783,7 @@
               </p>
 
               <div class="row">
-                <div class="col-md-10 col-lg-8 col-sm-12 mb-3">
+                <div class="col-md-10 col-lg-12 col-sm-12 mb-3">
                   <div class="d-flex align-items-center gap-3">
                     <h3>Investment</h3>
                     <div class="line_heading_desing"></div>
@@ -985,18 +999,18 @@
                 </div>
               </div>
 
-              <h2>Real estate outlook for 2025</h2>
-              <p>
+              <h2 class="text-purple1">Real estate outlook for 2025</h2>
+              <p class="text-purple1">
                 In 2025, SEDCO will focus on the successful execution of
                 initiatives and strategies currently in progress. We aim to
                 engage with all PIF entities to explore potential collaborative
                 investment opportunities.
               </p>
-              <p>
+              <p class="text-purple1">
                 Plans to subdivide and sell a 1,500,029 sqm plot in Umm Al Joud,
                 Makkah is underway.
               </p>
-              <p>
+              <p class="text-purple1">
                 The projects development in Jeddah, Madinah and Makkah will
                 continue in 2025 to achieve Board Approval on the concept design
                 and the overall development plans for mixed-use projects in
@@ -1004,12 +1018,12 @@
                 station in Madinah and achieve approval of infrastructure design
                 for Umm Al Joud land.
               </p>
-              <p>
+              <p class="text-purple1">
                 Renovation of two hospitality assets located in Jeddah and
                 Makkah will commence in 2025 to upgrade both properties and
                 enhance the revenue from these two assets.
               </p>
-              <p>
+              <p class="text-purple1">
                 In alignment with our strategy of divesting non-core holdings,
                 we will continue the aggressive divestment of our international
                 assets located in the UAE, Lebanon, and Egypt.
@@ -1109,6 +1123,36 @@
       </div>
     </div>
     <!-- End Slide panel -->
+	  
+  	<script>
+      // Preloader
+      let progress = 0;
+      let progressNumber = document.querySelector(
+        ".preloader .progress-number"
+      );
+      let loadLine = document.querySelector(".preloader .progress-bar-cover");
+
+      function updateProgress(target, duration) {
+        let interval = 20;
+        let step = (target - progress) / (duration / interval);
+
+        let progressInterval = setInterval(() => {
+          progress += step;
+          if (progress >= target) {
+            progress = target;
+            clearInterval(progressInterval);
+          }
+          progressNumber.textContent = Math.round(progress);
+          loadLine.style.width = 100 - progress + "%";
+        }, interval);
+      }
+
+      updateProgress(80, 250);
+
+      window.addEventListener("load", () => {
+        updateProgress(100, 250);
+      });
+    </script>
 
     <script src="../assets/js/libs/jquery-3.7.1.min.js"></script>
 	<script src="../assets/js/libs/bootstrap.min.js"></script>	

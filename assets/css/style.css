@@ -5,6 +5,75 @@ body {
   overflow-x: hidden;
 }
 
+.preloader {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(248,242,222);
+  background: linear-gradient(0deg, rgba(248,242,222,1) 0%, rgba(255,255,255,1) 100%);
+  z-index: 25;
+}
+.preloader img {
+  height: 75px;
+  width: auto;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  animation: blinkImage 2s linear infinite;
+}
+@keyframes blinkImage {
+  0% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.25;
+  }
+}
+.preloader .loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 30px;
+  align-items: center;
+}
+.preloader .loader .progress-bar {
+  height: 2px;
+  width: 100%;
+  background-color: rgb(255, 255, 255, 0.2);
+  position: relative;
+  margin-top: 5px;
+}
+.preloader .loader .progress-bar .progress-bar-inner {
+  height: 100%;
+  width: 100%;
+  background-color: #1876bc;
+}
+.preloader .loader .progress-bar .progress-bar-cover {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d3d8dc;
+}
+.preloader .loader p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #B48E2E;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+}
+
 /* pre loader css start */
 
 .loader-wrap {
@@ -739,12 +808,21 @@ body {
 
 .bod_main_container {
   padding: 0 25px;
-  margin: 150px 0;
+  margin: 150px 0 -100px 0;
+}
+
+.bod_member_image {
+  overflow: hidden;
 }
 
 .bod_member_image img {
   width: 100%;
   height: auto;
+  transition: all 0.25s ease-in-out;
+}
+
+.bod_main:hover .bod_member_image img {
+  transform: scale(1.1);
 }
 
 .bod_common {
@@ -766,7 +844,7 @@ body {
 .bod_name {
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 1.1;
   margin: 0;
@@ -777,7 +855,7 @@ body {
 .bod_position {
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.1;
   margin: 0;
@@ -822,6 +900,79 @@ body {
 .bod_filler {
   height: auto;
   aspect-ratio: 5/4;
+}
+
+.bod_member_five {
+  background-color: #E7C77A;
+}
+
+.bod_member_six {
+  background-color: #F5897B;
+}
+
+.bod_member_seven {
+  background-color: #A0774F;
+}
+
+.bod_member_eight {
+  background-color: #18777C;
+}
+
+.bod_member_nine {
+  background-color: #7F6DA3;
+}
+
+.bod_member_eight_main {
+  transform: translateY(-50%);
+}
+
+.bod_member_nine_main {
+  transform: translateY(-100%);
+}
+
+.bod_five_pattern {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(35%, 25%);
+}
+
+.bod_six_pattern {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(60%, 30%);
+}
+
+.bod_seven_pattern {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(-35%, 25%) rotateZ(180deg);
+}
+
+.bod_eight_pattern {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(-45%, 25%);
+}
+
+.bod_nine_pattern {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(40%, 55%);
 }
 
 @media (min-width: 1200px) {
@@ -1303,6 +1454,30 @@ body {
 
   .order_ten {
     order: 10;
+  }
+
+  .bod_filler {
+    display: none;
+  }
+
+  .bod_member_eight_main {
+    transform: translateY(0%);
+  }
+
+  .bod_member_nine_main {
+    transform: translateY(0%);
+  }
+
+  .bod_main_container {
+    margin: 150px 0 0 0;
+  }
+
+  .bod_name {
+    font-size: 15px;
+  }
+
+  .bod_position {
+    font-size: 15px;
   }
 }
 
@@ -1871,7 +2046,7 @@ z-index: 3;
   position: relative;
   vertical-align: bottom;
   color: #ffffff;
-  font-size: 55px;
+  font-size: 45px;
   font-weight: 600;
   margin-bottom: 0px;
   text-decoration:none;
@@ -2756,8 +2931,10 @@ width: fit-content;
   padding-left: 30px;
 }
 .history-timeline .history-block .image-wrapper img {
-  width: auto;
+  width: 100%;
   height: 100%;
+  object-fit: contain;
+  object-position: bottom;
 }
 .history-timeline .history-block .text-wrapper {
   background: rgb(221,238,231);
@@ -4391,6 +4568,16 @@ footer p a {
   padding: 20px;
 }
 
+.purple_bg_container p {
+font-size: 18px;
+  line-height: 1.4;
+}
+
+
+
+
+
+
 /* new  */
 .prvt_bottom {
   display: flex;
@@ -5612,6 +5799,18 @@ footer p a {
 }
 
 /*kanishka end */
+.full_width_parallax {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.full_width_parallax img {
+  width: 100%;
+  height: auto;
+  transform-origin: top center;
+  scale: 1.2;
+}
 
 
 .pullup{ margin-top: -250px}
@@ -5659,3 +5858,67 @@ footer p a {
 .footer_icons > div:hover i {
   color: #A88D49;
 }
+
+/* Search Page */
+.search-container input {
+  padding: 10px 15px;
+  border: 1px solid grey;
+  border-radius: 15px;
+  width: 80%;
+}
+.search-container input[type="submit"] {
+  width: 20%;
+  margin-right: 10px;
+  background-color: #B48E2E;
+  border: none;
+  color: white;
+}
+.search-container form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.search-container .search-result {
+  margin-top: 15px;
+}
+.search-container .search-result .result {
+  display: block;
+  padding: 15px;
+  border-bottom: 1px solid #007aff;
+  text-decoration: none;
+}
+.search-container .search-result .result h4 {
+  font-size: 16px;
+  margin: 0 0 5px 0;
+  color: #A88D49;
+}
+.search-container .search-result .result p {
+  margin: 0;
+  color: rgb(60, 60, 60);
+}
+.search-container .no-results {
+  margin-top: 25px;
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(225, 225, 225);
+  border-radius: 25px;
+}
+.search-container .no-results p {
+  margin: 0;
+}
+
+@media (max-width: 540px) {
+  .search-container form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .search-container input {
+    width: 100%;
+  }
+  .search-container input[type="submit"] {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+}
+/* End Search Page Styles */

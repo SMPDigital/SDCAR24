@@ -50,7 +50,7 @@
   left: 50%;
   transform: translateX(-50%);
   width: max-content;
-  background-color: #219694;
+  background-color: #dbb027;
   color: white;
   padding: 5px 15px;
   border-radius: 5px;
@@ -78,7 +78,7 @@
   transform: translate(-50%, 0);
 }
 .accessibility_panel .accessibility_panel_box.activated svg path {
-  stroke: #219694;
+  stroke: #dbb027;
 }
 /* Accessibility Panel Styles End */
 
