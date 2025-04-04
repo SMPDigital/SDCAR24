@@ -1425,6 +1425,38 @@ header {
 	background: #671835;
 }
 
+.section-header-main-title-bgbox.bg-lightblue {
+	background: #00aeef;
+}
+
+.section-header-main-title-bgbox.bg-blue {
+	background: #15578f;
+}
+
+.section-header-main-title-bgbox.bg-darkblue {
+	background: #073150;
+}
+
+.section-header-main-title-bgbox.bg-darkpurple {
+	background: #492245;
+}
+
+.section-header-main-title-bgbox.bg-darkred {
+	background: #671333;
+}
+
+.section-header-main-title-bgbox.bg-darkgreen {
+	background: #0f4551;
+}
+
+.section-header-main-title-bgbox.bg-darkblue1 {
+	background: #021448;
+}
+
+.section-header-main-title-bgbox.bg-black {
+	background: #201d1d;
+}
+
 img.section-header-main-title-bg {
     position: absolute;
     left: 0;
