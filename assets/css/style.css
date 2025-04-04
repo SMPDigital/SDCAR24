@@ -2668,6 +2668,7 @@ a.slidedown-tooltip:hover img {
   padding: 0 30px;
   position: relative;
   border-top: 3px solid #7DC08A;
+  min-height: 270px;
 }
 .history-timeline .history-block.purple-block .text-wrapper p {
   color: #7A3996;
