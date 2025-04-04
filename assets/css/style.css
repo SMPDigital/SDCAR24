@@ -439,10 +439,13 @@ body {
   position: fixed;
   right: 0;
   top: 0;
-  width: 100%;
+  width: 0;
   height: 100vh;
   z-index: 20;
   background-image: linear-gradient(to top, #f9f2df, #ffffff);
+  visibility: hidden;
+  opacity: 0;
+  overflow: hidden;
 }
 
 .fixed_grid_relative_container {
