@@ -2074,7 +2074,7 @@ body {
 
 .laguage-box a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 17px;
   color: #ffffff !important;
 }
@@ -2170,12 +2170,13 @@ z-index: 3;
   position: relative;
   vertical-align: bottom;
   color: #ffffff;
-  font-size: 45px;
-  font-weight: 500;
+  font-size: 42px;
+  font-weight: 200;
   margin-bottom: 0px;
-  text-decoration:none;
+  text-decoration:
+none;
   line-height: 1;
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .section-header-main-title-bgbox {
@@ -2277,7 +2278,7 @@ font-size: 40px;
   color: #073251;
   width: 90%;
   margin-bottom: 0px;
-  line-height: 1;
+  line-height: 1;   text-transform: uppercase;
 
 }
 
@@ -3612,8 +3613,8 @@ img.img-fluid.section-header-charimanbgimage {
   position: relative;
   vertical-align: bottom;
   color: #ffffff;
-  font-size: 60px;
-  font-weight: 300;
+  font-size: 50px;
+  font-weight: 200;
   margin-bottom: 0px;
   text-decoration: none;
 }
