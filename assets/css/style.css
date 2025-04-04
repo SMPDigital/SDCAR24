@@ -1784,8 +1784,8 @@ z-index: 3;
   position: relative;
   vertical-align: bottom;
   color: #ffffff;
-  font-size: 65px;
-  font-weight: 300;
+  font-size: 55px;
+  font-weight: 600;
   margin-bottom: 0px;
   text-decoration:none;
   line-height: 1;
@@ -1876,7 +1876,7 @@ img.section-header-main-title-bg {
 }
 
 .section-header-main-subtitle {
-  width: 50%;
+  width: 40%;
   display: flex;
   align-items: flex-end;
   padding-left: 30px;
@@ -1885,11 +1885,13 @@ img.section-header-main-title-bg {
 }
 
 .section-header-main-subtitle h2 {
-  font-size: 50px;
+font-size: 40px;
   font-weight: 400;
   color: #073251;
   width: 90%;
   margin-bottom: 0px;
+  line-height: 1;
+
 }
 
 .section-header-main-intro {
@@ -2054,14 +2056,16 @@ a.slidedown-tooltip:hover img {
 }
 
 .direction-text {
-    width: fit-content;
-    background: #ffffff8c;
-    color: #B48E2E;
-    font-size: 16px;
-    fill-opacity: 40%;
-    padding: 5px 15px;
-    border-radius: 50px;
-    border: 1px solid #ffffff;
+width: fit-content;
+  background:#ffffff8c;
+  color: #B48E2E;
+  font-size: 16px;
+  fill-opacity: 40%;
+  padding:10px 20px;
+  border-radius:50px;
+  border:1px solid #ffffff;
+  text-align: right;
+  line-height: 1.2;
 }
 
 .tt-hti-btn {
