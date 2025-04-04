@@ -4535,6 +4535,16 @@ footer p a {
   padding: 20px;
 }
 
+.purple_bg_container p {
+font-size: 18px;
+  line-height: 1.4;
+}
+
+
+
+
+
+
 /* new  */
 .prvt_bottom {
   display: flex;
