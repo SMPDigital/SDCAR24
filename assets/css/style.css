@@ -731,6 +731,65 @@ body {
   background-color: #671835;
 }
 
+@media (max-width: 767px) {
+  .nav_grid {
+    overflow-y: auto;
+  }
+
+  .fixed_grid_relative_container {
+    padding: 120px 30px;
+  }
+
+  .fillers {
+    display: none;
+  }
+
+  .nav_row {
+    height: auto;
+    column-gap: 0;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .nav_item {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .nav_dropdown_container {
+    position: static;
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .nav_item_five {
+    width: 100%;
+  }
+
+  .nav_item_nine {
+    width: 100%;
+  }
+
+  .nav_item > div:first-child {
+    display: none;
+  }
+
+  .nav_item > a {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav_item > a > div:nth-child(2) {
+    display: none;
+  }
+
+  .nav_item > a h1 {
+    font-size: 15px;
+  }
+}
+
 /* New Navigation */
 
 .NavSearchIcon i {
