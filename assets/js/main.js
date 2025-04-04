@@ -159,6 +159,47 @@ $(document).ready(function () {
     target.slideToggle();
   });
 
+
+
+//   let navtl = gsap.timeline({
+// 	paused: true,
+//   })
+
+//   navtl.to(".fixed_grid_nav_container", {
+// 	autoAlpha: 1,
+// 	duration: 0,
+//   })
+//   .to(".fixed_grid_nav_container", {
+// 	width: "100%",
+// 	duration: 0.5,
+//   })
+//   .from(".grid_nav_inside_logo", {
+// 	autoAlpha: 0,
+// 	x: -20,
+// 	duration: 0.5,
+//   })
+//   .from(".grid_nav_close", {
+// 	autoAlpha: 0,
+// 	x: 20,
+// 	duration: 0.5,
+//   }, "-=0.5")
+//   .from(".nav_common", {
+// 	opacity: 0,
+// 	y: 20,
+// 	duration: 0.75,
+// 	stagger: 0.1,
+//   })
+
+
+//   $("#navButton").click(function() {
+// 	navtl.play();
+//   })
+//   $(".grid_nav_close").click(function() {
+// 	navtl.reverse();
+//   })
+
+
+
   if ($(window).width() < 1200) {
     $('.nav_row').contents().unwrap();
 
@@ -214,9 +255,9 @@ gsap.to('.history-timeline', {
 	scrollTrigger: {
 		trigger: '.history-timeline-container',
 		pin: true,
-		start: 'top center',
+		start: 'top 20%',
 		end: '+=2000',
-		scrub: true,
+		scrub: 1,
 		markers: true
 	}
 })

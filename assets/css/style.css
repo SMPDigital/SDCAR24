@@ -439,10 +439,13 @@ body {
   position: fixed;
   right: 0;
   top: 0;
-  width: 100%;
+  width: 0;
   height: 100vh;
   z-index: 20;
   background-image: linear-gradient(to top, #f9f2df, #ffffff);
+  visibility: hidden;
+  opacity: 0;
+  overflow: hidden;
 }
 
 .fixed_grid_relative_container {
@@ -1789,14 +1792,15 @@ header {
 }
 
 .section-header-main-title h1 {
-  z-index: 3;
+z-index: 3;
   position: relative;
   vertical-align: bottom;
   color: #ffffff;
   font-size: 65px;
-  font-weight: 500;
+  font-weight: 300;
   margin-bottom: 0px;
-  text-decoration: none;
+  text-decoration:none;
+  line-height: 1;
 }
 
 .section-header-main-title-bgbox {
@@ -1812,6 +1816,12 @@ header {
 .section-header-main-title-bgbox.bg-merune {
   background: #671835;
 }
+
+.section-header-main-title-bgbox.bg-yellow {
+  background: #B2860B;
+}
+
+
 
 .section-header-main-title-bgbox.bg-lightblue {
   background: #00aeef;
@@ -1859,7 +1869,7 @@ img.section-header-main-title-bg {
   width: 74%;
   display: flex;
   background: rgb(255, 255, 255);
-  background: -moz-linear-gradient(
+/*  background: -moz-linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 24%,
     rgba(249, 242, 223, 1) 73%
@@ -1874,7 +1884,7 @@ img.section-header-main-title-bg {
     rgba(255, 255, 255, 1) 24%,
     rgba(249, 242, 223, 1) 73%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#f9f2df",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#f9f2df",GradientType=1);*/
 }
 
 .section-header-main-subtitle {
@@ -1895,14 +1905,15 @@ img.section-header-main-title-bg {
 }
 
 .section-header-main-intro {
-  width: 45%;
+width: 45%;
   display: flex;
-  padding: 2%;
+  padding:2% 4%;
   align-items: center;
 }
 
 .section-header-main-intro p {
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .section-header-main-secondrow {
@@ -1974,11 +1985,13 @@ img.section-header-main-sectionimg {
 a.util-link-item {
   width: 50%;
   display: inline;
-  font-size: 16px;
-  line-height: 17px;
+font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
   padding: 8px;
   text-decoration: none;
   color: black;
+	
 }
 
 a.util-link-item img {
@@ -2631,7 +2644,6 @@ a.slidedown-tooltip:hover img {
 .history-timeline-container {
   margin-top: 50px;
   width: 100%;
-  background-color: yellow;
   overflow: hidden;
 }
 .history-timeline {
@@ -2640,6 +2652,34 @@ a.slidedown-tooltip:hover img {
 }
 .history-timeline .history-block {
   min-width: calc(100% / 3);
+}
+.history-timeline .history-block .image-wrapper {
+  width: 100%;
+  aspect-ratio: 5/3;
+}
+.history-timeline .history-block .text-wrapper {
+  background: rgb(221,238,231);
+  background: linear-gradient(180deg, rgba(221,238,231,1) 0%, rgba(255,255,255,0) 100%);
+  padding: 0 30px;
+  position: relative;
+  border-top: 3px solid #7DC08A;
+}
+.history-timeline .history-block .white-box {
+  padding: 15px;
+  background-color: white;
+}
+.history-timeline .history-block .year {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  transform: translateY(-100%);
+  width: fit-content;
+  background-color: #7DC08A;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 5px 10px;
+  line-height: 1;
 }
 
 /* chariman section header css start */
