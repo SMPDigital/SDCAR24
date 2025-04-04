@@ -5929,6 +5929,12 @@ font-size: 18px;
 	
 }
 
+@media (max-width: 767px) {
+	.pullup{ margin-top: 0px}
+
+.pullup1{ margin-top: 0px}
+	
+}
 
 
 

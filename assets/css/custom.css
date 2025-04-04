@@ -381,10 +381,11 @@ h1 {
 
 h2 {
   color: #A88D49;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   line-height: 1;
   margin: 10px 0 5px 0;
   font-weight: 600;
+	  text-transform: uppercase;
   
 }
 
