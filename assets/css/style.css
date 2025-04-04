@@ -437,7 +437,7 @@ body {
 
 .fixed_grid_nav_container {
   position: fixed;
-  right: 0;
+  left: 0;
   top: 0;
   width: 100%;
   height: 100vh;
@@ -2372,8 +2372,7 @@ a.slidedown-tooltip:hover img {
 .section-header-main-title.chairman {
     width: 100%;
     height: 50%;
-    position: relative;
-    background: #671835;
+    position: relative;    
     display: flex;
     align-items: self-end;
     padding-left: 30px;
@@ -2395,11 +2394,11 @@ a.slidedown-tooltip:hover img {
 
 .section-header-main-title-bgbox.chairman {
     position: absolute;
-    left: 0;
+    right: 100%;
     bottom: 0;
     width: 100%;
     height: 100%;
-    mix-blend-mode: color-burn;
+    mix-blend-mode: multiply;
     z-index: 2;
 }
 
