@@ -23,6 +23,16 @@
 	  
   </head>
   <body>
+	  
+  	<div class="preloader">
+
+      <div class="loader">
+        <p>LOADING <span class="progress-number">0</span>%</p>
+        <img src="../assets/images/sedco_logo.svg" alt="" />
+
+      </div>
+    </div>
+	  
     <div class="fixed_grid_nav_container">
       <div class="fixed_grid_relative_container">
         <img
@@ -447,24 +457,7 @@
       <div class="tt-sliding-cart-cover cursor-close"></div>
     </div>
 	  
-	<div class="loader-wrap">
-        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
-            <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
-        </svg>
 
-        <div class="loader-wrap-heading">
-            <div class="load-text">
-                <span>L</span>
-                <span>o</span>
-                <span>a</span>
-                <span>d</span>
-                <span>i</span>
-                <span>n</span>
-                <span>g</span>
-            </div>
-        </div>
-    </div>
-	  
 	<div id="smooth-wrapper">
         <div id="smooth-content">	
 	  
@@ -772,6 +765,36 @@
       </div>
     </div>
     <!-- End Slide panel -->
+	  
+  	<script>
+      // Preloader
+      let progress = 0;
+      let progressNumber = document.querySelector(
+        ".preloader .progress-number"
+      );
+      let loadLine = document.querySelector(".preloader .progress-bar-cover");
+
+      function updateProgress(target, duration) {
+        let interval = 20;
+        let step = (target - progress) / (duration / interval);
+
+        let progressInterval = setInterval(() => {
+          progress += step;
+          if (progress >= target) {
+            progress = target;
+            clearInterval(progressInterval);
+          }
+          progressNumber.textContent = Math.round(progress);
+          loadLine.style.width = 100 - progress + "%";
+        }, interval);
+      }
+
+      updateProgress(80, 250);
+
+      window.addEventListener("load", () => {
+        updateProgress(100, 250);
+      });
+    </script>
 
     <script src="../assets/js/libs/jquery-3.7.1.min.js"></script>
 	<script src="../assets/js/libs/bootstrap.min.js"></script>	
