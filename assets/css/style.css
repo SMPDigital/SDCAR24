@@ -1869,7 +1869,7 @@ img.section-header-main-title-bg {
   width: 74%;
   display: flex;
   background: rgb(255, 255, 255);
-  background: -moz-linear-gradient(
+/*  background: -moz-linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 24%,
     rgba(249, 242, 223, 1) 73%
@@ -1884,7 +1884,7 @@ img.section-header-main-title-bg {
     rgba(255, 255, 255, 1) 24%,
     rgba(249, 242, 223, 1) 73%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#f9f2df",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#f9f2df",GradientType=1);*/
 }
 
 .section-header-main-subtitle {
