@@ -1150,6 +1150,42 @@ body {
   background-color: #41858D;
 }
 
+.exe_one_pattern {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(30%, 25%);
+}
+
+.exe_three_pattern {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(35%, 25%);
+}
+
+.exe_five_pattern {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(-40%, -25%);
+}
+
+.exe_six_pattern {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(-60%, 25%);
+}
+
 @media (min-width: 1200px) {
   .nav_item > div:first-child {
     overflow: hidden;
