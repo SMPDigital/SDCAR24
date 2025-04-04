@@ -4716,3 +4716,31 @@ footer p a {
 }
 
 /*kanishka end */
+
+
+.pullup{ margin-top: -200px}
+.footer_icons {
+  padding: 0 0 10px 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.footer_icons > div {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_icons > div i {
+  font-size: 20px;
+  color: #5a5b5d;
+  transition: all 0.25s ease-in-out;
+}
+
+.footer_icons > div:hover i {
+  color: #A88D49;
+}
