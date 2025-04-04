@@ -1092,7 +1092,7 @@ body {
 .exe_name {
   text-decoration: none;
   color: #fff;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 600;
   line-height: 1.1;
   margin: 0;
@@ -1216,6 +1216,10 @@ body {
   .bod_main_container {
     padding: 0 70px;
   }
+
+  .exe_main_container {
+    padding: 0 70px;
+  }
 }
 
 @media (max-width: 1300px) {
@@ -1224,6 +1228,10 @@ body {
   }
 
   .bod_main_container {
+    padding: 0 65px;
+  }
+
+  .exe_main_container {
     padding: 0 65px;
   }
 }
@@ -1388,6 +1396,10 @@ body {
   }
 
   .bod_main_container {
+    padding: 0 60px;
+  }
+
+  .exe_main_container {
     padding: 0 60px;
   }
 }
@@ -1555,6 +1567,10 @@ body {
     padding: 0 45px;
     margin: 150px 0 -300px 0;
   }
+
+  .exe_main_container {
+    padding: 0 45px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1721,6 +1737,10 @@ body {
     margin: 150px 0 0 0;
   }
 
+  .exe_main_container {
+    padding: 0 20px;
+  }
+
   .bod_name {
     font-size: 15px;
   }
@@ -1731,6 +1751,24 @@ body {
 
   .bod_member_seven_main {
     transform: translateY(0%);
+  }
+
+  .exe_filler {
+    display: none;
+  }
+
+  .exe_main_container {
+    margin: 50px 0 0 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .exe_position {
+    font-size: 13px;
+  }
+
+  .exe_name {
+    font-size: 14px;
   }
 }
 
