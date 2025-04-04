@@ -2723,12 +2723,12 @@ width: fit-content;
   left: 0%;
   display: block;
   width: max-content;
-  background: #fff;
-  color: #000;
-  border: 1px solid #d8ac27;
-  padding: 8px 15px;
+  background: #000;
+  color: #D8AC27;
+  padding: 7.5px 20px;
   border-radius: 50px;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 400;
   opacity: 0;
   transform: translateX(-45%) translateY(30px);
   transition: all 0.4s ease;
@@ -6392,3 +6392,42 @@ table ul.list.list-disc.before-black li::before {
 }
 
 /* custom css end */
+
+a[tooltip] {
+  position: relative;
+}
+
+a[tooltip]::after {
+  content: attr(tooltip);
+  position: absolute;
+  width: max-content;
+  max-width: 250px;
+  text-align: center;
+  top: calc(100%);
+  left: 50%;
+  transform: translateX(-50%) scale(0.95) translateY(20px);
+  pointer-events: none;
+  font-size: 11px;
+  text-transform: uppercase;
+  background-color: black;
+  color: #D8AC27;
+  padding: 7.5px 20px;
+  z-index: 9;
+  letter-spacing: 1px;
+  font-weight: 400;
+  border-radius: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  visibility: hidden;
+  opacity: 0;
+  transform-origin: bottom center;
+  transition: 250ms ease-out;
+}
+
+a[tooltip]:hover::after {
+  visibility: visible;
+  top: calc(100% + 10px);
+  transform: translateX(-50%) scale(1) translateY(0);
+  opacity: 1;
+}
+/* End Tooltips */
