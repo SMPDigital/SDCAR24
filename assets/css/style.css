@@ -2631,7 +2631,6 @@ a.slidedown-tooltip:hover img {
 .history-timeline-container {
   margin-top: 50px;
   width: 100%;
-  background-color: yellow;
   overflow: hidden;
 }
 .history-timeline {
@@ -2640,6 +2639,34 @@ a.slidedown-tooltip:hover img {
 }
 .history-timeline .history-block {
   min-width: calc(100% / 3);
+}
+.history-timeline .history-block .image-wrapper {
+  width: 100%;
+  aspect-ratio: 5/3;
+}
+.history-timeline .history-block .text-wrapper {
+  background: rgb(221,238,231);
+  background: linear-gradient(180deg, rgba(221,238,231,1) 0%, rgba(255,255,255,0) 100%);
+  padding: 0 30px;
+  position: relative;
+  border-top: 3px solid #7DC08A;
+}
+.history-timeline .history-block .white-box {
+  padding: 15px;
+  background-color: white;
+}
+.history-timeline .history-block .year {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  transform: translateY(-100%);
+  width: fit-content;
+  background-color: #7DC08A;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 5px 10px;
+  line-height: 1;
 }
 
 /* chariman section header css start */

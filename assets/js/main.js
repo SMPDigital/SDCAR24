@@ -214,9 +214,9 @@ gsap.to('.history-timeline', {
 	scrollTrigger: {
 		trigger: '.history-timeline-container',
 		pin: true,
-		start: 'top center',
+		start: 'top 20%',
 		end: '+=2000',
-		scrub: true,
+		scrub: 1,
 		markers: true
 	}
 })
