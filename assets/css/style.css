@@ -4377,6 +4377,18 @@ footer p a {
   font-size: 22px;
 }
 
+.cop_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  text-align: center;
+}
+
+.cop_item img {
+  width: 70px;
+}
+
 /*kanishka end */
 
 
