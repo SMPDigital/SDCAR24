@@ -649,7 +649,6 @@
       let progressNumber = document.querySelector(
         ".preloader .progress-number"
       );
-      let loadLine = document.querySelector(".preloader .progress-bar-cover");
 
       function updateProgress(target, duration) {
         let interval = 20;
@@ -662,7 +661,6 @@
             clearInterval(progressInterval);
           }
           progressNumber.textContent = Math.round(progress);
-          loadLine.style.width = 100 - progress + "%";
         }, interval);
       }
 

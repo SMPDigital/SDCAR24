@@ -417,19 +417,24 @@ if($(window).width() > 992){
 	let historyTimelineContainer = document.querySelector('.history-timeline-container');
 
 	// Calculate the total distance to scroll
-	let historyTimelineDistance = historyTimeline.scrollWidth - historyTimelineContainer.offsetWidth;
 
-	gsap.to('.history-timeline', {
-		x: -historyTimelineDistance,
-		scrollTrigger: {
-			trigger: '.history-timeline-container',
-			pin: true,
-			start: 'center center',
-			end: '+=2000',
-			scrub: 1,
-			markers: false
-		}
-	})
+	if(historyTimeline){
+		let historyTimelineDistance = historyTimeline.scrollWidth - historyTimelineContainer.offsetWidth;
+	
+		gsap.to('.history-timeline', {
+			x: -historyTimelineDistance,
+			scrollTrigger: {
+				trigger: '.history-timeline-container',
+				pin: true,
+				start: 'center center',
+				end: '+=2000',
+				scrub: 1,
+				markers: false
+			}
+		})
+	}
+
+
 }
 else {
 	// let historyBlock = gsap.utils.toArray('.history-timeline .history-block');
