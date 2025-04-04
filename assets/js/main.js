@@ -527,8 +527,30 @@ else {
 
 }
 
-
-// ScrollTrigger.create()
+const swiper = new Swiper('.catgories-swiper', {
+	loop: true,
+	slidesPerView: 3,
+	effect: "coverflow",
+	centeredSlides: true,
+	coverflowEffect: {
+		rotate: 0,
+		stretch: 0,
+		depth: 200,
+		modifier: 1,
+		slideShadows: true,
+	},
+  
+	// Navigation arrows
+	navigation: {
+	  nextEl: '.swiper-next',
+	  prevEl: '.swiper-prev',
+	},
+  
+	// And if we need scrollbar
+	scrollbar: {
+	  el: '.swiper-scrollbar',
+	},
+});
 
 
 
