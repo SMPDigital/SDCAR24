@@ -1159,6 +1159,14 @@ body {
   .desktop_break {
     display: none;
   }
+
+  .bod_name {
+    font-size: 15px;
+  }
+
+  .bod_position {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -1306,6 +1314,22 @@ body {
 
   .order_ten {
     order: 10;
+  }
+
+  .bod_member_seven_main {
+    transform: translateY(-50%);
+  }
+
+  .bod_member_eight_main {
+    transform: translateY(-100%);
+  }
+
+  .bod_member_nine_main {
+    transform: translateY(-150%);
+  }
+
+  .bod_main_container {
+    margin: 150px 0 -300px 0;
   }
 }
 
