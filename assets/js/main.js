@@ -188,11 +188,24 @@ $(document).ready(function () {
 
   $(".nav_item").click(function() {
 	let target = $(this).find(".nav_dropdown_container");
+	let other = $(".nav_dropdown_container").not(target);
+	let otherNav = $(".nav_item").not(this);
+	let navItemFive = $(".nav_item_five")
+
+
+	navItemFive.removeClass("active")
+	otherNav.removeClass("active")
+	other.slideUp();
 	$(this).toggleClass("active")
 	target.slideToggle();
   })
   $(".nav_item_five").click(function() {
 	let target = $(this).find(".nav_dropdown_container");
+	let other = $(".nav_dropdown_container").not(target);
+	let otherNav = $(".nav_item").not(this);
+
+	otherNav.removeClass("active")
+	other.slideUp();
 	$(this).toggleClass("active")
 	target.slideToggle();
   })
