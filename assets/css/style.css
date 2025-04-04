@@ -824,6 +824,18 @@ body {
   aspect-ratio: 5/4;
 }
 
+.bod_member_five {
+  background-color: #E7C77A;
+}
+
+.bod_member_six {
+  background-color: #F5897B;
+}
+
+.bod_member_seven {
+  background-color: #A0774F;
+}
+
 @media (min-width: 1200px) {
   .nav_item > div:first-child {
     overflow: hidden;
@@ -2756,8 +2768,10 @@ width: fit-content;
   padding-left: 30px;
 }
 .history-timeline .history-block .image-wrapper img {
-  width: auto;
+  width: 100%;
   height: 100%;
+  object-fit: contain;
+  object-position: bottom;
 }
 .history-timeline .history-block .text-wrapper {
   background: rgb(221,238,231);

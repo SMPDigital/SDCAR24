@@ -411,6 +411,27 @@ if($(window).width() > 992){
 		}
 	})
 }
+else {
+	// let historyBlock = gsap.utils.toArray('.history-timeline .history-block');
+
+	// historyBlock.forEach(element => {
+
+	// 	gsap.from(element, {
+	// 		x: 50,
+	// 		opacity: 0,
+	// 		duration: 1,
+	// 		scrollTrigger: {
+	// 			trigger: element,
+	// 			start: 'top 80%',  // Adjusted start position
+	// 			toggleActions: "play none none none", // Ensures it plays only once
+	// 			markers: true
+	// 		}
+	// 	})
+
+	// });
+	
+
+}
 
 
 // ScrollTrigger.create()
