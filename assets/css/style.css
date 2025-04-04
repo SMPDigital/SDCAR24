@@ -6080,4 +6080,8 @@ div.table-wrap {
 	padding: 10px;
 }
 
+table ul.list.list-disc.before-black li::before {
+	color: #000000;
+}
+
 /* custom css end */
