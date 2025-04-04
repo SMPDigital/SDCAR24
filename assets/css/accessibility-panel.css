@@ -51,10 +51,11 @@
   transform: translateX(-50%);
   width: max-content;
   background-color: #dbb027;
-  color: white;
+  color: #000000;
   padding: 5px 15px;
   border-radius: 5px;
   font-size: 14px;
+  font-weight: 400;
   transition: 300ms;
   visibility: hidden;
   opacity: 0;
