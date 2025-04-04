@@ -43,6 +43,10 @@
     "name": "Who We Are",
     "slug": "#",
     "children": [
+	  {
+        "name": "Who We Are",
+        "slug": "who_we_are/who_we_are.html"
+      },
       {
         "name": "History of Saudi Economic and Development Company",
         "slug": "who_we_are/history_of_saudi_economic_and_development_company.html"

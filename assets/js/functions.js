@@ -69,6 +69,7 @@ function nextPrevPages() {
     nextElement2.attr("href", nextPath);
   } else {
     nextElement.remove();
+	nextElement2.remove();
     $(".next_prev_links .white_line").remove();
   }
 
@@ -82,6 +83,7 @@ function nextPrevPages() {
     prevElement2.attr("href", prevPath);
   } else {
     prevElement.remove();
+	prevElement2.remove();
     $(".next_prev_links .white_line").remove();
   }
 }
