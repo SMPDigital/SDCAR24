@@ -4314,14 +4314,20 @@ main .content-area {
 footer .footer > div:first-child {
   padding: 20px 65px 20px 65px;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   background-color: rgb(57, 57, 57);
   width: 100%;
   margin: auto;
 }
 
-footer .footer > div:last-child {
+footer .footer > div:first-child p {
+  font-size: 12px !important;
+  color: rgb(179, 179, 179);
+  margin: 0;
+}
+
+/* footer .footer > div:last-child {
   padding: 30px;
   display: flex;
   align-items: flex-end;
@@ -4333,18 +4339,19 @@ footer .footer > div:last-child p {
   font-size: 12px !important;
   color: rgb(179, 179, 179);
   margin: 0;
-}
+} */
 
 footer p a {
   color: #b9a673;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   footer .footer > div:first-child {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 50px 15px;
+    padding: 40px;
+    gap: 20px;
   }
 }
 
@@ -6394,7 +6401,7 @@ font-size: 18px;
 
 
 .footer_icons {
-  padding: 0 0 10px 0;
+  /* padding: 0 0 10px 0; */
   display: flex;
   justify-content: flex-start;
   gap: 20px;
