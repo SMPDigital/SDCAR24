@@ -2768,10 +2768,8 @@ width: fit-content;
   padding-left: 30px;
 }
 .history-timeline .history-block .image-wrapper img {
-  width: 100%;
+  width: auto;
   height: 100%;
-  object-fit: contain;
-  object-position: bottom;
 }
 .history-timeline .history-block .text-wrapper {
   background: rgb(221,238,231);
@@ -5626,6 +5624,18 @@ footer p a {
 }
 
 /*kanishka end */
+.full_width_parallax {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.full_width_parallax img {
+  width: 100%;
+  height: auto;
+  transform-origin: top center;
+  scale: 1.2;
+}
 
 
 .pullup{ margin-top: -250px}
