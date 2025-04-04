@@ -58,6 +58,13 @@ $(function () {
 		{ scale: 1, duration: 2.5, ease: "power2.inOut" },
 		"<" // Start at the same time as ".section-header-leftbar-img"
 	);
+	
+	tl.fromTo(
+		".section-header-charimanbgimage",
+		{ scale: 1.2 }, // Starting scale (from)
+		{ scale: 1, duration: 2.5, ease: "power2.inOut" },
+		"<" // Start at the same time as ".section-header-leftbar-img"
+	);
 
 	tl.fromTo(
 		".section-header-main-sectionimg",
@@ -92,52 +99,9 @@ $(function () {
 		ease: "power2.out",
 		stagger: 0.1, 
 	}, "<"); 
-	
-	
-	
-//    tl.from(
-//        ".header-section .section-info h2",
-//        {
-//            y: 30,
-//            opacity: 0,
-//            duration: 0.5,
-//            ease: "back.out(1.7)",
-//        },
-//        "<"
-//    );
-//    tl.from(
-//        ".header-section .section-info p",
-//        {
-//            y: 50,
-//            opacity: 0,
-//            duration: 1,
-//            ease: "back.out(1.5)",
-//        },
-//        "-=1.5"
-//    );
-//    tl.from(
-//        ".header-section .page-titles .page-actions",
-//        {
-//            y: -20,
-//            opacity: 0,
-//            duration: 0.5,
-//            ease: "back.out(1.2)",
-//        },
-//        "<"
-//    );
-//    tl.from(
-//        ".header-section .page-titles h1",
-//        {
-//            y: 50,
-//            opacity: 0,
-//            duration: 1,
-//            ease: "back.out(1.7)",
-//        },
-//        "-=90%"
-//    );
-//    tl.to(".loader-wrap", {
-//        y: -1500,
-//    });
+    tl.to(".loader-wrap", {
+        y: -1500,
+    });
     tl.to(".loader-wrap", {
         zIndex: -1,
         display: "none",
