@@ -738,8 +738,8 @@ body {
 }
 
 .bod_main_container {
-  padding: 0 50px;
-  margin: 100px 0;
+  padding: 0 25px;
+  margin: 150px 0;
 }
 
 .bod_member_image img {
@@ -799,6 +799,23 @@ body {
   right: 0;
   bottom: 0;
   transform: translate(50%, 25%);
+}
+
+.bod_member_three {
+  background-color: #3C88C8;
+}
+
+.bod_member_four {
+  background-color: #4A2545;
+}
+
+.bod_four_pattern {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(20%, 40%);
 }
 
 @media (min-width: 1200px) {
