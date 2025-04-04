@@ -2768,8 +2768,10 @@ width: fit-content;
   padding-left: 30px;
 }
 .history-timeline .history-block .image-wrapper img {
-  width: auto;
+  width: 100%;
   height: 100%;
+  object-fit: contain;
+  object-position: bottom;
 }
 .history-timeline .history-block .text-wrapper {
   background: rgb(221,238,231);
