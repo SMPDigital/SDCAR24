@@ -734,6 +734,20 @@ body {
   background-color: #671835;
 }
 
+@media (min-width: 1200px) {
+  .nav_item > div:first-child {
+    overflow: hidden;
+  }
+
+  .nav_item > div:first-child img {
+    transition: all 0.35s ease-in-out;
+  }
+
+  .nav_item:hover img {
+    transform: scale(1.05);
+  }
+}
+
 @media (min-width: 1300px) and (max-width: 1399px) {
   .nav_item > a h1 {
     font-size: 14px;
@@ -747,7 +761,6 @@ body {
     font-size: 14px;
   }
 }
-
 
 @media (max-width: 1300px) {
   .fixed_grid_relative_container {
