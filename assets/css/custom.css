@@ -253,7 +253,7 @@ body {
 .white-counter-text{
 	font-size: 2em;
 	color: white;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .dark-green-bg{
@@ -384,14 +384,14 @@ h2 {
   font-size: 2.5rem;
   line-height: 1;
   margin: 10px 0 5px 0;
-  font-weight: 600;
+  font-weight: 500;
   
 }
 
 h3 {
   font-size: 2rem;
   color: #A88D49;
-  font-weight: 600;
+  font-weight: 500;
   margin: 0;
   line-height: 1;
   margin: 10px 0 5px 0;
@@ -408,7 +408,7 @@ h4 {
   color: #3F367D;
   line-height: 1.2;
   margin: 10px 0px 5px 0px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 h5 {
@@ -429,7 +429,7 @@ h6 {
 
 p {
   font-size: 18px;
-  line-height: 1.4;
+  line-height: 1.3;
   margin: 5px 0px 15px 0px;
   font-weight: 200;
 	color: #252525;
@@ -441,7 +441,7 @@ p.lifter {
   margin: 0;
   margin-bottom: 15px;
   font-weight: 200;
-	line-height: 1.3;
+	line-height: 1.2;
 }
 
 p.lifter1 {
@@ -458,6 +458,7 @@ p.lifter2 {
   margin: 0;
   margin-bottom: 15px;
   font-weight: 200;
+	  line-height: 1.2;
 }
 
 

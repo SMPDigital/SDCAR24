@@ -315,7 +315,7 @@ body {
 
 .navLogoText p:nth-child(1) {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   margin: 0;
   line-height: 1;
 }
@@ -698,7 +698,7 @@ body {
   font-size: 15px;
   color: #fff;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.1;
   margin: 0;
   padding: 0;
@@ -927,7 +927,7 @@ body {
   text-decoration: none;
   color: #fff;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.1;
   margin: 0;
   padding: 0;
@@ -2171,7 +2171,7 @@ z-index: 3;
   vertical-align: bottom;
   color: #ffffff;
   font-size: 45px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 0px;
   text-decoration:none;
   line-height: 1;
@@ -2368,7 +2368,7 @@ a.util-link-item {
   display: inline;
 font-size: 14px;
   line-height: 18px;
-  font-weight: 600;
+  font-weight: 300;
   padding: 8px;
   text-decoration: none;
   color: black;
@@ -3283,7 +3283,7 @@ img.img-fluid.section-header-charimanbgimage {
 
 .section-header-chariman-message p {
   font-size: 3rem;
-	line-height: 1.3;	
+	line-height: 1.2;	
 	
   /*	line-height: 26px;*/
 }
