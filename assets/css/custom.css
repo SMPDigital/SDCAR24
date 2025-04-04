@@ -153,13 +153,13 @@ body {
 
 .arsptopic {
 	position: absolute;
-	top: -40px;
+	top: 0;
 	left: 50%;
-	transform: translateX(-50%);
-	padding: 10px;
-	background-color: #F9F6F0;
+	transform: translate(-50%, -75%);
+	padding: 10px 15px;
+	background-image: linear-gradient(to bottom, #F9F6F0, #fff);
 	font-size: 18px;
-  	line-height: 22px;
+  line-height: 22px;
 	text-align: center;
 }
 
