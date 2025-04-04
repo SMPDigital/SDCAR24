@@ -3271,7 +3271,7 @@ img.img-fluid.section-header-simpleimage {
 .section-header-simple-pharagraph {
   width: 80%;
   display: flex;
-  padding: 2% 5% 2% 2%;
+  padding: 2% 5% 2% 5%;
   align-items: center;
   height: 100%;
 }
