@@ -5,7 +5,8 @@
     "children": [
       {
         "name": "About the Report",
-        "slug": "about_the_report/about_the_report.html"
+        "slug": "about_the_report/about_the_report.html",
+		"pdf": "6-7",
       }
     ]
   },
@@ -15,7 +16,8 @@
     "children": [
       {
         "name": "Highlights",
-        "slug": "highlights/highlights.html"
+        "slug": "highlights/highlights.html",
+		"pdf": "8-9",
       }
     ]
   },
@@ -25,7 +27,8 @@
     "children": [
       {
         "name": "Chairman's Statement",
-        "slug": "chairmans_statement/chairmans_statement.html"
+        "slug": "chairmans_statement/chairmans_statement.html",
+		"pdf": "10-11",
       }
     ]
   },
@@ -35,7 +38,8 @@
     "children": [
       {
         "name": "Chief Executive Officer's Message",
-        "slug": "chief_executive_officers_message/chief_executive_officers_message.html"
+        "slug": "chief_executive_officers_message/chief_executive_officers_message.html",
+		"pdf": "12-13",
       }
     ]
   },
@@ -45,15 +49,18 @@
     "children": [
 	  {
         "name": "Who We Are",
-        "slug": "who_we_are/who_we_are.html"
+        "slug": "who_we_are/who_we_are.html",
+		"pdf": "15",
       },
       {
         "name": "History of Saudi Economic and Development Company",
-        "slug": "who_we_are/history_of_saudi_economic_and_development_company.html"
+        "slug": "who_we_are/history_of_saudi_economic_and_development_company.html",
+		"pdf": "16-17",
       },
       {
         "name": "Driving Prosperity for Generations to Come",
-        "slug": "who_we_are/driving_prosperity_for_generations_to_come.html"
+        "slug": "who_we_are/driving_prosperity_for_generations_to_come.html",
+		"pdf": "18",
       }
     ]
   },
@@ -63,31 +70,38 @@
     "children": [
       {
         "name": "Strategic Direction",
-        "slug": "strategic_direction/strategic_direction.html"
+        "slug": "strategic_direction/strategic_direction.html",
+		"pdf": "20-21",
       },
       {
         "name": "Strategic Enablers",
-        "slug": "strategic_direction/strategic_enablers.html"
+        "slug": "strategic_direction/strategic_enablers.html",
+		"pdf": "22",
       },
       {
         "name": "Progress in Motion",
-        "slug": "strategic_direction/progress_in_motion.html"
+        "slug": "strategic_direction/progress_in_motion.html",
+		"pdf": "23",
       },
       {
         "name": "Our Business Model",
-        "slug": "strategic_direction/our_business_model.html"
+        "slug": "strategic_direction/our_business_model.html",
+		"pdf": "24",
       },
       {
         "name": "Digitalization",
-        "slug": "strategic_direction/digitalization.html"
+        "slug": "strategic_direction/digitalization.html",
+		"pdf": "25-26",
       },
       {
         "name": "Investor Relations",
-        "slug": "strategic_direction/investor_relations.html"
+        "slug": "strategic_direction/investor_relations.html",
+		"pdf": "27",
       },
       {
         "name": "Our Team",
-        "slug": "strategic_direction/our_team.html"
+        "slug": "strategic_direction/our_team.html",
+		"pdf": "28",
       }
     ]
   },
@@ -97,11 +111,13 @@
     "children": [
       {
         "name": "Corporate Investment",
-        "slug": "investment_impact/corporate_investment.html"
+        "slug": "investment_impact/corporate_investment.html",
+		"pdf": "30-32",
       },
       {
         "name": "Real Estate Group",
-        "slug": "investment_impact/real_estate_group.html"
+        "slug": "investment_impact/real_estate_group.html",
+		"pdf": "33-35",
       }
     ]
   },
@@ -111,19 +127,23 @@
     "children": [
       {
         "name": "Fulfilling our Sustainability Promise",
-        "slug": "social_and_environmental_impact/fulfilling_our_sustainability_promise.html"
+        "slug": "social_and_environmental_impact/fulfilling_our_sustainability_promise.html",
+		"pdf": "37-39",
       },
       {
         "name": "Environmental Review",
-        "slug": "social_and_environmental_impact/environmental_review.html"
+        "slug": "social_and_environmental_impact/environmental_review.html",
+		"pdf": "40",
       },
       {
         "name": "Social Review",
-        "slug": "social_and_environmental_impact/social_review.html"
+        "slug": "social_and_environmental_impact/social_review.html",
+		"pdf": "41-45",
       },
       {
         "name": "2024 Awards and Achievements",
-        "slug": "social_and_environmental_impact/2024_awards_and_achievements.html"
+        "slug": "social_and_environmental_impact/2024_awards_and_achievements.html",
+		"pdf": "46",
       }
     ]
   },
@@ -133,15 +153,18 @@
     "children": [
       {
         "name": "Board of Directors",
-        "slug": "our_ethics/board_of_directors.html"
+        "slug": "our_ethics/board_of_directors.html",
+		"pdf": "48-49",
       },
       {
         "name": "Executive Team",
-        "slug": "our_ethics/executive_team.html"
+        "slug": "our_ethics/executive_team.html",
+		"pdf": "50-51",
       },
       {
         "name": "Corporate Governance",
-        "slug": "our_ethics/corporate_governance.html"
+        "slug": "our_ethics/corporate_governance.html",
+		"pdf": "52-57",
       }
     ]
   },
@@ -151,15 +174,18 @@
     "children": [
       {
         "name": "Mapped Material Topics",
-        "slug": "annexes/mapped_material_topics.html"
+        "slug": "annexes/mapped_material_topics.html",
+		"pdf": "59",
       },
       {
         "name": "Human Resource",
-        "slug": "annexes/human_resource.html"
+        "slug": "annexes/human_resource.html",
+		"pdf": "60",
       },
       {
         "name": "GRI content Index",
-        "slug": "annexes/gri_content_index.html"
+        "slug": "annexes/gri_content_index.html",
+		"pdf": "61-66",
       }
     ]
   }
