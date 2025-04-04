@@ -390,6 +390,20 @@ $(document).ready(function () {
 	  })
   }
 
+  let bodtl = gsap.timeline({
+	  scrollTrigger: {
+		  trigger: ".bod_one",
+		  start: "top 65%",
+		  scrub: false,
+		  markers: true,
+		  toggleActions: "play none none reverse"
+	  }
+  });
+
+
+  bodtl
+  .from(".bod_main", {x: -20, autoAlpha: 0, duration: 0.5, stagger: 0.05})
+
 
   $(".NavSearchIcon").click(function () {
     $(".searchWrapper").addClass("active");

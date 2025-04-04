@@ -1503,6 +1503,10 @@ body {
   .bod_position {
     font-size: 15px;
   }
+
+  .bod_member_seven_main {
+    transform: translateY(0%);
+  }
 }
 
 /* New Navigation */
