@@ -1747,7 +1747,7 @@ header {
 }
 
 .section-header-left-imagebox {
-  height: 80%;
+  height: 72%;
   position: relative;
   overflow: hidden;
 }
@@ -1763,7 +1763,7 @@ header {
 .section-header-left-plainbox {
   width: 100%;
   background: #f9f3e0;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1.5 / 1;
 }
 
 .section-header-main {
@@ -1913,10 +1913,10 @@ img.section-header-main-title-bg {
 .section-header-main-directionbox {
   position: relative;
   width: 26%;
-  height: 60%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   background: #f9f3e0;
   z-index: 2;
 }
@@ -1993,10 +1993,10 @@ a.util-link-item span {
 }
 
 .next-previous-box {
+  height: 90px;
   display: flex;
   justify-content: flex-end;
-  padding: 3%;
-  padding-bottom: 5%;
+  padding: 15px;
   background: #f9f3e0;
   position: relative;
 }
@@ -2026,17 +2026,16 @@ a.slidedown-tooltip:hover img {
 .next-previous-box a#prevlink span,
 .next-previous-box a#nextlink span {
   position: absolute;
-  height: 90px;
+  height: calc(90px* 0.65);
   width: 100%;
   top: 0%;
   left: 0;
   display: block;
   background: #f9f3e0;
-  padding: 5%;
+  padding: 10px;
   font-size: 20px;
   color: #000000;
   display: block;
-  /*    border: 1px solid #000000;*/
   transition: all 0.5s ease-in-out;
   z-index: -1;
 }
