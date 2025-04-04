@@ -1876,7 +1876,7 @@ img.section-header-main-title-bg {
 }
 
 .section-header-main-subtitle {
-  width: 55%;
+  width: 50%;
   display: flex;
   align-items: flex-end;
   padding-left: 30px;
@@ -1900,8 +1900,12 @@ width: 45%;
 }
 
 .section-header-main-intro p {
-  font-size: 24px;
-  line-height: 30px;
+
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.3;
+	
+	
 }
 
 .section-header-main-secondrow {
@@ -5516,6 +5520,22 @@ footer p a {
 .pullup{ margin-top: -200px}
 
 .pullup1{ margin-top: -100px}
+
+
+@media screen and (max-width: 1590px) {
+	
+.pullup{ margin-top: -150px}
+
+.pullup1{ margin-top: -50px}
+
+
+	
+}
+
+
+
+
+
 
 .footer_icons {
   padding: 0 0 10px 0;
