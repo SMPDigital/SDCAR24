@@ -186,7 +186,16 @@ $(document).ready(function () {
   });
 
 
-  
+  $(".nav_item").click(function() {
+	let target = $(this).find(".nav_dropdown_container");
+	target.slideToggle();
+  })
+  $(".nav_item_five").click(function() {
+	let target = $(this).find(".nav_dropdown_container");
+	target.slideToggle();
+  })
+
+
   $(".NavSearchIcon").click(function () {
     $(".searchWrapper").addClass("active");
   });
