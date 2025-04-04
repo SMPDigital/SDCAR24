@@ -811,9 +811,18 @@ body {
   margin: 150px 0 -100px 0;
 }
 
+.bod_member_image {
+  overflow: hidden;
+}
+
 .bod_member_image img {
   width: 100%;
   height: auto;
+  transition: all 0.25s ease-in-out;
+}
+
+.bod_main:hover .bod_member_image img {
+  transform: scale(1.1);
 }
 
 .bod_common {
