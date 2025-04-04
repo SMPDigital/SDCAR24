@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 34.79 34.79">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #fff;
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="cls-2" d="m0,17.4c0,9.61,7.79,17.39,17.39,17.39s17.39-7.79,17.39-17.39S27,0,17.39,0,0,7.79,0,17.4"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="58.03" y1="713.88" x2="59.03" y2="713.88" gradientTransform="translate(-2018.65 24851.87) scale(34.79 -34.79)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#014d45"/>
+      <stop offset=".6" stop-color="#106b6f"/>
+      <stop offset="1" stop-color="#1a7d87"/>
+    </linearGradient>
+  </defs>
+  <g class="cls-3">
+    <rect class="cls-4" x="0" y="0" width="34.79" height="34.79"/>
+  </g>
+  <path class="cls-1" d="m11.13,20.82h-5.26v-3.99s.35-2.77,2.63-2.77l2.28,2.25,2.11-2.25s.7,0,1.84.87"/>
+  <line class="cls-1" x1="7.85" y1="17.72" x2="7.85" y2="20.73"/>
+  <path class="cls-1" d="m11.03,13.3c1.11,0,2.01-1.1,2.01-2.47s-.9-2.47-2.01-2.47-2.01,1.1-2.01,2.47.9,2.47,2.01,2.47Z"/>
+  <path class="cls-1" d="m23.65,20.82h5.26v-3.99s-.35-2.77-2.63-2.77l-2.28,2.25-2.11-2.25s-.7,0-1.84.87"/>
+  <line class="cls-1" x1="26.94" y1="17.72" x2="26.94" y2="20.73"/>
+  <path class="cls-1" d="m23.76,13.3c-1.11,0-2.01-1.1-2.01-2.47s.9-2.47,2.01-2.47,2.01,1.1,2.01,2.47-.9,2.47-2.01,2.47Z"/>
+  <path class="cls-1" d="m18.38,26.94h4.15v-3.99s-.35-2.77-2.64-2.77l-2.29,2.25-2.12-2.25s-.7,0-1.85.87c-1.15.87-1.28,1.65-1.37,3.25l.09,2.73,3.84-.07,2.2-.02Z"/>
+  <line class="cls-1" x1="20.55" y1="23.83" x2="20.55" y2="26.84"/>
+  <path class="cls-1" d="m17.38,19.41c-1.11,0-2.01-1.1-2.01-2.47s.9-2.47,2.01-2.47,2.01,1.1,2.01,2.47-.9,2.47-2.01,2.47Z"/>
+  <line class="cls-1" x1="14.54" y1="23.83" x2="14.54" y2="26.84"/>
+</svg>
