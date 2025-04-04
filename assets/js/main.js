@@ -1,10 +1,4 @@
-$(function () {
-
-    "use strict";	
-	
-    /* =============================================================================
-    -------------------------------  Preloader svg   -------------------------------
-    ============================================================================= */
+function preloaderStart(){
 	gsap.registerPlugin(SplitText);
 
 	// Use GSAP's SplitText (not SplitType)
@@ -13,26 +7,37 @@ $(function () {
 	const splitTextPhara = new SplitText(".section-header-main-intro p", { type: "words" });
 	const splitTextPhara2 = new SplitText(".section-header-chariman-message p", { type: "words" });
 
-	const svg = document.getElementById("svg");
+
 	const tl = gsap.timeline();
-	const curve = "M0 502S175 272 500 272s500 230 500 230V0H0Z";
-	const flat = "M0 2S175 1 500 1s500 1 500 1V0H0Z";
 
-	tl.to(".loader-wrap-heading .load-text , .loader-wrap-heading .cont", {
-		delay: 1.5,
-		y: -100,
+	// tl.to(".preloader img", {
+	// 	opacity: 0,
+	// 	scale: 0.5,
+	// 	duration: 0.5,
+	// 	ease: "power2.out",
+	//   });
+	  tl.to(
+	".preloader .loader",
+	{
+		scale: 0,
 		opacity: 0,
-	});
-
-	tl.to(svg, {
-		duration: 0.5,
-		attr: { d: curve },
-		ease: "power2.easeIn",
-	}).to(svg, {
-		duration: 0.5,
-		attr: { d: flat },
-		ease: "power2.easeOut",
-	});
+		duration: 0.75,
+		ease: "power2.inOut",
+	},
+	"<+=15%"
+	);
+	tl.to(
+	".preloader",
+	{
+		height: 0,
+		duration: 1,
+		ease: "power3.inOut",
+		onComplete: () => {
+		$(".preloader").hide();
+		},
+	},
+	"<+=50%"
+	);
 
 	tl.to(".section-header-main-title-bgbox", {
 		top: "0%",
@@ -116,12 +121,13 @@ $(function () {
         zIndex: -1,
         display: "none",
     });
-});
+};
 
 
 
 // SVG animation start
 $(window).on("load", function () {
+preloaderStart()
   let svgAnimObjects = $(".svg-animate");
 
   for (let object of svgAnimObjects) {
