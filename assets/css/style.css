@@ -808,7 +808,7 @@ body {
 
 .bod_main_container {
   padding: 0 25px;
-  margin: 150px 0;
+  margin: 150px 0 -100px 0;
 }
 
 .bod_member_image img {
