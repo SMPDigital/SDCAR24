@@ -428,10 +428,11 @@ h6 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.4;
   margin: 5px 0px 15px 0px;
-  font-weight: 300;
+  font-weight: 200;
+	color: #252525;
 }
 
 p.lifter {
