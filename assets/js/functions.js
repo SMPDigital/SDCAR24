@@ -53,14 +53,20 @@ function nextPrevPages() {
     }
   }
 
-  let nextElement = $("#nextlink");
-  let prevElement = $("#prevlink");
+  let nextElement = $("#topnextlink");
+  let prevElement = $("#topprevlink");
+	
+  let nextElement2 = $("#nextlink");
+  let prevElement2 = $("#prevlink");
 
   if (next != false) {
     let nextPath = ROOT + next.slug;
 
     nextElement.find("span").text(next.name);
     nextElement.attr("href", nextPath);
+	  
+	nextElement2.find("span").text(next.name);
+    nextElement2.attr("href", nextPath);
   } else {
     nextElement.remove();
     $(".next_prev_links .white_line").remove();
@@ -71,6 +77,9 @@ function nextPrevPages() {
 
     prevElement.find("span").text(prev.name);
     prevElement.attr("href", prevPath);
+	
+	prevElement2.find("span").text(prev.name);
+    prevElement2.attr("href", prevPath);
   } else {
     prevElement.remove();
     $(".next_prev_links .white_line").remove();
