@@ -11,6 +11,7 @@ $(function () {
 	const splitText = new SplitText(".section-header-main-hedding", { type: "words" });
 	const splitTextSub = new SplitText(".section-header-main-subtitle h2", { type: "words" });
 	const splitTextPhara = new SplitText(".section-header-main-intro p", { type: "words" });
+	const splitTextPhara2 = new SplitText(".section-header-chariman-message p", { type: "words" });
 
 	const svg = document.getElementById("svg");
 	const tl = gsap.timeline();
@@ -54,15 +55,15 @@ $(function () {
 	
 	tl.fromTo(
 		".section-header-main-title-bg",
-		{ scale: 1.2 }, // Starting scale (from)
-		{ scale: 1, duration: 2.5, ease: "power2.inOut" },
+		{ scale: 1.2, opacity: 0 }, // Starting scale (from)
+		{ scale: 1, opacity:1, duration: 2.5, ease: "power2.inOut" },
 		"<" // Start at the same time as ".section-header-leftbar-img"
 	);
 	
 	tl.fromTo(
 		".section-header-charimanbgimage",
-		{ scale: 1.2 }, // Starting scale (from)
-		{ scale: 1, duration: 2.5, ease: "power2.inOut" },
+		{ scale: 1.2, opacity: 0  }, // Starting scale (from)
+		{ scale: 1, opacity:1, duration: 2.5, ease: "power2.inOut" },
 		"<" // Start at the same time as ".section-header-leftbar-img"
 	);
 
@@ -91,6 +92,14 @@ $(function () {
 		stagger: 0.1, 
 	}, "<"); 
 	
+	tl.from(splitTextPhara2.words, {  
+		opacity: 0,
+		y: 30, 
+		duration: 1.5,
+		ease: "power2.out",
+		stagger: 0.1, 
+	}, "<");
+	
 	tl.from(splitTextPhara.words, {  
 		opacity: 0,
 		y: 30, 
@@ -98,7 +107,8 @@ $(function () {
 		delay: 0.4,
 		ease: "power2.out",
 		stagger: 0.1, 
-	}, "<"); 
+	}, "<");
+	
     tl.to(".loader-wrap", {
         y: -1500,
     });
