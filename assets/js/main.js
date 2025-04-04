@@ -55,8 +55,8 @@ $(function () {
 	
 	tl.fromTo(
 		".section-header-main-title-bg",
-		{ scale: 1.2, opacity: 0 }, // Starting scale (from)
-		{ scale: 1, opacity:1, duration: 2.5, ease: "power2.inOut" },
+		{ scale: 1.2, bottom: "100%", opacity: 0 }, // Starting scale (from)
+		{ scale: 1, bottom:"-5%", opacity:1, duration: 2.5, ease: "power2.inOut" },
 		"<" // Start at the same time as ".section-header-leftbar-img"
 	);
 	
@@ -362,24 +362,28 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-// Select the elements
-let historyTimeline = document.querySelector('.history-timeline');
-let historyTimelineContainer = document.querySelector('.history-timeline-container');
 
-// Calculate the total distance to scroll
-let historyTimelineDistance = historyTimeline.scrollWidth - historyTimelineContainer.offsetWidth;
+if($(window).width() > 992){
+	// Select the elements
+	let historyTimeline = document.querySelector('.history-timeline');
+	let historyTimelineContainer = document.querySelector('.history-timeline-container');
 
-gsap.to('.history-timeline', {
-	x: -historyTimelineDistance,
-	scrollTrigger: {
-		trigger: '.history-timeline-container',
-		pin: true,
-		start: 'top 20%',
-		end: '+=2000',
-		scrub: 1,
-		markers: false
-	}
-})
+	// Calculate the total distance to scroll
+	let historyTimelineDistance = historyTimeline.scrollWidth - historyTimelineContainer.offsetWidth;
+
+	gsap.to('.history-timeline', {
+		x: -historyTimelineDistance,
+		scrollTrigger: {
+			trigger: '.history-timeline-container',
+			pin: true,
+			start: 'center center',
+			end: '+=2000',
+			scrub: 1,
+			markers: false
+		}
+	})
+}
+
 
 // ScrollTrigger.create()
 
