@@ -211,8 +211,9 @@ $(document).ready(function () {
 	  .from(".nav_common", {
 		autoAlpha: 0,
 		marginTop: 20,
-		duration: 0.5,
-		stagger: 0.05,
+		filter: "blur(10px)",
+		duration: 0.25,
+		stagger: 0.01,
 		ease: "power1.in"
 	  })
 	
@@ -253,8 +254,9 @@ $(document).ready(function () {
 	  .from(".nav_common", {
 		autoAlpha: 0,
 		marginTop: 20,
-		duration: 0.5,
-		stagger: 0.05,
+		filter: "blur(10px)",
+		duration: 0.25,
+		stagger: 0.01,
 		ease: "power1.in"
 	  })
 	
@@ -295,8 +297,9 @@ $(document).ready(function () {
 	  .from(".nav_common", {
 		autoAlpha: 0,
 		marginTop: 20,
-		duration: 0.5,
-		stagger: 0.05,
+		filter: "blur(10px)",
+		duration: 0.25,
+		stagger: 0.01,
 		ease: "power1.in"
 	  })
 	
