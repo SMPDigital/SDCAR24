@@ -2656,6 +2656,11 @@ a.slidedown-tooltip:hover img {
 .history-timeline .history-block .image-wrapper {
   width: 100%;
   aspect-ratio: 5/3;
+  padding-left: 30px;
+}
+.history-timeline .history-block .image-wrapper img {
+  width: auto;
+  height: 100%;
 }
 .history-timeline .history-block .text-wrapper {
   background: rgb(221,238,231);
@@ -2663,6 +2668,10 @@ a.slidedown-tooltip:hover img {
   padding: 0 30px;
   position: relative;
   border-top: 3px solid #7DC08A;
+}
+.history-timeline .history-block.purple-block .text-wrapper p {
+  color: #7A3996;
+  font-weight: 400;
 }
 .history-timeline .history-block .white-box {
   padding: 15px;
@@ -2680,6 +2689,9 @@ a.slidedown-tooltip:hover img {
   font-weight: 500;
   padding: 5px 10px;
   line-height: 1;
+}
+.history-timeline .history-block.purple-block .year {
+  background-color: #7A3996;
 }
 
 /* chariman section header css start */
