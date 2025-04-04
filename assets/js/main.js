@@ -140,26 +140,6 @@ $(".sub-menu-title").on("click", function (e) {
 });
 
 $(document).ready(function () {
-  $("#navButton").click(function () {
-    $(".fixedNavContainer").addClass("active");
-  });
-  $("#closeIcon").click(function () {
-    $(".fixedNavContainer").removeClass("active");
-  });
-  $(".navItem").hover(function () {
-    let target = $(this)
-      .find(".navTextMobileWrapper")
-      .find(".navTextContainer");
-    target.toggleClass("active");
-  });
-  $(".navImageMobile").click(function () {
-    var target = $(this).siblings(".navTextMobileWrapper");
-    var other = $(".navTextMobileWrapper").not(target);
-    other.slideUp();
-    target.slideToggle();
-  });
-
-
   if ($(window).width() > 1200) {
 	let navtl = gsap.timeline({
 		paused: true,
