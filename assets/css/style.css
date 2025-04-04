@@ -2356,6 +2356,13 @@ a.slidedown-tooltip:hover img {
 }
 /* header section css end */
 
+/* history timeline */
+.history-timeline {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 /* chariman section header css start */
 
 .section-header.chairman {
