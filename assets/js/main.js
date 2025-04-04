@@ -63,7 +63,7 @@ $(function () {
 	tl.fromTo(
 		".section-header-charimanbgimage",
 		{ scale: 1.2, bottom: "-100%", opacity: 0  }, // Starting scale (from)
-		{ scale: 1, bottom:"0%", opacity:1, duration: 2.5, ease: "power2.inOut" },
+		{ scale: 1, bottom:"-10%", opacity:1, duration: 2.5, ease: "power2.inOut" },
 		"<" // Start at the same time as ".section-header-leftbar-img"
 	);
 
