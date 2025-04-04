@@ -561,6 +561,22 @@ const swiper = new Swiper('.catgories-swiper', {
 });
 
 
+$(document).ready(function () {
+	const seccondSecText = new SplitText(".seccond-section p", { type: "words" });
+
+	gsap.to(seccondSecText.words, {
+		opacity: 1,
+		stagger: 0.05,
+		scrollTrigger: {
+			trigger: ".seccond-section p",
+			start: "top 90%",
+			end: 'bottom center',
+			scrub: 1
+		}
+	})
+})
+
+
 
 
 
