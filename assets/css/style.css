@@ -1571,6 +1571,18 @@ body {
   .exe_main_container {
     padding: 0 45px;
   }
+
+  .exe_name {
+    font-size: 14px;
+  }
+
+  .exe_position {
+    font-size: 14px;
+  }
+
+  .exe_common {
+    padding: 15px;
+  }
 }
 
 @media (max-width: 767px) {
