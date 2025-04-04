@@ -184,6 +184,9 @@ $(document).ready(function () {
     other.slideUp();
     target.slideToggle();
   });
+
+
+  
   $(".NavSearchIcon").click(function () {
     $(".searchWrapper").addClass("active");
   });
