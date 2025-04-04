@@ -1789,14 +1789,15 @@ header {
 }
 
 .section-header-main-title h1 {
-  z-index: 3;
+z-index: 3;
   position: relative;
   vertical-align: bottom;
   color: #ffffff;
   font-size: 65px;
-  font-weight: 500;
+  font-weight: 300;
   margin-bottom: 0px;
-  text-decoration: none;
+  text-decoration:none;
+  line-height: 1;
 }
 
 .section-header-main-title-bgbox {
@@ -1812,6 +1813,12 @@ header {
 .section-header-main-title-bgbox.bg-merune {
   background: #671835;
 }
+
+.section-header-main-title-bgbox.bg-yellow {
+  background: #B2860B;
+}
+
+
 
 .section-header-main-title-bgbox.bg-lightblue {
   background: #00aeef;
@@ -1895,14 +1902,15 @@ img.section-header-main-title-bg {
 }
 
 .section-header-main-intro {
-  width: 45%;
+width: 45%;
   display: flex;
-  padding: 2%;
+  padding:2% 4%;
   align-items: center;
 }
 
 .section-header-main-intro p {
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .section-header-main-secondrow {
@@ -1974,11 +1982,13 @@ img.section-header-main-sectionimg {
 a.util-link-item {
   width: 50%;
   display: inline;
-  font-size: 16px;
-  line-height: 17px;
+font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
   padding: 8px;
   text-decoration: none;
   color: black;
+	
 }
 
 a.util-link-item img {
