@@ -362,24 +362,28 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-// Select the elements
-let historyTimeline = document.querySelector('.history-timeline');
-let historyTimelineContainer = document.querySelector('.history-timeline-container');
 
-// Calculate the total distance to scroll
-let historyTimelineDistance = historyTimeline.scrollWidth - historyTimelineContainer.offsetWidth;
+if($(window).width() > 992){
+	// Select the elements
+	let historyTimeline = document.querySelector('.history-timeline');
+	let historyTimelineContainer = document.querySelector('.history-timeline-container');
 
-gsap.to('.history-timeline', {
-	x: -historyTimelineDistance,
-	scrollTrigger: {
-		trigger: '.history-timeline-container',
-		pin: true,
-		start: 'top 20%',
-		end: '+=2000',
-		scrub: 1,
-		markers: false
-	}
-})
+	// Calculate the total distance to scroll
+	let historyTimelineDistance = historyTimeline.scrollWidth - historyTimelineContainer.offsetWidth;
+
+	gsap.to('.history-timeline', {
+		x: -historyTimelineDistance,
+		scrollTrigger: {
+			trigger: '.history-timeline-container',
+			pin: true,
+			start: 'center center',
+			end: '+=2000',
+			scrub: 1,
+			markers: false
+		}
+	})
+}
+
 
 // ScrollTrigger.create()
 
