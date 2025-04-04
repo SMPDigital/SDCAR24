@@ -954,6 +954,46 @@ body {
   .nav_item.active .nav_dropdown_icon {
     transform: rotateZ(180deg);
   }
+
+  .order_one {
+    order: 1;
+  }
+
+  .order_two {
+    order: 2;
+  }
+
+  .order_three {
+    order: 3;
+  }
+
+  .order_four {
+    order: 4;
+  }
+
+  .order_five {
+    order: 5;
+  }
+
+  .order_six {
+    order: 6;
+  }
+
+  .order_seven {
+    order: 7;
+  }
+
+  .order_eight {
+    order: 8;
+  }
+
+  .order_nine {
+    order: 9;
+  }
+
+  .order_ten {
+    order: 10;
+  }
 }
 
 /* New Navigation */
@@ -2355,6 +2395,13 @@ a.slidedown-tooltip:hover img {
   }
 }
 /* header section css end */
+
+/* history timeline */
+.history-timeline {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+}
 
 /* chariman section header css start */
 
