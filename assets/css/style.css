@@ -734,6 +734,158 @@ body {
   background-color: #671835;
 }
 
+@media (max-width: 1199px) {
+  .fixed_grid_nav_container {
+    width: 40%;
+  }
+
+  .nav_grid {
+    overflow-y: auto;
+  }
+
+  .fixed_grid_relative_container {
+    padding: 120px 30px;
+  }
+
+  .fillers {
+    display: none;
+  }
+
+  .nav_row {
+    height: auto;
+    column-gap: 0;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .nav_item {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .nav_dropdown {
+    position: static;
+    transform: translateY(0) !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  .nav_dropdown_container {
+    display: none;
+  }
+
+  .nav_item_five {
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .nav_item_nine {
+    width: 100%;
+    padding: 15px 15px 15px 20px;
+    height: auto;
+  }
+
+  .nav_item > div:first-child {
+    display: none;
+  }
+
+  .nav_item > a {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav_item > a > div:nth-child(2) {
+    display: none;
+  }
+
+  .nav_item > a h1 {
+    font-size: 15px;
+  }
+
+  .nav_item_five > a {
+    height: auto;
+    font-size: 15px;
+    line-height: 1.1;
+  }
+
+  .nav_item_nine > a {
+    height: auto;
+    font-size: 15px;
+    line-height: 1.1;
+  }
+
+  .nav_dropdown_icon {
+    position: static;
+    margin-left: 10px;
+  }
+
+  .nav_item > a > div:first-child {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 15px 20px;
+    align-items: center;
+  }
+
+  .nav_item_five > div:first-child {
+    padding: 15px 15px 15px 20px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav_item_five.active .nav_dropdown_icon {
+    transform: rotateZ(180deg);
+  }
+
+  .nav_item.active .nav_dropdown_icon {
+    transform: rotateZ(180deg);
+  }
+
+  .order_one {
+    order: 1;
+  }
+
+  .order_two {
+    order: 2;
+  }
+
+  .order_three {
+    order: 3;
+  }
+
+  .order_four {
+    order: 4;
+  }
+
+  .order_five {
+    order: 5;
+  }
+
+  .order_six {
+    order: 6;
+  }
+
+  .order_seven {
+    order: 7;
+  }
+
+  .order_eight {
+    order: 8;
+  }
+
+  .order_nine {
+    order: 9;
+  }
+
+  .order_ten {
+    order: 10;
+  }
+}
+
 @media (max-width: 991px) {
   .fixed_grid_nav_container {
     width: 50%;
