@@ -737,6 +737,70 @@ body {
   background-color: #671835;
 }
 
+.bod_main_container {
+  padding: 0 50px;
+  margin: 100px 0;
+}
+
+.bod_member_image img {
+  width: 100%;
+  height: auto;
+}
+
+.bod_common {
+  padding: 20px;
+  aspect-ratio: 5/4;
+  position: relative;
+  overflow: hidden;
+}
+
+.bod_member_one {
+  background-color: #AF7BB5;
+}
+
+.bod_member_two {
+  background-color: #84C991;
+}
+
+.bod_name {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.bod_position {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0;
+}
+
+.bod_one_pattern {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  transform: translate(25%, 25%);
+}
+
+.bod_two_pattern {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(50%, 25%);
+}
+
 @media (min-width: 1200px) {
   .nav_item > div:first-child {
     overflow: hidden;
