@@ -820,6 +820,15 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 15px 15px 15px 20px;
+    align-items: center;
+  }
+
+  .nav_item_five > div:first-child {
+    padding: 15px 15px 15px 20px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
