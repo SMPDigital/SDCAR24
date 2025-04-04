@@ -209,6 +209,20 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+gsap.to('.history-timeline', {
+	x: '-100%',
+	scrollTrigger: {
+		trigger: '.history-timeline-container',
+		pin: true,
+		start: 'top center',
+		end: '+=2000',
+		scrub: true,
+		markers: true
+	}
+})
+
+// ScrollTrigger.create()
+
 
 // SVG animation start
 $(window).on("load", function () {
