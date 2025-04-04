@@ -1092,7 +1092,7 @@ body {
 .exe_name {
   text-decoration: none;
   color: #fff;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
   line-height: 1.1;
   margin: 0;
@@ -1103,11 +1103,87 @@ body {
 .exe_position {
   text-decoration: none;
   color: #fff;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 300;
   line-height: 1.1;
   margin: 0;
   padding: 0;
+}
+
+.exe_one {
+  background-color: #18777C;
+}
+
+.exe_two {
+  background-color: #AF7BB5;
+}
+
+.exe_three {
+  background-color: #F5897B;
+}
+
+.exe_four {
+  background-color: #84C991;
+}
+
+.exe_five {
+  background-color: #4A2545;
+}
+
+.exe_six {
+  background-color: #3C88C8;
+}
+
+.exe_seven {
+  background-color: #DAAB28;
+}
+
+.exe_eight {
+  background-color: #B59473;
+}
+
+.exe_nine {
+  background-color: #4A2545;
+}
+
+.exe_ten {
+  background-color: #41858D;
+}
+
+.exe_one_pattern {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(30%, 25%);
+}
+
+.exe_three_pattern {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(35%, 25%);
+}
+
+.exe_five_pattern {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(-40%, -25%);
+}
+
+.exe_six_pattern {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(-60%, 25%);
 }
 
 @media (min-width: 1200px) {
