@@ -3845,6 +3845,7 @@ footer p a {
 .award_container {
   background-color: #faf8f3;
   padding: 20px;
+  border-radius: 10px;
 }
 
 .awards_div {
