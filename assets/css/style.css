@@ -766,7 +766,7 @@ body {
 .bod_name {
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 1.1;
   margin: 0;
@@ -777,7 +777,7 @@ body {
 .bod_position {
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.1;
   margin: 0;
@@ -834,6 +834,22 @@ body {
 
 .bod_member_seven {
   background-color: #A0774F;
+}
+
+.bod_member_eight {
+  background-color: #18777C;
+}
+
+.bod_member_nine {
+  background-color: #7F6DA3;
+}
+
+.bod_member_eight_main {
+  transform: translateY(-50%);
+}
+
+.bod_member_nine_main {
+  transform: translateY(-100%);
 }
 
 @media (min-width: 1200px) {
