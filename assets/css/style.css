@@ -2485,7 +2485,7 @@ img.section-header-main-title-bg {
     rgba(255, 252, 245,1) 73%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#f9f2df",GradientType=1);
-	border-top: 1px solid rgba(255, 252, 245,1);
+	  border-bottom: 1px solid rgb(251, 242, 222);
 }
 
 .section-header-main-subtitle {
@@ -6353,7 +6353,9 @@ font-size: 18px;
 
 .pullup2{ margin-top: -70px}
 
+/*
 .addborder{border-bottom: 1px solid black;}
+*/
 
 
 
