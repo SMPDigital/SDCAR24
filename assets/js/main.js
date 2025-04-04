@@ -428,6 +428,46 @@ exetl
   });
 });
 
+$(document).ready(function () {
+	// Function to count decimal places
+	Number.prototype.countDecimals = function () {
+	  if (Math.floor(this.valueOf()) === this.valueOf()) return 0;
+	  return this.toString().split(".")[1]?.length || 0;
+	};
+  
+	let counters = document.querySelectorAll(".counter");
+  
+	for (let counter of counters) {
+	  let rawValue = counter.innerHTML.replace(/,/g, ""); // Remove commas
+	  let value = Number(rawValue);
+	  let decimalPlaces = value.countDecimals();
+  
+	  gsap.fromTo(
+		counter,
+		{ textContent: 0 },
+		{
+		  textContent: value,
+		  duration: 2.5,
+		  ease: "power2.inOut",
+		  snap: { textContent: decimalPlaces > 0 ? 10 ** -decimalPlaces : 1 },
+		  onUpdate: function () {
+			counter.innerHTML = Number(
+			  this.targets()[0].textContent
+			).toLocaleString(undefined, {
+			  minimumFractionDigits: decimalPlaces,
+			  maximumFractionDigits: decimalPlaces,
+			});
+		  },
+		  scrollTrigger: {
+			trigger: counter,
+			start: "top 80%",
+			once: true, // Ensures it only animates once
+		  },
+		}
+	  );
+	}
+  });
+
 document.addEventListener("DOMContentLoaded", function () {
     gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
