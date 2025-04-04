@@ -583,13 +583,10 @@ body {
   border-right: 15px solid #073251;
 }
 
-.nav_dropdown {
+.nav_dropdown_container {
   position: absolute;
   left: 0;
   bottom: 1px;
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
   width: 100%;
   transform: translateY(110%);
   visibility: hidden;
@@ -598,11 +595,18 @@ body {
   z-index: 1;
 }
 
+.nav_dropdown {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+}
+
 .nav_dropdown_one {
   background-color: #073251;
 }
 
-.nav_item:hover .nav_dropdown {
+.nav_item:hover .nav_dropdown_container {
   visibility: visible;
   transform: translateY(100%);
   opacity: 1;
@@ -655,7 +659,7 @@ body {
   background-color: #221F1F;
 }
 
-.nav_item_five:hover .nav_dropdown {
+.nav_item_five:hover .nav_dropdown_container {
   visibility: visible;
   transform: translateY(100%);
   opacity: 1;
