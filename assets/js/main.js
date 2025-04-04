@@ -529,7 +529,7 @@ else {
 
 const swiper = new Swiper('.catgories-swiper', {
 	loop: true,
-	slidesPerView: 3,
+	slidesPerView: 1,
 	effect: "coverflow",
 	centeredSlides: true,
 	coverflowEffect: {
@@ -538,6 +538,14 @@ const swiper = new Swiper('.catgories-swiper', {
 		depth: 200,
 		modifier: 1,
 		slideShadows: true,
+	},
+	breakpoints: {
+		540: {
+		  slidesPerView: 2,
+		},
+		992: {
+		  slidesPerView: 3,
+		}
 	},
   
 	// Navigation arrows
