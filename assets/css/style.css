@@ -2035,7 +2035,7 @@ header {
 
 .section-header-leftbar-img {
   position: absolute;
-  bottom: -50%;
+  bottom: -3%;
   height: 110%;
   object-fit: cover;
   margin-bottom: 10%;
@@ -5918,6 +5918,9 @@ font-size: 18px;
 
 .pullup1{ margin-top: -100px}
 
+.addborder{border-bottom: 1px solid black;}
+
+
 
 @media screen and (max-width: 1590px) {
 	
@@ -5929,14 +5932,18 @@ font-size: 18px;
 	
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1199px) {
 	.pullup{ margin-top: 0px}
 
 .pullup1{ margin-top: 0px}
 	
 }
 
+@media (max-width: 767px) {
+.addborder{border-bottom: none}
 
+	
+}
 
 
 
