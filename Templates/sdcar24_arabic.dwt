@@ -13,9 +13,9 @@
 	<link rel="stylesheet" href="../assets/css/libs/aos.css" />
 	<link rel="stylesheet" href="../assets/css/download-center.css" />
 	<link rel="stylesheet" href="../assets/css/accessibility-panel.css" />
-	<link rel="stylesheet" href="../assets/slide-in-panel/css/slide_panel.css" />
+	<link rel="stylesheet" href="../assets/slide-in-panel/css/slide_panel.css" /> 
   <!-- TemplateBeginEditable name="doctitle" -->
-    <title>SEDCO Integrated Annual Report 2024</title>
+    <title>SEDCO Integrated Annual Report 2024</title> 
   <!-- TemplateEndEditable -->
 	  
   <!-- TemplateBeginEditable name="head" --> 
@@ -499,7 +499,7 @@
 										</a>
 										<a class="util-link-item" href="" id="download-pdf" target="_blank">
 											<img src="../assets/images/icons/download_pdf.svg" alt="">
-											<span> تنزيل هذه الصفحة </span>
+											<span> تنزيل هذه الصفحة </span> 
 										</a>											
 									</div>
 									 <div class="next-previous-box">
