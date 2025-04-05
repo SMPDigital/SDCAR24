@@ -3388,8 +3388,9 @@ font-size: 40px;
 }
 .category-block .header-wrapper h2 {
   margin: 0;
-  font-size: 22px;
+    font-size: 30px;
   color: var(--block-color);
+	
 }
 .category-block  .image-wrapper {
   width: 100%;
@@ -3405,7 +3406,7 @@ font-size: 40px;
 }
 .category-block .description {
   background-color: var(--block-color);
-  padding: 15px;
+    padding: 25px 30px 20px 30px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -3414,8 +3415,9 @@ font-size: 40px;
   height: 100%;
 }
 .category-block .description p {
-  color: white;
-  font-size: 13px;
+color: white;
+  font-size: 17px;
+  line-height: 1.2;
 }
 .category-block:hover .image-wrapper img {
   transform: scale(1.1);
@@ -3519,8 +3521,8 @@ font-size: 40px;
   padding: 12px 0;
   margin: 0 0 0 29.6px;
   color: #000000;
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 15px;
   line-height: 1;
   text-align: center;
 }
@@ -3540,7 +3542,7 @@ font-size: 40px;
 
 .chairman-section {
   background-color: rgba(223, 199, 177, 1);
-  padding: 50px 100px 0 100px;
+  padding: 100px 100px 0 100px;
   display: flex;
   gap: 30px;
   overflow: hidden;
@@ -3573,7 +3575,7 @@ font-size: 40px;
 
 .ceo-section {
   background-color: rgba(252, 247, 239, 1);
-  padding: 50px 100px 0 150px;
+  padding: 100px 100px 0 150px;
   display: flex;
   gap: 30px;
   position: relative;
