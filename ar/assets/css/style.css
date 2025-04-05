@@ -3418,7 +3418,7 @@ font-size: 40px;
   overflow: hidden;
 }
 .category-block .header-wrapper {
-  padding: 25px 15px 15px 30px;
+  padding: 25px 30px 15px 15px;
   background-color: white;
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
@@ -3756,7 +3756,7 @@ font-size: 40px;
   }
 
   .chairman-section .left-side {
-    padding: 50px 50px 50px 100px;
+    padding: 50px 100px 50px 50px;
   }
 
   .chairman-section .left-side p {
@@ -3772,7 +3772,7 @@ font-size: 40px;
   }
 
   .dirving-pros-section .left-section {
-    padding: 50px 30px 275px 100px;
+    padding: 50px 100px 275px 30px;
   }
 
   .dirving-pros-section .left-section h2 {
@@ -3789,7 +3789,7 @@ font-size: 40px;
   }
 
   .dirving-pros-section .right-section {
-    padding: 50px 30px 275px 100px;
+    padding: 50px 100px 275px 30px;
   }
 
   .dirving-pros-section .right-section p {
