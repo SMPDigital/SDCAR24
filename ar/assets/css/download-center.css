@@ -24,7 +24,7 @@
   margin-bottom: 20px;
   text-decoration-line: none;
   font-weight: 400;
-  color: #B48E2E !important;
+  color: #B48E2E !important; text-align: right;
 }
 
 .frwrap {
@@ -219,6 +219,7 @@ vertical-align: middle;
   width: 100%;
   font-size: 14px;
   background-image: #efefef;
+	  text-align: right;
 }
 
 .thecard:hover .card-outmore {
