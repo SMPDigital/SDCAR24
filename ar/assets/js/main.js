@@ -560,7 +560,7 @@ const swiper = new Swiper('.catgories-swiper', {
 		540: {
 		  slidesPerView: 2,
 		},
-		992: {
+		1199: {
 		  slidesPerView: 3,
 		}
 	},
