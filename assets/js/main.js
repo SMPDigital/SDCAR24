@@ -50,12 +50,26 @@ function preloaderStart(){
 //		duration: 1.5, // Increased duration for a smoother effect
 //		ease: "power2.inOut",
 //	}, "<");
+	
+	tl.fromTo(
+		".section-header-main-title-bg",
+		{ left: "100%", opacity: 0 }, // Starting scale (from)
+		{ left:"0%", opacity:1, duration: 2.5, ease: "power2.inOut" },
+		"<" // Start at the same time as ".section-header-leftbar-img"
+	);
 
 	tl.fromTo(
 		".section-header-leftbar-img",
-		{ scale: 1.15, bottom: "-50%" }, // Starting scale (from)
-		{ scale: 1, bottom: "-5%", duration: 2.5, ease: "power2.inOut" },
-		"-=0.8" // Start at the same time as the previous animation
+		{ bottom: "-50%" }, // Starting scale (from)
+		{ bottom: "0%", duration: 2.5, ease: "power2.inOut" },
+		"<" // Start at the same time as the previous animation
+	);
+	
+	tl.fromTo(
+		".section-header-leftbar-img",
+		{ scale: 1.15 }, // Starting scale (from)
+		{ scale: 1, duration: 2.5, ease: "power2.inOut" },
+		"=0.2" // Start at the same time as the previous animation
 	);
 	
 	tl.fromTo(
@@ -67,8 +81,8 @@ function preloaderStart(){
 	
 	tl.fromTo(
 		".section-header-main-title-bg",
-		{ scale: 1.2, bottom: "-100%", opacity: 0 }, // Starting scale (from)
-		{ scale: 1, bottom:"0%", opacity:1, duration: 2.5, ease: "power2.inOut" },
+		{ scale: 1.5 }, // Starting scale (from)
+		{ scale: 1, duration: 2.5, ease: "power2.inOut" },
 		"<" // Start at the same time as ".section-header-leftbar-img"
 	);
 	
