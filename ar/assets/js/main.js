@@ -505,7 +505,7 @@ if($(window).width() > 992){
 		let historyTimelineDistance = historyTimeline.scrollWidth - historyTimelineContainer.offsetWidth;
 	
 		gsap.to('.history-timeline', {
-			x: -historyTimelineDistance,
+			x: historyTimelineDistance,
 			scrollTrigger: {
 				trigger: '.history-timeline-container',
 				pin: true,
