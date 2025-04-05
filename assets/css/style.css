@@ -6376,6 +6376,7 @@ font-size: 18px;
 .esg_fram_purple {
   background: linear-gradient(to top, #ebe2ef, #ffffff);
   padding: 10px;
+	min-height: 477px;
 }
 .esg_fram_purple p:first-child {
   color: #a870ae;
@@ -6404,7 +6405,7 @@ font-size: 18px;
 .esg_fram_blue {
   background: linear-gradient(to top, #d9e3f0, #ffffff);
   padding: 10px;
-  min-height: 448px;
+  min-height: 477px;
 }
 .esg_fram_blue p:first-child {
   color: #007ab4;
@@ -6542,8 +6543,11 @@ font-size: 18px;
 
 @media screen and (max-width: 1399px) {
 	.esg_fram_blue {
-    min-height: 470px;
+    min-height: 499px;
  }
+	.esg_fram_purple {
+    min-height: 499px;
+}
 }
 
 @media screen and (max-width: 1199px) {
@@ -6555,13 +6559,13 @@ font-size: 18px;
   .esg_fram_purple {
     background: linear-gradient(to top, #ebe2ef, #ffffff);
     padding: 10px;
-    min-height: 492px;
+    min-height: 548px;
   }
 
   .esg_fram_blue {
     background: linear-gradient(to top, #d9e3f0, #ffffff);
     padding: 10px;
-    min-height: 492px;
+    min-height: 548px;
   }
 }
 
