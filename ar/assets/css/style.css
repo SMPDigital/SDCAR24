@@ -2632,7 +2632,7 @@ font-size: 14px;
 a.util-link-item img {
   width: 28px;
   height: auto;
-  margin-left: 5px;
+  margin-left: 2px;
 }
 
 a.util-link-item span {
@@ -2855,6 +2855,11 @@ font-size: 40px;
   .util-link-item {
     padding: 5px;
   }
+	
+  a.util-link-item {
+    font-size: 13px;
+  }	
+	
 }
 
 @media (max-width: 1400px) {
@@ -2945,7 +2950,11 @@ font-size: 40px;
   }
   a.util-link-item {
     padding: 5px;
+	  font-size: 12px;
   }
+	
+	
+	
 }
 
 @media (max-width: 1024px) {
@@ -2975,11 +2984,17 @@ font-size: 40px;
   a.util-link-item {
     padding: 5px;
     line-height: 16px;
+	font-size: 9px;  
+	  
   }
   a.util-link-item img {
     width: 27px;
     margin-right: 5px;
   }
+	
+
+	
+	
   .util-link-box,
   .next-previous-box {
     padding: 6px 5px;
