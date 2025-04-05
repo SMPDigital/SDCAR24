@@ -4738,7 +4738,7 @@ footer p a {
 .summary_custome table tbody tr:nth-child(2) td:nth-child(4) {
   border-bottom: 1px solid #793894;
   background: white;
-  text-align: left;
+  text-align: right;
 }
 
 .summary_custome table tbody tr:nth-child(2) td:nth-child(5) {
@@ -4757,7 +4757,7 @@ footer p a {
 .summary_custome table tbody tr:nth-child(3) td:nth-child(4) {
   border-bottom: 1px solid #793894;
   background: white;
-  text-align: left;
+  text-align: right;
 }
 
 .summary_custome table tbody tr:nth-child(3) td:nth-child(5) {
@@ -4776,7 +4776,7 @@ footer p a {
 .summary_custome table tbody tr:nth-child(4) td:nth-child(4) {
   border-bottom: 1px solid #793894;
   background: white;
-  text-align: left;
+  text-align: right;
 }
 
 .summary_custome table tbody tr:nth-child(4) td:nth-child(5) {
@@ -4795,7 +4795,7 @@ footer p a {
 .summary_custome table tbody tr:nth-child(5) td:nth-child(4) {
   border-bottom: 1px solid #793894;
   background: white;
-  text-align: left;
+  text-align: right;
 }
 
 .summary_custome table tbody tr:nth-child(5) td:nth-child(5) {
@@ -4813,7 +4813,7 @@ footer p a {
 
 .summary_custome table tbody tr:nth-child(6) td:nth-child(4) {
   background: white;
-  text-align: left;
+  text-align: right;
 }
 
 .summary_custome table tbody tr:nth-child(6) td:nth-child(5) {
@@ -4865,7 +4865,7 @@ footer p a {
 .summary_custome1 table tbody tr:nth-child(2) td:nth-child(4) {
   border-bottom: 1px solid #007ab4;
   background: white;
-  text-align: left;
+  text-align: right;
 }
 
 .summary_custome1 table tbody tr:nth-child(2) td:nth-child(5) {
@@ -4884,7 +4884,7 @@ footer p a {
 .summary_custome1 table tbody tr:nth-child(3) td:nth-child(4) {
   border-bottom: 1px solid #007ab4;
   background: white;
-  text-align: left;
+  text-align: right;
 }
 
 .summary_custome1 table tbody tr:nth-child(3) td:nth-child(5) {
@@ -4903,7 +4903,7 @@ footer p a {
 .summary_custome1 table tbody tr:nth-child(4) td:nth-child(4) {
   border-bottom: 1px solid #007ab4;
   background: white;
-  text-align: left;
+  text-align: right;
 }
 
 .summary_custome1 table tbody tr:nth-child(4) td:nth-child(5) {
@@ -4921,7 +4921,7 @@ footer p a {
 
 .summary_custome1 table tbody tr:nth-child(5) td:nth-child(4) {
   background: white;
-  text-align: left;
+  text-align: right;
 }
 
 .summary_custome1 table tbody tr:nth-child(5) td:nth-child(5) {
@@ -5032,19 +5032,19 @@ footer p a {
 }
 
 .summary_custome table tbody tr:nth-child(2) td:last-child p {
-  font-weight: bold;
+  font-weight: 500;
 }
 .summary_custome table tbody tr:nth-child(3) td:last-child p {
-  font-weight: bold;
+  font-weight: 500;
 }
 .summary_custome table tbody tr:nth-child(4) td:last-child p {
-  font-weight: bold;
+  font-weight: 500;
 }
 .summary_custome table tbody tr:nth-child(5) td:last-child p {
-  font-weight: bold;
+  font-weight: 500;
 }
 .summary_custome table tbody tr:nth-child(6) td:last-child p {
-  font-weight: bold;
+  font-weight: 500;
 }
 .summary_custome table tbody tr:nth-child(2) td:last-child img {
   width: 60px;
@@ -5068,16 +5068,16 @@ footer p a {
 }
 
 .summary_custome1 table tbody tr:nth-child(2) td:last-child p {
-  font-weight: bold;
+  font-weight: 500;;
 }
 .summary_custome1 table tbody tr:nth-child(3) td:last-child p {
-  font-weight: bold;
+  font-weight: 500;;
 }
 .summary_custome1 table tbody tr:nth-child(4) td:last-child p {
-  font-weight: bold;
+  font-weight: 500;;
 }
 .summary_custome1 table tbody tr:nth-child(5) td:last-child p {
-  font-weight: bold;
+  font-weight: 500;;
 }
 .summary_custome1 table tbody tr:nth-child(2) td:last-child img {
   width: 60px;
@@ -5097,10 +5097,10 @@ footer p a {
 }
 
 .summary_custome2 table tbody tr:nth-child(2) td:last-child p {
-  font-weight: bold;
+  font-weight: 500;
 }
 .summary_custome2 table tbody tr:nth-child(3) td:last-child p {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .summary_custome2 table tbody tr:nth-child(2) td:last-child img {
@@ -5443,7 +5443,7 @@ font-size: 18px;
 }
 
 .prvt_b_right h4 {
-  font-weight: bold;
+  font-weight: 500;
   color: #664490;
 }
 
@@ -5476,7 +5476,7 @@ font-size: 18px;
 
 .version_green h4 {
   color: #4db16d;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .version_green p {
@@ -5496,7 +5496,7 @@ font-size: 18px;
 
 .version_purple h4 {
   color: #a870ae;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .version_purple p {
@@ -5516,7 +5516,7 @@ font-size: 18px;
 
 .version_blue h4 {
   color: #007ab4;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .version_blue p {
