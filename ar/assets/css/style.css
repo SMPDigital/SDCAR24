@@ -3334,7 +3334,7 @@ font-size: 40px;
 .history-timeline .history-block .year {
   position: absolute;
   top: 0;
-  left: 30px;
+  right: 30px;
   transform: translateY(-100%);
   width: fit-content;
   background-color: #7DC08A;
