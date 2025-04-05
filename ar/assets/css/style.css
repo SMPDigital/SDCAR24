@@ -4193,11 +4193,14 @@ img.section-header-main-sectionimg {
 .bg-pattern {
   position: absolute;
   bottom: 0;
-  left: 0;
+  right: 0;
   width: auto;
   height: 100%;
   mix-blend-mode: plus-lighter;
   z-index: 0;
+	  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+	
 }
 
 .section-header-main-secondcolumn {
