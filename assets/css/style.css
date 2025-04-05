@@ -2498,22 +2498,10 @@ img.section-header-main-title-bg {
   width: 74%;
   display: flex;
   background: rgb(255, 255, 255);
- background: -moz-linear-gradient(
-    -30deg,
-    rgba(255, 255, 255, 1) 24%,
-    rgba(255, 252, 245,1) 50%
-  );
-  background: -webkit-linear-gradient(
-    -30deg,
-    rgba(255, 255, 255, 1) 24%,
-    rgba(255, 252, 245,1) 50%
-  );
-  background: linear-gradient(
-     -30deg,
-    rgba(255, 255, 255, 1) 24%,
-    rgba(255, 252, 245,1) 50%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#f9f2df",GradientType=1);
+	
+	
+ background: rgb(255,255,255);
+background: linear-gradient(30deg, rgba(255,255,255,1) 42%, rgba(249,243,224,1) 100%); 
 }
 
 .section-header-main-subtitle {
