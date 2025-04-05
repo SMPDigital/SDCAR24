@@ -6875,7 +6875,7 @@ font-size: 18px;
 }
 .search-container input[type="submit"] {
   width: 20%;
-  margin-right: 10px;
+  margin-left: 10px;
   background-color: #B48E2E;
   border: none;
   color: white;
