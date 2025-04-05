@@ -3633,7 +3633,7 @@ a.slidedown-tooltip:hover img {
 
 .dirving-pros-section {
   display: flex;
-  padding: 0 100px;
+  padding: 0 0 0 100px;
   position: relative;
   margin-bottom: 200px;
 }
@@ -3655,7 +3655,8 @@ a.slidedown-tooltip:hover img {
 }
 .dirving-pros-section .right-section {
   width: 50%;
-  padding: 30px 30px 225px 30px;
+  padding: 30px 130px 225px 30px;
+  background-image: linear-gradient(to bottom, rgba(252, 247, 239, 1), rgba(255, 255, 255, 1));
 }
 
 .dirving-pros-section .right-section p {
@@ -3764,7 +3765,7 @@ a.slidedown-tooltip:hover img {
   }
 
   .dirving-pros-section .right-section {
-    padding: 50px 30px 275px 100px;
+    padding: 50px 130px 275px 100px;
   }
 
   .dirving-pros-section .right-section p {
