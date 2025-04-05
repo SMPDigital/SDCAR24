@@ -23,7 +23,7 @@ function zoomText() {
 
   elementsToZoom.removeClass("ap_zoom");
   elementsToZoom.removeAttr("data-zoom");
-  tooltipElem.attr("tooltip", "Bigger Text");
+  tooltipElem.attr("tooltip", "نص أكبر");
 
   if (accessibilityPropeties.zoomLevel > 0) {
     elementsToZoom.addClass("ap_zoom");
