@@ -2681,8 +2681,8 @@ a.slidedown-tooltip:hover img {
   left: 0;
   display: flex;
   visibility: hidden;
-  align-items: baseline;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: flex-end;  
   background: #EAE3CF;
   padding: 10px;
   font-size: 20px;
@@ -4153,8 +4153,8 @@ img.img-fluid.section-header-charimanbgimage {
 
 img.section-header-main-title-bg.simple {
   position: absolute;
-  left: "0%";
-  bottom: "5%";
+  left: 0%;
+  bottom: 5%;
   width: 100%;
   height: 120%;
   object-fit: cover;
@@ -4245,6 +4245,37 @@ img.img-fluid.section-header-simpleimage {
   .section-header-main.simple {
 	width: calc(100% - 85px);
   }
+  img.section-header-main-title-bg.simple {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 130%;
+    object-fit: cover;
+    margin-bottom: none;
+  }
+  .next-previous-box {
+    height: 85px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    background: #f9f3e0;
+    position: relative;
+  }
+  .section-header-left-imagebox.simple {
+    height: 64.5%;
+    position: relative;
+    overflow: hidden;
+  }
+  .next-previous-box a#prevlink span, .next-previous-box a#nextlink span {
+    position: absolute;
+    height: calc(85px* 0.65);
+  }
+  .section-header-main-secondcolumn {
+    height: 74%;
+    width: 70%;
+    display: flex;
+  }
 }
 
 @media (max-width: 1580px) {
@@ -4264,6 +4295,28 @@ img.img-fluid.section-header-simpleimage {
   .section-header-main-intro.simple p {
 	font-size: 18px;
   }
+  .section-header-left-imagebox.simple {
+    height: 65%;
+    position: relative;
+    overflow: hidden;
+  }
+  .next-previous-box a#prevlink span, .next-previous-box a#nextlink span {
+    position: absolute;
+    height: calc(80px* 0.65);
+  }
+  .section-header-main-secondcolumn {
+    height: 74%;
+    width: 70%;
+    display: flex;
+  }
+  .section-header-main-secondcolumn p.lifter {
+    color: #443479;
+    font-size: 2.8rem;
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: 200;
+    line-height: 1.2;
+  }
 }
 
 @media (max-width: 1440px) {
@@ -4276,6 +4329,15 @@ img.img-fluid.section-header-simpleimage {
   .section-header-main.simple {
 	width: calc(100% - 75px);
   }
+  .section-header-main-secondcolumn p.lifter {
+    color: #443479;
+    font-size: 2.6rem;
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: 200;
+    line-height: 1.2;
+  }
+  
 }
 
 @media (max-width: 1400px) {
@@ -4324,6 +4386,14 @@ img.img-fluid.section-header-simpleimage {
 	font-size: 45px;
 	line-height: 52px;
   }
+  .section-header-main-secondcolumn p.lifter {
+    color: #443479;
+    font-size: 2.3rem;
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: 200;
+    line-height: 1.2;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -4347,6 +4417,14 @@ img.img-fluid.section-header-simpleimage {
   }
   img.section-header-simpleimage {
 	left: 20px;
+  }
+  .section-header-main-secondcolumn p.lifter {
+    color: #443479;
+    font-size: 2.2rem;
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: 200;
+    line-height: 1.2;
   }
 }
 
@@ -4415,6 +4493,7 @@ img.img-fluid.section-header-simpleimage {
   .section-header-left.simple {
 	display: none;
   }
+	
   .section-header-main-title.simple h1 {
 	font-size: 30px;
 	line-height: 32px;
@@ -4429,9 +4508,25 @@ img.img-fluid.section-header-simpleimage {
 	width: 100%;
   }
   .section-header-main-title.simple {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: self-end;
+	justify-content: flex-start;
+	overflow: hidden;
 	width: 100%;
 	height: 100%;
 	padding: 15px;
+	padding-top: 30px;
+  }
+  img.section-header-main-title-bg.simple {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 130%;
+    object-fit: cover;
+    margin-bottom: 15%;
   }
   .section-header-main-directionbox.simple {
 	display: none;
@@ -4471,6 +4566,10 @@ img.img-fluid.section-header-simpleimage {
   .section-header-simpleimage-section {
 	width: 50%;
 	height: 270px;
+  }
+  img.section-header-main-title-bg.simple {
+    height: 130%;
+    margin-bottom: 20%;
   }
 }
 

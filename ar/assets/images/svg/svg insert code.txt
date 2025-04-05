@@ -1,0 +1,5 @@
+<object
+       class="svg-animate"
+       data="file_path.svg"
+       type="image/svg+xml">
+</object>

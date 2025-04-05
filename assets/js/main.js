@@ -69,7 +69,7 @@ function preloaderStart(){
 		".section-header-leftbar-img",
 		{ scale: 1.15 }, // Starting scale (from)
 		{ scale: 1, duration: 2.5, ease: "power2.inOut" },
-		"=0.2" // Start at the same time as the previous animation
+		"=0.01" // Start at the same time as the previous animation
 	);
 	
 	tl.fromTo(
