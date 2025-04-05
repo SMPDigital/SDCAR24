@@ -5988,7 +5988,7 @@ content: "";
 
 .award_box {
   min-height: 100%;
-  border-right: 1px dashed #d9aa28;
+  border-left: 1px dashed #d9aa28;
 }
 
 .award_box2 {
@@ -5997,7 +5997,7 @@ content: "";
   justify-content: flex-end;
   padding-top: 10px;
   min-height: 100%;
-  border-right: 1px dashed #d9aa28;
+  border-left: 1px dashed #d9aa28;
 }
 
 .award_box2 p {
@@ -6025,7 +6025,7 @@ content: "";
 .award_relative1 img {
   width: 20px;
   bottom: -11px;
-  left: -10px;
+  right: -10px;
   position: absolute;
 }
 
@@ -6036,7 +6036,7 @@ content: "";
 .award_relative2 img {
   width: 20px;
   top: -20px;
-  left: -10px;
+  right: -10px;
   position: absolute;
 }
 
@@ -6047,7 +6047,7 @@ content: "";
 .award_relative3 img {
   width: 20px;
   top: -20px;
-  right: -10px;
+  left: -10px;
   position: absolute;
 }
 
@@ -6151,7 +6151,7 @@ content: "";
 
 .minist_div4 > div:nth-child(2) {
   border-top: 1px solid #d9aa28;
-  border-left: 1px dashed #d9aa28;
+  border-right: 1px dashed #d9aa28;
   height: 100%;
   padding-top: 29px;
 }
@@ -6162,7 +6162,7 @@ content: "";
 
 .minist_div4 img {
   top: 30px;
-  left: -9px;
+  right: -9px;
   position: absolute;
   width: 20px;
   padding: 0;
@@ -6250,7 +6250,7 @@ content: "";
 
 .human_div4 img {
   top: 30px;
-  left: -9px;
+  right: -9px;
   position: absolute;
   width: 20px;
   padding: 0;
@@ -6259,8 +6259,8 @@ content: "";
 .human_div4 > div:nth-child(2) {
   border-top: 1px solid #d9aa28;
   padding-top: 29px;
-  border-left: 1px dashed #d9aa28;
-  padding-left: 10px;
+  border-right: 1px dashed #d9aa28;
+  padding-right: 10px;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
