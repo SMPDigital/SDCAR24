@@ -3329,7 +3329,7 @@ a.slidedown-tooltip:hover img {
 
 /* Homepage - shamith */
 .categories-section {
-  padding: 200px 0 100px 0;
+  padding: 250px 0 100px 0;
   background-image: linear-gradient(to top, #f3ede0, #ffffff);
 }
 .catgories-swiper-container {
@@ -3617,13 +3617,13 @@ a.slidedown-tooltip:hover img {
 }
 .dirving-pros-section .left-section {
   width: 50%;
-  padding: 30px 30px 200px 30px;
+  padding: 30px 30px 225px 30px;
   background-color: rgba(103, 24, 53, 1);
   position: relative;
   overflow: hidden;
 }
 .dirving-pros-section .left-section h2 {
-  font-size: 36px;
+  font-size: 40px;
   color: white;
   position: relative;
   z-index: 5;
@@ -3633,14 +3633,20 @@ a.slidedown-tooltip:hover img {
 }
 .dirving-pros-section .right-section {
   width: 50%;
-  padding: 30px 30px 200px 30px;
+  padding: 30px 30px 225px 30px;
 }
+
+.dirving-pros-section .right-section p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
 .dirving-pros-section .bottom-diagram {
   position: absolute;
   top: 200px;
   left: 50%;
   transform: translateX(-50%);
-  width: 400px;
+  width: 35%;
   aspect-ratio: 1/1;
   border-radius: 40%;
 }
@@ -3687,6 +3693,12 @@ a.slidedown-tooltip:hover img {
   }
 }
 
+@media (max-width: 1199px) {
+  .dirving-pros-section .bottom-diagram {
+    top: 300px;
+  }
+}
+
 @media (max-width: 992px) {
   .history-timeline {
     flex-direction: column;
@@ -3727,27 +3739,6 @@ a.slidedown-tooltip:hover img {
     left: 0;
   }
 
-  .dirving-pros-section .bottom-diagram {
-    top: 250px;
-  }
-}
-
-@media (max-width: 768px) {
-  .seccond-section {
-    padding: 100px 30px;
-  }
-  .seccond-section p {
-    font-size: 20px;
-  }
-
-  .chairman-section .left-side {
-    padding: 0;
-  }
-  .ceo-section,
-  .chairman-section {
-    padding: 30px 30px 0 30px;
-  }
-
   .dirving-pros-section {
     flex-direction: column;
     padding: 15px;
@@ -3765,6 +3756,23 @@ a.slidedown-tooltip:hover img {
     transform: translateX(0);
     margin: 0 auto;
     width: 75%;
+  }
+}
+
+@media (max-width: 768px) {
+  .seccond-section {
+    padding: 100px 30px;
+  }
+  .seccond-section p {
+    font-size: 20px;
+  }
+
+  .chairman-section .left-side {
+    padding: 0;
+  }
+  .ceo-section,
+  .chairman-section {
+    padding: 30px 30px 0 30px;
   }
 }
 
