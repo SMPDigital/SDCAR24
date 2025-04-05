@@ -609,7 +609,7 @@ $(document).ready(function () {
   
 	gsap.utils.toArray(".slide-left-text").forEach((element) => {
 	  gsap.from(element, {
-		x: 50,
+		x: -50,
 		opacity: 0,
 		duration: 0.75,
 		ease: "power2.out",
