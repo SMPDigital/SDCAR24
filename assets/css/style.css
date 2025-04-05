@@ -4818,7 +4818,7 @@ main .content-area {
 }
 
 footer .footer > div:first-child {
-  padding: 20px 65px 20px 65px;
+    padding: 20px 85px 20px 85px;
   display: flex;
   align-items: center;
   justify-content: space-between;
