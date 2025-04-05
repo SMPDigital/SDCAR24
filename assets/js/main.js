@@ -53,14 +53,14 @@ function preloaderStart(){
 
 	tl.fromTo(
 		".section-header-leftbar-img",
-		{ scale: 1.15 }, // Starting scale (from)
-		{ scale: 1, duration: 2.5, ease: "power2.inOut" },
+		{ scale: 1.15, bottom: "-50%" }, // Starting scale (from)
+		{ scale: 1, bottom: "-5%", duration: 2.5, ease: "power2.inOut" },
 		"-=0.8" // Start at the same time as the previous animation
 	);
 	
 	tl.fromTo(
 		".section-header-leftbar-img-services",
-		{ scale: 1.15, bottom: "-50%", }, // Starting scale (from)
+		{ scale: 1.15, }, // Starting scale (from)
 		{ scale: 1,bottom: "10%", duration: 2.5, ease: "power2.inOut" },
 		"<" // Start at the same time as the previous animation
 	);
