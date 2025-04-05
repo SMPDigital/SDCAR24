@@ -3661,7 +3661,7 @@ font-size: 40px;
 
 .dirving-pros-section {
   display: flex;
-  padding: 0 100px;
+  padding: 0 100px 0 0;
   position: relative;
   margin-bottom: 200px;
 }
@@ -3683,7 +3683,8 @@ font-size: 40px;
 }
 .dirving-pros-section .right-section {
   width: 50%;
-  padding: 30px 30px 225px 30px;
+  padding: 30px 30px 225px 130px;
+  background-image: linear-gradient(to bottom, rgba(252, 247, 239, 1), rgba(255, 255, 255, 1));
 }
 
 .dirving-pros-section .right-section p {
@@ -3793,7 +3794,7 @@ font-size: 40px;
   }
 
   .dirving-pros-section .right-section {
-    padding: 50px 100px 275px 30px;
+    padding: 50px 100px 275px 130px;
   }
 
   .dirving-pros-section .right-section p {
