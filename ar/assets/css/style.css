@@ -3366,15 +3366,17 @@ font-size: 40px;
 
 /* Homepage - shamith */
 .categories-section {
-  padding: 50px 0;
+  padding: 250px 0 100px 0;
+  background-image: linear-gradient(to top, #f3ede0, #ffffff);
 }
 .catgories-swiper-container {
   overflow: hidden;
 }
 .catgories-swiper {
   width: 100%;
-  height: 450px;
+  height: 550px;
   position: relative;
+  padding: 1px;
 }
 .swiper-prev,
 .swiper-next {
@@ -3395,7 +3397,7 @@ font-size: 40px;
 .swiper-prev i,
 .swiper-next i {
   font-size: 20px;
-  color: #B48E2E;
+  color: #b48e2e;
 }
 .swiper-prev {
   left: 15px;
@@ -3403,34 +3405,35 @@ font-size: 40px;
 .swiper-next {
   right: 15px;
 }
-.category-block {  
+.category-block {
   width: 100%;
   height: 100%;
-  border: 1px solid var(--block-color);
-  background-color: var(--block-color);
+  /* background-color: var(--block-color); */
+  /* box-shadow: 0 0 1px 0 var(--block-color); */
   display: flex;
   flex-direction: column;
-  border-radius: 6px;
+  border-radius: 15px;
   text-decoration: none;
+  overflow: hidden;
 }
 .category-block .header-wrapper {
-  padding: 15px;
+  padding: 25px 15px 15px 30px;
   background-color: white;
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
 }
 .category-block .header-wrapper h2 {
   margin: 0;
-  font-size: 22px;
+  font-size: 30px;
   color: var(--block-color);
 }
-.category-block  .image-wrapper {
+.category-block .image-wrapper {
   width: 100%;
   height: 100%;
   aspect-ratio: 4/3;
   overflow: hidden;
 }
-.category-block  .image-wrapper img {
+.category-block .image-wrapper img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -3438,7 +3441,7 @@ font-size: 40px;
 }
 .category-block .description {
   background-color: var(--block-color);
-    padding: 25px 30px 20px 30px;
+  padding: 25px 30px 20px 30px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -3553,8 +3556,8 @@ font-size: 40px;
   padding: 12px 0;
   margin: 0 29.6px 0 0;
   color: #000000;
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 15px;
   line-height: 1;
   text-align: center;
 }
@@ -3574,7 +3577,7 @@ font-size: 40px;
 
 .chairman-section {
   background-color: rgba(223, 199, 177, 1);
-  padding: 50px 100px 0 100px;
+  padding: 100px 100px 0 100px;
   display: flex;
   gap: 30px;
   overflow: hidden;
@@ -3603,11 +3606,12 @@ font-size: 40px;
 .chairman-section .right-side .main-image {
   position: relative;
   z-index: 5;
+  bottom: -20px;
 }
 
 .ceo-section {
   background-color: rgba(252, 247, 239, 1);
-  padding: 50px 100px 0 150px;
+  padding: 100px 100px 0 150px;
   display: flex;
   gap: 30px;
   position: relative;
@@ -3623,6 +3627,12 @@ font-size: 40px;
   height: 100%;
   background-color: rgba(223, 199, 177, 1);
 }
+
+.ceo-section .left-side .main-image {
+  position: relative;
+  bottom: -20px;
+}
+
 .ceo-section .right-side {
   position: relative;
   z-index: 5;
@@ -3651,13 +3661,13 @@ font-size: 40px;
 }
 .dirving-pros-section .left-section {
   width: 50%;
-  padding: 30px 30px 200px 30px;
+  padding: 30px 30px 225px 30px;
   background-color: rgba(103, 24, 53, 1);
   position: relative;
   overflow: hidden;
 }
 .dirving-pros-section .left-section h2 {
-  font-size: 36px;
+  font-size: 40px;
   color: white;
   position: relative;
   z-index: 5;
@@ -3667,14 +3677,20 @@ font-size: 40px;
 }
 .dirving-pros-section .right-section {
   width: 50%;
-  padding: 30px 30px 200px 30px;
+  padding: 30px 30px 225px 30px;
 }
+
+.dirving-pros-section .right-section p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
 .dirving-pros-section .bottom-diagram {
   position: absolute;
   top: 200px;
   left: 50%;
   transform: translateX(-50%);
-  width: 400px;
+  width: 35%;
   aspect-ratio: 1/1;
   border-radius: 40%;
 }
@@ -3693,7 +3709,17 @@ font-size: 40px;
   z-index: 3;
 }
 
-@media(min-width: 1540px){
+.swiper_width {
+  width: 83.33333333%;
+}
+
+@media (max-width: 1199px) {
+  .swiper_width {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1540px) {
   .seccond-section p {
     font-size: 36px;
   }
@@ -3721,13 +3747,66 @@ font-size: 40px;
   }
 }
 
-@media(max-width: 992px){
+@media (min-width: 1400px) and (resolution: 1dppx) {
+  .chairman-section .left-side h2 {
+    font-size: 50px;
+  }
+
+  .chairman-section .left-side {
+    padding: 50px 50px 50px 100px;
+  }
+
+  .chairman-section .left-side p {
+    font-size: 35px;
+  }
+
+  .ceo-section .right-side h2 {
+    font-size: 50px;
+  }
+
+  .ceo-section .right-side p {
+    font-size: 35px;
+  }
+
+  .dirving-pros-section .left-section {
+    padding: 50px 30px 275px 100px;
+  }
+
+  .dirving-pros-section .left-section h2 {
+    font-size: 55px;
+  }
+
+  .dirving-pros-section .bottom-diagram {
+    width: 35%;
+    top: 225px;
+  }
+
+  .swiper_width {
+    width: 100%;
+  }
+
+  .dirving-pros-section .right-section {
+    padding: 50px 30px 275px 100px;
+  }
+
+  .dirving-pros-section .right-section p {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .dirving-pros-section .bottom-diagram {
+    top: 300px;
+  }
+}
+
+@media (max-width: 992px) {
   .history-timeline {
     flex-direction: column;
   }
   .history-timeline .history-block .text-wrapper {
     border-top: none;
-    border-left: 3px solid #7DC08A;
+    border-left: 3px solid #7dc08a;
     min-height: auto;
   }
   .history-timeline .history-block.purple-block {
@@ -3761,27 +3840,6 @@ font-size: 40px;
     left: 0;
   }
 
-  .dirving-pros-section .bottom-diagram {
-    top: 250px;
-  }
-}
-
-@media(max-width: 768px){
-  .seccond-section {
-    padding: 100px 30px;
-  }
-  .seccond-section p {
-    font-size: 20px;
-  }
-
-  .chairman-section .left-side {
-    padding: 0;
-  }
-  .ceo-section,
-  .chairman-section {
-    padding: 30px 30px 0 30px;
-  }
-
   .dirving-pros-section {
     flex-direction: column;
     padding: 15px;
@@ -3802,7 +3860,24 @@ font-size: 40px;
   }
 }
 
-@media(max-width: 540px){
+@media (max-width: 768px) {
+  .seccond-section {
+    padding: 100px 30px;
+  }
+  .seccond-section p {
+    font-size: 20px;
+  }
+
+  .chairman-section .left-side {
+    padding: 0;
+  }
+  .ceo-section,
+  .chairman-section {
+    padding: 30px 30px 0 30px;
+  }
+}
+
+@media (max-width: 540px) {
   .chairman-section .main-image,
   .ceo-section .main-image {
     width: 100%;
