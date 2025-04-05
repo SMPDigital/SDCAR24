@@ -45,7 +45,7 @@
 	
 	
 	
-	#ic1,#ic2,#ic3,#ic4,#ic5
+	#ic1,#ic2,#ic3,#ic4,#ic5,#lns
 	{
 	animation-name: zoom; 
 	animation-duration: 3s; 
@@ -57,9 +57,10 @@
 
 	#ic1 { animation-delay: 0s;}
 	#ic2 { animation-delay: 0.25s;}
-	#ic3{ animation-delay: 0.5s;}
+	#ic3{ animation-delay: 1.5s;}
 	#ic4{ animation-delay: 2s;}
 	#ic5{ animation-delay: 1s;}
+	#lns{ animation-delay: 2s;}
 
 	
 
