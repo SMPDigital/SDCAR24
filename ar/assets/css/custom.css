@@ -444,6 +444,11 @@ p.lifter {
 	line-height: 1.2;
 }
 
+
+  .custom_offset-lg-1 {
+    margin-right: 8.33333333%;
+  }
+
 p.lifter1 {
   color: #443479;
   font-size: 2.0rem;
