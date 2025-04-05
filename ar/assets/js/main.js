@@ -416,7 +416,7 @@ $(document).ready(function () {
 
 
   bodtl
-  .from(".bod_main", {x: -20, autoAlpha: 0, duration: 0.5, stagger: 0.05})
+  .from(".bod_main", {x: 20, autoAlpha: 0, duration: 0.5, stagger: 0.05})
 
 
   let exetl = gsap.timeline({
@@ -431,7 +431,7 @@ $(document).ready(function () {
 
 
 exetl
-.from(".exe_main", {x: -20, autoAlpha: 0, duration: 0.5, stagger: 0.05})
+.from(".exe_main", {x: 20, autoAlpha: 0, duration: 0.5, stagger: 0.05})
 
 
   $(".NavSearchIcon").click(function () {
