@@ -3813,7 +3813,7 @@ font-size: 40px;
   }
   .history-timeline .history-block .text-wrapper {
     border-top: none;
-    border-left: 3px solid #7dc08a;
+    border-right: 3px solid #7dc08a;
     min-height: auto;
   }
   .history-timeline .history-block.purple-block {
