@@ -5373,7 +5373,7 @@ footer p a {
   height: 7px;
   width: 100%;
   border-top: 1px solid #a88d49;
-  border-right: 1px solid #a88d49;
+  border-left: 1px solid #a88d49;
 }
 
 .join_for_main_yellow .join_border_bottom {
