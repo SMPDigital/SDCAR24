@@ -3601,7 +3601,8 @@ font-size: 40px;
 .chairman-section .msg-bg-pattern {
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: 0;
+  transform: rotateY(180deg);
   width: 40%;
   height: auto;
   z-index: 3;
@@ -3624,7 +3625,7 @@ font-size: 40px;
 .ceo-section::before {
   content: "";
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
   width: 100px;
   height: 100%;
@@ -3651,9 +3652,10 @@ font-size: 40px;
 }
 .ceo-section .msg-bg-pattern {
   position: absolute;
-  left: 100px;
+  right: 100px;
   bottom: 0;
   width: 50%;
+  transform: rotateY(180deg);
 }
 
 .dirving-pros-section {
