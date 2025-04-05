@@ -3700,6 +3700,40 @@ a.slidedown-tooltip:hover img {
   }
 }
 
+@media (min-width: 1400px) and (resolution: 1dppx) {
+  .chairman-section .left-side h2 {
+    font-size: 50px;
+  }
+
+  .chairman-section .left-side {
+    padding: 50px 50px 50px 100px;
+  }
+
+  .chairman-section .left-side p {
+    font-size: 35px;
+  }
+
+  .ceo-section .right-side h2 {
+    font-size: 50px;
+  }
+
+  .ceo-section .right-side p {
+    font-size: 35px;
+  }
+
+  .dirving-pros-section .left-section {
+    padding: 30px 30px 225px 100px;
+  }
+
+  .dirving-pros-section .left-section h2 {
+    font-size: 55px;
+  }
+
+  .dirving-pros-section .bottom-diagram {
+    width: 35%;
+  }
+}
+
 @media (max-width: 1199px) {
   .dirving-pros-section .bottom-diagram {
     top: 300px;
