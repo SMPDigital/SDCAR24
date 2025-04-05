@@ -3708,10 +3708,11 @@ font-size: 40px;
 .dirving-pros-section .left-section .purple_bg_pattern {
   position: absolute;
   bottom: 0;
-  left: 0;
+  right: 0;
   width: 50%;
   height: auto;
   z-index: 3;
+  transform: rotateY(180deg);
 }
 
 .swiper_width {
