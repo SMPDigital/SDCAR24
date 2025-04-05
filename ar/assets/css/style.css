@@ -2632,7 +2632,7 @@ font-size: 14px;
 a.util-link-item img {
   width: 28px;
   height: auto;
-  margin-right: 5px;
+  margin-left: 5px;
 }
 
 a.util-link-item span {
