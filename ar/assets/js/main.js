@@ -580,18 +580,47 @@ const swiper = new Swiper('.catgories-swiper', {
 
 $(document).ready(function () {
 	const seccondSecText = new SplitText(".seccond-section p", { type: "words" });
-
+  
 	gsap.to(seccondSecText.words, {
-		opacity: 1,
-		stagger: 0.05,
+	  opacity: 1,
+	  stagger: 0.05,
+	  scrollTrigger: {
+		trigger: ".seccond-section p",
+		start: "top 90%",
+		end: "bottom center",
+		scrub: 1,
+	  },
+	});
+  
+	const drivingProsText = new SplitText(".dirving-pros-section h2", {
+	  type: "words",
+	});
+  
+	gsap.to(drivingProsText.words, {
+	  opacity: 1,
+	  stagger: 0.05,
+	  scrollTrigger: {
+		trigger: ".dirving-pros-section h2",
+		start: "top 90%",
+		end: "bottom center",
+		scrub: 1,
+	  },
+	});
+  
+	gsap.utils.toArray(".slide-left-text").forEach((element) => {
+	  gsap.from(element, {
+		x: 50,
+		opacity: 0,
+		duration: 0.75,
+		ease: "power2.out",
 		scrollTrigger: {
-			trigger: ".seccond-section p",
-			start: "top 90%",
-			end: 'bottom center',
-			scrub: 1
-		}
-	})
-})
+		  trigger: element,
+		  start: "top 90%",
+		  toggleActions: "play none none reverse",
+		},
+	  });
+	});
+  });
 
 
 
