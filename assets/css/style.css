@@ -3544,6 +3544,7 @@ font-size: 40px;
   display: flex;
   gap: 30px;
   overflow: hidden;
+  position: relative;
 }
 .chairman-section .left-side {
   padding: 50px;
@@ -3557,6 +3558,18 @@ font-size: 40px;
   font-size: 24px;
   width: 80%;
 }
+.chairman-section .msg-bg-pattern {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  height: auto;
+  z-index: 3;
+}
+.chairman-section .right-side .main-image {
+  position: relative;
+  z-index: 5;
+}
 
 .ceo-section {
   background-color: rgba(252, 247, 239, 1);
@@ -3565,6 +3578,7 @@ font-size: 40px;
   gap: 30px;
   position: relative;
   overflow: hidden;
+  position: relative;
 }
 .ceo-section::before {
   content: "";
@@ -3575,6 +3589,10 @@ font-size: 40px;
   height: 100%;
   background-color: rgba(223, 199, 177, 1);
 }
+.ceo-section .right-side {
+  position: relative;
+  z-index: 5;
+}
 .ceo-section .right-side h2 {
   font-size: 36px;
   color: black;
@@ -3584,10 +3602,25 @@ font-size: 40px;
   font-size: 24px;
   width: 80%;
 }
+.ceo-section .msg-bg-pattern {
+  position: absolute;
+  left: 100px;
+  bottom: 0;
+  width: 50%;
+}
 
 @media(min-width: 1540px){
   .seccond-section p {
     font-size: 36px;
+  }
+
+  .chairman-section .left-side h2,
+  .ceo-section .right-side h2 {
+    font-size: 45px;
+  }
+  .chairman-section .left-side p,
+  .ceo-section .right-side p {
+    font-size: 30px;
   }
 }
 
@@ -3606,6 +3639,30 @@ font-size: 40px;
   .history-timeline .history-block.purple-block .image-wrapper {
     display: none;
   }
+
+  .chairman-section {
+    flex-direction: column;
+  }
+  .ceo-section {
+    flex-direction: column-reverse;
+  }
+
+  .chairman-section .right-side,
+  .ceo-section .left-side {
+    overflow: hidden;
+  }
+
+  .chairman-section .main-image,
+  .ceo-section .main-image {
+    height: 100%;
+    width: auto;
+  }
+  .ceo-section::before {
+    display: none;
+  }
+  .ceo-section .msg-bg-pattern {
+    left: 0;
+  }
 }
 
 @media(max-width: 768px){
@@ -3614,6 +3671,22 @@ font-size: 40px;
   }
   .seccond-section p {
     font-size: 20px;
+  }
+
+  .chairman-section .left-side {
+    padding: 0;
+  }
+  .ceo-section,
+  .chairman-section {
+    padding: 30px 30px 0 30px;
+  }
+}
+
+@media(max-width: 540px){
+  .chairman-section .main-image,
+  .ceo-section .main-image {
+    width: 100%;
+    height: auto;
   }
 }
 
