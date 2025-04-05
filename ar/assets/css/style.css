@@ -4045,7 +4045,7 @@ img.img-fluid.section-header-charimanimage {
 }
 
 img.img-fluid.section-header-charimanbgimage {
-  left: 0;
+  right: 0;
   position: absolute;
   bottom: 0;
   height: 110%;
