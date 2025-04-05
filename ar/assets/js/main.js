@@ -185,7 +185,9 @@ $(document).ready(function () {
     let scrolledHeight = $(window).scrollTop();
 
     if (scrolledHeight > 50) {
-      $(".top-next-previousbox").addClass("active");
+      if (window.matchMedia("(min-width: 992px)").matches) {
+			$(".top-next-previousbox").addClass("active");
+		} 
       $(".page_up").addClass("active");
     } else {
       $(".top-next-previousbox").removeClass("active");

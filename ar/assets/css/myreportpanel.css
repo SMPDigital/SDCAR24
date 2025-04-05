@@ -142,7 +142,7 @@ body.tt-sliding-cart-open .scrollbar-track {
   position: relative;
   display: flex;
   align-items: center;
-  padding-right: 25px;
+  padding-left: 25px;
 }
 
 .tt-sliding-cart-product .btn-sm {

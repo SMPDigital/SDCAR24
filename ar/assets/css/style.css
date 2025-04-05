@@ -2747,6 +2747,19 @@ width: fit-content;
   transform: translateY(0px);
 }
 
+@media(max-width:991px){
+	.top-next-previousbox a#topprevlink,
+	.top-next-previousbox a#topnextlink {
+	  pointer-events: all;
+	}
+	
+	.top-next-previousbox a#topprevlink img,
+	.top-next-previousbox a#topnextlink img {
+	  opacity: 1;
+	  transform: translateY(0px);
+	}
+}
+
 .top-next-previousbox a.slidedown-tooltip span {
   position: absolute;
   bottom: -150%;
@@ -3169,6 +3182,7 @@ font-size: 40px;
     height: fit-content;
     display: flex;
     flex-direction: row;
+	display: none;
   }
   .util-link-box,
   .next-previous-box {
