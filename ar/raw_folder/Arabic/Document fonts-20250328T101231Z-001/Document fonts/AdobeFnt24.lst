@@ -1,0 +1,282 @@
+%!Adobe-FontList 1.24
+%Locale:0x809
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeArabic-Regular
+FamilyName:Adobe Arabic
+StyleName:Regular
+FullName:Adobe Arabic Regular
+MenuName:Adobe Arabic
+StyleBits:0
+FamilyNameNative:Adobe Arabic
+StyleNameNative:Regular
+FullNameNative:Adobe Arabic Regular
+WritingScript:Arabic
+OutlineFileName:C:\Users\User 01\Desktop\DIGITAL FOR\SDCAR24-English Folder\Document fonts\ADOBEARABIC-REGULAR.OTF
+DataFormat:sfntData
+UsesStandardEncoding:no
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:376016
+FileModTime:1705325056
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Adobe Arabic
+NameArray:0,Mac,4,Adobe Arabic Regular
+NameArray:0,Win,1,Adobe Arabic
+NameArray:0,Win,16,Adobe Arabic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeArabic-Bold
+FamilyName:Adobe Arabic
+StyleName:Bold
+FullName:Adobe Arabic Bold
+MenuName:Adobe Arabic
+StyleBits:2
+FamilyNameNative:Adobe Arabic
+StyleNameNative:Bold
+FullNameNative:Adobe Arabic Bold
+WritingScript:Arabic
+OutlineFileName:C:\Users\User 01\Desktop\DIGITAL FOR\SDCAR24-English Folder\Document fonts\AdobeArabic-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:307228
+FileModTime:1361511886
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Adobe Arabic Bold
+NameArray:0,Win,1,Adobe Arabic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\User 01\Desktop\DIGITAL FOR\SDCAR24-English Folder\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:1454318930
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:StencilStd
+FamilyName:Stencil Std
+StyleName:Bold
+FullName:Stencil Std Bold
+MenuName:Stencil Std
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\User 01\Desktop\DIGITAL FOR\SDCAR24-English Folder\Document fonts\StencilStd.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:31468
+FileModTime:1327574568
+WeightClass:700
+WidthClass:5
+AngleClass:0
+DesignSize:180
+NameArray:0,Mac,18,Stencil Std
+NameArray:0,Mac,4,Stencil Std Bold
+NameArray:0,Win,1,Stencil Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Tajawal-Bold
+FamilyName:Tajawal
+StyleName:Bold
+FullName:Tajawal-Bold
+MenuName:Tajawal
+StyleBits:2
+FamilyNameNative:Tajawal
+StyleNameNative:Bold
+FullNameNative:Tajawal Bold
+WritingScript:Arabic
+OutlineFileName:C:\Users\User 01\Desktop\DIGITAL FOR\SDCAR24-English Folder\Document fonts\Tajawal-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:59964
+FileModTime:1735624916
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Tajawal Bold
+NameArray:0,Win,1,Tajawal
+NameArray:0,Win,16,Tajawal
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Tajawal-ExtraBold
+FamilyName:Tajawal
+StyleName:ExtraBold
+FullName:Tajawal ExtraBold
+MenuName:Tajawal ExtraBold
+StyleBits:0
+FamilyNameNative:Tajawal
+StyleNameNative:ExtraBold
+FullNameNative:Tajawal ExtraBold
+WritingScript:Arabic
+OutlineFileName:C:\Users\User 01\Desktop\DIGITAL FOR\SDCAR24-English Folder\Document fonts\Tajawal-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:59624
+FileModTime:1735624916
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Tajawal ExtraBold
+NameArray:0,Win,1,Tajawal ExtraBold
+NameArray:0,Win,16,Tajawal
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Tajawal-Light
+FamilyName:Tajawal
+StyleName:Light
+FullName:Tajawal Light
+MenuName:Tajawal Light
+StyleBits:0
+FamilyNameNative:Tajawal
+StyleNameNative:Light
+FullNameNative:Tajawal Light
+WritingScript:Arabic
+OutlineFileName:C:\Users\User 01\Desktop\DIGITAL FOR\SDCAR24-English Folder\Document fonts\Tajawal-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:61840
+FileModTime:1735624916
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Tajawal Light
+NameArray:0,Win,1,Tajawal Light
+NameArray:0,Win,16,Tajawal
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Tajawal-Medium
+FamilyName:Tajawal
+StyleName:Medium
+FullName:Tajawal-Medium
+MenuName:Tajawal Medium
+StyleBits:0
+FamilyNameNative:Tajawal
+StyleNameNative:Medium
+FullNameNative:Tajawal Medium
+WritingScript:Arabic
+OutlineFileName:C:\Users\User 01\Desktop\DIGITAL FOR\SDCAR24-English Folder\Document fonts\Tajawal-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:62256
+FileModTime:1735624916
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Tajawal Medium
+NameArray:0,Win,1,Tajawal Medium
+NameArray:0,Win,16,Tajawal
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Tajawal-Regular
+FamilyName:Tajawal
+StyleName:Regular
+FullName:Tajawal
+MenuName:Tajawal
+StyleBits:0
+FamilyNameNative:Tajawal
+StyleNameNative:Regular
+FullNameNative:Tajawal Regular
+WritingScript:Arabic
+OutlineFileName:C:\Users\User 01\Desktop\DIGITAL FOR\SDCAR24-English Folder\Document fonts\Tajawal-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:60340
+FileModTime:1735624916
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Tajawal
+NameArray:0,Win,1,Tajawal
+NameArray:0,Win,16,Tajawal
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Wingdings-Regular
+FamilyName:Wingdings
+StyleName:Regular
+FullName:Wingdings
+MenuName:Wingdings
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\User 01\Desktop\DIGITAL FOR\SDCAR24-English Folder\Document fonts\wingding.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:82180
+FileModTime:1575709707
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Wingdings
+NameArray:0,Win,1,Wingdings
+%EndFont
+

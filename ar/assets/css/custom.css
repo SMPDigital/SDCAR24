@@ -504,8 +504,8 @@ input {
   top: 3px;
   content: "\2022";
   color: #d29e0e;
-  padding-right: 10px;
-  margin-left: -20px;
+  padding-left: 10px;
+  margin-right: -20px;
 }
 .list-disc.text-white > li:before {
   color: white;
@@ -521,7 +521,7 @@ input {
   margin: 0 0 4px;
   line-height: 20px;
   margin-bottom: 5px;
-  margin-left: 20px;
+  margin-right: 20px;
 }
 ul.list-disc {
   margin-bottom: 25px;
