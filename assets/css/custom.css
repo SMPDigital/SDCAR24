@@ -250,6 +250,12 @@ body {
 	padding: 25px 25px 0px 25px;
 }
 
+
+.purple-box strong{
+  color: #FFFFFF;
+}
+
+
 .white-counter-text{
 	font-size: 2em;
 	color: white;
