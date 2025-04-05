@@ -186,11 +186,14 @@ $(document).ready(function () {
 
     if (scrolledHeight > 50) {
       $(".top-next-previousbox").addClass("active");
-//      $(".page_up").addClass("active");
+      $(".page_up").addClass("active");
     } else {
       $(".top-next-previousbox").removeClass("active");
-//      $(".page_up").removeClass("active");
+      $(".page_up").removeClass("active");
     }
+  });
+  $(".page_up").click(function () {
+    $("html, body").animate({ scrollTop: 0 }, "slow");
   });
 });
 
