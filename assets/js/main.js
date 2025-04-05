@@ -223,6 +223,8 @@ $(window).on("load", function () {
 });
 
 $(document).ready(function () {
+  $('table:not(.table-responsive table)').wrap('<div class="table-responsive" ></div>');
+
   $(window).on("scroll", function () {
     let scrolledHeight = $(window).scrollTop();
 
