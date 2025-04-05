@@ -72,10 +72,9 @@
 }
 
 
-
-
-
-
+html{
+	direction: rtl;
+}
 
 body {
   padding: 0;
