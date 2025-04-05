@@ -3569,6 +3569,7 @@ a.slidedown-tooltip:hover img {
 .chairman-section .right-side .main-image {
   position: relative;
   z-index: 5;
+  bottom: -20px;
 }
 
 .ceo-section {
@@ -3589,6 +3590,12 @@ a.slidedown-tooltip:hover img {
   height: 100%;
   background-color: rgba(223, 199, 177, 1);
 }
+
+.ceo-section .left-side .main-image {
+  position: relative;
+  bottom: -20px;
+}
+
 .ceo-section .right-side {
   position: relative;
   z-index: 5;
