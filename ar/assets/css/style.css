@@ -3423,7 +3423,7 @@ font-size: 40px;
 }
 .category-block .description {
   background-color: var(--block-color);
-  padding: 15px;
+    padding: 25px 30px 20px 30px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -3433,7 +3433,8 @@ font-size: 40px;
 }
 .category-block .description p {
   color: white;
-  font-size: 13px;
+  font-size: 17px;
+  line-height: 1.2;
 }
 .category-block:hover .image-wrapper img {
   transform: scale(1.1);
