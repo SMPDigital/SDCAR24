@@ -675,7 +675,7 @@ body {
 .nav_item > a > div:first-child {
   width: 100%;
   height: 100%;
-    padding: 20px 20px 10px 10px;
+  padding: 20px 20px 10px 10px;
   position: relative;
 }
 
@@ -1339,12 +1339,12 @@ body {
     height: auto;
     display: flex;
     justify-content: space-between;
-    padding: 15px 15px 15px 20px;
+    padding: 15px 20px 15px 15px;
     align-items: center;
   }
 
   .nav_item_five > div:first-child {
-    padding: 15px 15px 15px 20px;
+    padding: 15px 20px 15px 15px;
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -1524,12 +1524,12 @@ body {
     height: auto;
     display: flex;
     justify-content: space-between;
-    padding: 15px 15px 15px 20px;
+    padding: 15px 20px 15px 15px;
     align-items: center;
   }
 
   .nav_item_five > div:first-child {
-    padding: 15px 15px 15px 20px;
+    padding: 15px 20px 15px 15px;
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -1725,12 +1725,12 @@ body {
     height: auto;
     display: flex;
     justify-content: space-between;
-    padding: 15px 15px 15px 20px;
+    padding: 15px 20px 15px 15px;
     align-items: center;
   }
 
   .nav_item_five > div:first-child {
-    padding: 15px 15px 15px 20px;
+    padding: 15px 20px 15px 15px;
     height: auto;
     display: flex;
     justify-content: space-between;
