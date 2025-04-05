@@ -3509,7 +3509,7 @@ font-size: 40px;
 
 .rm_one .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  left: 5px;
+  right: 3px;
   width: 18px;
   height: 2px;
   background: none;
@@ -3519,11 +3519,11 @@ font-size: 40px;
   position: absolute;
   content: "";
   top: -4px;
-  right: 1px;
+  right: 8px;
   width: 10px;
   height: 10px;
-  border-top: 2px solid #fff;
-  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
   transform: rotate(45deg);
 }
 
@@ -3535,7 +3535,7 @@ font-size: 40px;
   right: 0;
   bottom: 0;
   padding: 12px 0;
-  margin: 0 0 0 29.6px;
+  margin: 0 29.6px 0 0;
   color: #000000;
   font-weight: 600;
   font-size: 14px;
@@ -3549,7 +3549,7 @@ font-size: 40px;
 
 .rm_one:hover .circle .icon.arrow {
   background: #fff;
-  transform: translate(16px, 0);
+  transform: translate(-16px, 0);
 }
 
 .rm_one:hover .button-text {
