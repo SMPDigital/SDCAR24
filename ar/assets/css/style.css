@@ -3377,6 +3377,7 @@ font-size: 40px;
   height: 550px;
   position: relative;
   padding: 1px;
+  direction: ltr;
 }
 .swiper-prev,
 .swiper-next {
@@ -3421,6 +3422,7 @@ font-size: 40px;
   background-color: white;
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
+  direction: rtl;
 }
 .category-block .header-wrapper h2 {
   margin: 0;
@@ -3448,6 +3450,7 @@ font-size: 40px;
   justify-content: space-between;
   gap: 10px;
   height: 100%;
+  direction: rtl;
 }
 .category-block .description p {
   color: white;
