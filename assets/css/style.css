@@ -3479,9 +3479,9 @@ a.slidedown-tooltip:hover img {
   padding: 0;
   width: 150px;
   height: auto;
-  outline: 2px solid #000;
   border-radius: 26px;
-  outline-offset: 2.5px;
+  border: 2px solid #000;
+  padding: 2px;
 }
 
 .rm_one .circle {
