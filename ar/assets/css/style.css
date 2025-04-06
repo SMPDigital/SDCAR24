@@ -3381,9 +3381,28 @@ font-size: 40px;
 
 /* Homepage - shamith */
 .categories-section {
-  padding: 250px 0 100px 0;
+  padding: 200px 0 100px 0;
   background-image: linear-gradient(to top, #f3ede0, #ffffff);
 }
+
+@media (max-width: 767px) {
+  .categories-section {
+    padding: 50px 0 100px 0;
+  } 
+}
+
+@media (max-width: 991px) {
+  .categories-section {
+    padding: 100px 0 100px 0;
+  } 
+}
+
+@media (max-width: 1199px) {
+  .categories-section {
+    padding: 0px 0 100px 0;
+  } 
+}
+
 .catgories-swiper-container {
   overflow: hidden;
 }
