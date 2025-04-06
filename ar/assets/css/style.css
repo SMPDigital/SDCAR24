@@ -3649,12 +3649,13 @@ font-size: 40px;
 
 .ceo-section {
   background-color: rgba(252, 247, 239, 1);
-  padding: 100px 100px 0 150px;
+  padding: 100px 150px 0 100px;
   display: flex;
   gap: 30px;
   position: relative;
   overflow: hidden;
   position: relative;
+  justify-content: space-between;
 }
 .ceo-section::before {
   content: "";
@@ -3672,6 +3673,7 @@ font-size: 40px;
 }
 
 .ceo-section .right-side {
+  width: 50%;
   position: relative;
   z-index: 5;
 }
@@ -3878,7 +3880,10 @@ font-size: 40px;
     display: none;
   }
   .ceo-section .msg-bg-pattern {
-    left: 0;
+    right: 0;
+  }
+  .ceo-section .right-side {
+    width: 100%;
   }
 
   .dirving-pros-section {
