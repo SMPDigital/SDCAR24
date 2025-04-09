@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../assets/css/libs/fontawesome.css" />
     <link rel="stylesheet" href="../assets/css/custom.css" />
     <link rel="stylesheet" href="../assets/css/style.css" />
+	<link rel="stylesheet" href="../assets/css/header.css" />
 	<link rel="stylesheet" href="../assets/css/myreportpanel.css" />
 	<link rel="stylesheet" href="../assets/css/libs/aos.css" />
 	<link rel="stylesheet" href="../assets/css/download-center.css" />
@@ -69,25 +70,11 @@
 		  .bgfill{background-color:#f9f6f0; padding: 50px 15px; }
 		   main .content-area {  padding:0 0 0px 0; overflow: hidden;}
 		  
-		  .section-header-main-firstcolumn.heighlight-custom {
-				 width: calc(100% - 154px);
+		  .pullup {
+			margin-top: 0px;
 			}
-		  .heighlight-custom .section-header-main-directionbox {
-			  width: 33%;
-		  }
-		  .heighlight-custom .section-header-main-title.simple {
-			 align-items: flex-start;
-		  }
-		  @media (max-width: 1580px) {
-				.section-header-main-firstcolumn.heighlight-custom {
-					 width: calc(100% - 110px);
-				}
-			}
-		  @media(max-width:991px){
-			.section-header-main-firstcolumn.heighlight-custom {
-				width: 100%;
-			}
-		  }
+
+			
 	  </style>
 	  
   <!-- InstanceEndEditable -->
@@ -373,7 +360,7 @@
       <div class="searhAndNavButton">
         <div class="searchWrapper">
           <i class="fa-solid fa-x" id="closeIconSearch"></i>
-          <form action="services/search.html" method="get">
+          <form action="../services/search.html" method="get">
             <input type="search" name="s" required placeholder="Search..." />
             <button type="submit">
               <i class="fa-solid fa-magnifying-glass"></i>
@@ -546,22 +533,22 @@
 			<!-- InstanceBeginEditable name="header-Section" -->
 			
 					<div class="section-header simple">
-						<div class="section-header-row simple">
-							<div class="section-header-left simple">
-								<div class="section-header-left-imagebox simple">
-									<img src="../assets/images/left-image.webp" class="img-fluid section-header-leftbar-img simple" data-speed="0.8"  alt="" />
+						<div class="section-header-row">
+							<div class="section-header-left">
+								<div class="section-header-left-imagebox ">
+									<img src="../assets/images/left-image.webp" class="img-fluid section-header-leftbar-img " data-speed="0.8"  alt="" />
 								</div>
 								<div class="section-header-left-plainbox">
 								</div>
 							</div>
-							<div class="section-header-main simple">
-								<div class="section-header-main-firstcolumn simple heighlight-custom">
-									<div class="section-header-main-title simple">
+							<div class="section-header-main ">
+								<div class="section-header-main-firstcolumn heighlight-custom">
+									<div class="section-header-main-title">
 										<h1>HIGHLIGHTS</h1>
-										<div class="section-header-main-title-bgbox bg-yellow simple"></div>	
-										<img src="../assets/images/sec-titleimage.svg" class="img-fluid section-header-main-title-bg simple" data-speed="0.8" alt="" />
+										<div class="section-header-main-title-bgbox bg-yellow "></div>	
+										<img src="../assets/images/sec-titleimage.svg" class="img-fluid section-header-main-title-bg heighlight-custom" data-speed="0.8" alt="" />
 									</div>	
-									<div class="section-header-main-directionbox simple">	
+									<div class="section-header-main-directionbox ">	
 										<div class="util-link-box chairman">
 											<a class="util-link-item" href="#" id="addmrepicn">
 												<img src="../assets/images/icons/add_my_report.svg" alt="">
@@ -572,7 +559,7 @@
 												<span>Download PDF</span>
 											</a>											
 										</div>
-										 <div class="next-previous-box simple">
+										 <div class="next-previous-box ">
 											<a class="slidedown-tooltip" href="#1" id="prevlink">
 												<img src="../assets/images/icons/left_chevron.svg" alt="">
 												<span><div class="direction-text">Previous Page</div></span>

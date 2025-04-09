@@ -3,8 +3,10 @@ function preloaderStart(){
 
 	// Use GSAP's SplitText (not SplitType)
 	const splitText = new SplitText(".section-header-main-hedding", { type: "words" });
+	const splitTextHeading = new SplitText(".section-header-main-title h1", { type: "words" });
 	const splitTextSub = new SplitText(".section-header-main-subtitle h2", { type: "words" });
-	const splitTextPhara = new SplitText(".section-header-main-intro p", { type: "words" });
+	const splitTextPhara = new SplitText(".section-header-main-intro p", { type: "words" });	
+	const splitTextPhara1 = new SplitText(".section-header-main-secondcolumn p", { type: "words", });
 	const splitTextPhara2 = new SplitText(".section-header-chariman-message p", { type: "words" });
 
 
@@ -37,110 +39,172 @@ function preloaderStart(){
 		},
 	},
 	"<+=50%"
+	);  
+	
+	// Animate .section-header-main-title-bgbox
+	gsap.to(".section-header-main-title-bgbox", {
+	  top: "0%",
+	  duration: 1,
+	  ease: "power2.easeOut"
+	});
+
+	// Animate .section-header-main-title-bg
+	gsap.fromTo(
+	  ".section-header-main-title-bg",
+	  { right: "100%", scale: 1.2, opacity: 0 },
+	  { right: "0%", opacity: 1, duration: 2, ease: "power2.inOut" }
+	);
+	
+	// Animate scale of .section-header-main-title-bg
+	gsap.to(".section-header-main-title-bg", {
+	  scale: 1,
+	  duration: 3,
+	  delay: 1.2,
+	  ease: "power2.inOut"
+	});	
+	
+	gsap.fromTo(
+	  ".section-header-charimanimage",
+	  {scale: 1.2},
+	  {scale:1, duration: 4, ease: "power2.inOut" }
 	);
 
-	tl.to(".section-header-main-title-bgbox", {
-		top: "0%",
-		duration: 1,
-		ease: "power2.easeOut",
-	}, "<");
+	// Animate .section-header-charimanbgimage entry
+	gsap.fromTo(
+	  ".section-header-charimanbgimage",
+	  { scale: 1.2, bottom: "-100%", opacity: 0 },
+	  {
+		bottom: "10%",
+		opacity: 1,
+		duration: 2,
+		ease: "power2.inOut"
+	  }
+	);
+	
+	// Animate .section-header-charimanbgimage scale
+	gsap.to(".section-header-charimanbgimage", {
+	  scale: 1,
+	  duration: 3,
+	  ease: "power2.inOut",
+	  delay: 1.2
+	});
+	
+	// Animate .section-header-main-title-bg-services
+	gsap.fromTo(
+	  ".section-header-main-title-bg-services",
+	  { scale: 1.2, right: "100%", opacity: 0 },
+	  {
+		right: "0%",
+		opacity: 1,
+		duration: 3,
+		ease: "power2.inOut"
+	  }
+	);
+	
+	// Animate .section-header-charimanbgimage scale
+	gsap.to(".section-header-main-title-bg-services", {
+	  scale: 1,
+	  duration: 3,
+	  ease: "power2.inOut",
+	  delay: 1.5
+	});
 
-//	tl.to(".section-header-leftbar-img", {
-//		bottom: "-5%",
-//		duration: 1.5, // Increased duration for a smoother effect
-//		ease: "power2.inOut",
-//	}, "<");
+	// Animate .section-header-leftbar-img move
+	gsap.to(".section-header-leftbar-img", {
+	  bottom: "5%",
+	  duration: 2,
+	  ease: "power2.inOut"
+	});
+
+	// Animate .section-header-leftbar-img scale
+	gsap.to(".section-header-leftbar-img", {
+	  scale: 1,
+	  duration: 3,
+	  ease: "power2.inOut",
+	  delay: 1.2 // Adjust delay to control overlap manually
+	});	
 	
-	tl.fromTo(
-		".section-header-main-title-bg",
-		{ left: "100%", opacity: 0 }, // Starting scale (from)
-		{ left:"0%", opacity:1, duration: 2.5, ease: "power2.inOut" },
-		"<" // Start at the same time as ".section-header-leftbar-img"
+	// Animate .section-header-leftbar-img-services
+	gsap.fromTo(
+	  ".section-header-leftbar-img-services",
+	  { scale: 1.15 },
+	  { bottom: "10%", duration: 3, ease: "power2.inOut" }
+	);
+	
+	// Animate .section-header-leftbar-img scale
+	gsap.to(".section-header-leftbar-img-services", {
+	  scale: 1,
+	  duration: 3,
+	  ease: "power2.inOut",
+	  delay: 1.5 // Adjust delay to control overlap manually
+	});	
+	
+	gsap.fromTo(
+	  ".section-header-main-sectionimg",
+	  {scale: 1.3},
+	  {scale:1, duration: 4,delay: 1.2, ease: "power2.inOut" }
 	);
 
-	tl.fromTo(
-		".section-header-leftbar-img",
-		{ bottom: "-50%" }, // Starting scale (from)
-		{ bottom: "0%", duration: 2.5, ease: "power2.inOut" },
-		"<" // Start at the same time as the previous animation
-	);
+	// Animate splitText.words
+	gsap.from(splitText.words, {
+	  opacity: 0,
+	  y: 30,
+	  duration: 2,
+	  delay: 0.9,
+	  ease: "power2.out",
+	  stagger: 0.1
+	});
 	
-	tl.fromTo(
-		".section-header-leftbar-img",
-		{ scale: 1.15 }, // Starting scale (from)
-		{ scale: 1, duration: 2.5, ease: "power2.inOut" },
-		"=0.01" // Start at the same time as the previous animation
-	);
-	
-	tl.fromTo(
-		".section-header-leftbar-img-services",
-		{ scale: 1.15, }, // Starting scale (from)
-		{ scale: 1,bottom: "10%", duration: 2.5, ease: "power2.inOut" },
-		"<" // Start at the same time as the previous animation
-	);
-	
-	tl.fromTo(
-		".section-header-main-title-bg",
-		{ scale: 1.5 }, // Starting scale (from)
-		{ scale: 1, duration: 2.5, ease: "power2.inOut" },
-		"<" // Start at the same time as ".section-header-leftbar-img"
-	);
-	
-	tl.fromTo(
-		".section-header-main-title-bg-services",
-		{ scale: 1.2, bottom: "-100%", opacity: 0 }, // Starting scale (from)
-		{ scale: 1, bottom:"-25%", opacity:1, duration: 2.5, ease: "power2.inOut" },
-		"<" // Start at the same time as ".section-header-leftbar-img"
-	);
-	
-	tl.fromTo(
-		".section-header-charimanbgimage",
-		{ scale: 1.2, bottom: "-100%", opacity: 0  }, // Starting scale (from)
-		{ scale: 1, bottom:"-10%", opacity:1, duration: 2.5, ease: "power2.inOut" },
-		"<" // Start at the same time as ".section-header-leftbar-img"
-	);
+	// Animate splitText.words
+	gsap.from(splitTextHeading.words, {
+	  opacity: 0,
+	  y: 30,
+	  duration: 2,
+	  delay: 0.9,
+	  ease: "power2.out",
+	  stagger: 0.1
+	});
 
-	tl.fromTo(
-		".section-header-main-sectionimg",
-		{ scale: 1.2 }, // Starting scale (from)
-		{ scale: 1, duration: 2.5, ease: "power2.inOut" },
-		"<" // Start at the same time as ".section-header-leftbar-img"
-	);
+	// Animate splitTextSub.words
+	gsap.from(splitTextSub.words, {
+	  opacity: 0,
+	  y: 30,
+	  duration: 2,
+	  delay: 1.2,
+	  ease: "power2.out",
+	  stagger: 0.1
+	});
 
-	tl.from(splitText.words, {  
-		opacity: 0,
-		y: 30, 
-		duration: 1.5,
-		delay: 0.4,
-		ease: "power2.out",
-		stagger: 0.1,
-	}, "<");
+	// Animate splitTextPhara2.words
+	gsap.from(splitTextPhara2.words, {
+	  opacity: 0,
+	  y: 30,
+	  duration: 1.5,
+	  delay: 1.2,
+	  ease: "power2.out",
+	  stagger: 0.1
+	});
 	
-	tl.from(splitTextSub.words, {  
-		opacity: 0,
-		y: 30, 
-		duration: 1.5,
-		delay: 0.4,
-		ease: "power2.out",
-		stagger: 0.1, 
-	}, "<"); 
+	// Animate splitTextPhara.words
+	gsap.from(splitTextPhara1.words, {
+	  opacity: 0,
+	  y: 30,
+	  duration: 1.5,
+	  delay: 1.2,
+	  ease: "power2.out",
+	  stagger: 0.1
+	});
+
+	// Animate splitTextPhara.words
+	gsap.from(splitTextPhara.words, {
+	  opacity: 0,
+	  y: 30,
+	  duration: 1.5,
+	  delay: 1.2,
+	  ease: "power2.out",
+	  stagger: 0.1
+	});
 	
-	tl.from(splitTextPhara2.words, {  
-		opacity: 0,
-		y: 30, 
-		duration: 1.5,
-		ease: "power2.out",
-		stagger: 0.1, 
-	}, "<");
-	
-	tl.from(splitTextPhara.words, {  
-		opacity: 0,
-		y: 30, 
-		duration: 1.5,
-		delay: 0.4,
-		ease: "power2.out",
-		stagger: 0.1, 
-	}, "<");
 	
     tl.to(".loader-wrap", {
         y: -1500,

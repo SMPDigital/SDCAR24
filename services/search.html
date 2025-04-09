@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><!-- InstanceBegin template="file:///C|/wamp64/www/smart/reports/BUPAAR24/Templates/sdcar24_english.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en"><!-- InstanceBegin template="/Templates/sdcar24_english.dwt" codeOutsideHTMLIsLocked="false" -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../assets/css/libs/fontawesome.css" />
     <link rel="stylesheet" href="../assets/css/custom.css" />
     <link rel="stylesheet" href="../assets/css/style.css" />
+	<link rel="stylesheet" href="../assets/css/header.css" />
 	<link rel="stylesheet" href="../assets/css/myreportpanel.css" />
 	<link rel="stylesheet" href="../assets/css/libs/aos.css" />
 	<link rel="stylesheet" href="../assets/css/download-center.css" />
@@ -18,7 +19,54 @@
     <title>SEDCO Integrated Annual Report 2024</title>
   <!-- InstanceEndEditable -->
 	  
+	  
+	  
+<!-- Start of SmartIRO Code -->
+<script>
+  "use strict";
+
+  !(function () {
+    var t = (window.skye = window.smartiro = window.skye || []);
+    if (!t.init) {
+      if (t.invoked) {
+        return void (
+          window.console &&
+          console.error &&
+          console.error("SmartIRO snippet included twice.")
+        );
+      }
+      (t.invoked = !0), (t.methods = ["init"]), (t._c = []);
+      (t.factory = function (e) {
+        return function () {
+          var n = Array.prototype.slice.call(arguments);
+          return n.unshift(e), t._c.push(n), t;
+        };
+      }),
+        t.methods.forEach(function (e) {
+          t[e] = t.factory(e);
+        }),
+        (t.load = function () {
+          t.init(...arguments);
+          var o = document.createElement("script");
+          o.type = "text/javascript";
+          o.async = true;
+          o.crossorigin = "anonymous";
+          o.src = "https://chat.smartiro.app/shim.js" + "?id=" + ~~(Date.now() / 1000);
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        });
+    }
+  })();
+  smartiro.load(
+  	"67eff360edc36e4ce8dc056f",
+  	"67eff39a021134fb86055782",
+	[]
+  );
+</script>
+<!-- End of SmartIRO Code -->	  
+	  
   <!-- InstanceBeginEditable name="head" --> 
+<!--
 	   <style>		  
 			/* service swction header css start */
 
@@ -185,7 +233,187 @@
 
 
 	  </style>
+-->
+	  
+	   <style>		  
+			/* service swction header css start */
+
+			.section-header.services {
+				height: 300px;
+			}
+
+			.section-header-row.services {
+			  display: flex;
+			  flex-direction: row;
+			  height: 100%;
+			}
+
+			.section-header-left.services {
+			  width: 90px;
+			  height: auto;
+			}
+
+			.section-header-left-imagebox.services {
+			  height: 100%;
+			  position: relative;
+			  overflow: hidden;
+			}
+
+			.section-header-leftbar-img-services {
+			  position: absolute;
+			  bottom: -50%;
+			  height: 150%;
+			  width: 100%;
+			  object-fit: cover;
+			  margin-bottom: 0;
+			}
+
+			.section-header-left-plainbox.services {
+			  width: 100%;
+			  background: #f9f3e0;
+			  aspect-ratio: 1 / 1;
+			}
+
+			.section-header-main.services {
+			  width: calc(100% - 90px);
+			  height: 100%;
+			  display: flex;
+			}
+
+			.section-header-main-firstcolumn.services {
+			  height: 100%;
+			  max-height: 100%;
+			  width: 95%;
+			}
+
+			.section-header-main-title.services {
+			  width: 100%;
+			  height: 80%;
+			  position: relative;
+			  display: flex;
+			  flex-direction: column;
+			  align-items: self-start;
+			  justify-content: flex-end;
+			  padding-left: 30px;
+			  padding-right: 30px;
+			  padding-bottom: 30px;
+			  overflow: hidden;			  
+			}
+
+			.section-header-main-title.simple h1 {
+			  z-index: 3;
+			  position: relative;
+			  vertical-align: bottom;
+			  color: #ffffff;
+			  font-size: 60px;
+			  font-weight: 300;
+			  margin-bottom: 0px;
+			  text-decoration: none;
+			}
+
+			.section-header-main-title-bgbox.services {
+			  position: absolute;
+			  right: 0%;
+			  top: 100%;
+			  width: 100%;
+			  height: 100%;
+			  mix-blend-mode: multiply;
+			  z-index: 2;
+			}
+
+			img.section-header-main-title-bg-services {
+			  position: absolute;
+			  left: 0;
+			  bottom: 0;
+			  width: 100%;
+			  height: 150%;
+			  object-fit: cover;
+			  margin-bottom: 6%;
+			}
+
+			.section-header-main-directionbox.services {
+			  position: relative;
+			  width: 35%;
+			  height: 20%;
+			  background: #f9f3e0;
+			}
+
+			.section-header-main-sectionimage {
+			  width: 30%;
+			  height: 110%;
+			  overflow: hidden;
+			}
+
+			img.section-header-main-sectionimg {
+			  width: 100%;
+			  height: 115%;
+			  object-fit: cover;
+			  object-position: center;
+			  margin-top: -5%;
+			}
+		  @media(max-width:1440px){
+			 .section-header.services {
+				height: 280px;
+			 }
+		  }
+		  @media(max-width:1199px){
+			 .section-header-left-plainbox {
+				display: none;
+			 }
+		  }
+		  @media(max-width:1024px){
+			.section-header.services {
+				height: 250px;
+			}
+		  }
+		  @media(max-width:767px){
+			.section-header.services {
+				height: 200px; 
+			}
+			.section-header-left.services {
+				width: 70px;
+			}
+			.section-header-main.services {
+				width: calc(100% - 70px);
+			}
+			.section-header-main-firstcolumn.services {
+			  width: 100%;
+			}
+			.section-header-main-title.services {    
+				padding-left: 15px;
+				padding-right: 15px;
+				padding-bottom: 20px;
+			}
+			  .section-header-main-directionbox.services {
+				  display: block;
+			  }
+		  }
+		  @media (max-width: 580px) {
+			.section-header-main.services {
+				width: 100%;
+			}
+			.section-header-main-directionbox.services {
+				width: 100%;
+			}
+		  }
+		  @media (max-width: 480px) {
+			.section-header.services {
+				height: 170px;
+			}
+		  }
+
+
+	  </style>
   <!-- InstanceEndEditable -->
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
 	  
   </head>
   <body>
@@ -459,7 +687,7 @@
       <div class="searhAndNavButton">
         <div class="searchWrapper">
           <i class="fa-solid fa-x" id="closeIconSearch"></i>
-          <form action="services/search.html" method="get">
+          <form action="search.html" method="get">
             <input type="search" name="s" required placeholder="Search..." />
             <button type="submit">
               <i class="fa-solid fa-magnifying-glass"></i>
@@ -507,7 +735,7 @@
 				/>
 			</a>
 			
-			<a class="logo icon-img-160" href="index.html">
+			<a class="logo icon-img-160" href="../index.html">
 				<img src="../assets/images/logo-black.svg" alt="Sedco Logo" />
 			</a>
         </div>
@@ -629,7 +857,9 @@
 	  
 	<main class="enalrgable">
 		<header>
-			<!-- InstanceBeginEditable name="header-Section" -->
+			<!-- InstanceBeginEditable name="header-Section" -->\
+				
+<!--
 				<div class="section-header services">
 						<div class="section-header-row services">
 							<div class="section-header-left services">
@@ -653,7 +883,33 @@
 								
 							</div>
 						</div>
-					</div>			
+					</div>	
+	
+-->
+			  	<div class="section-header services">
+					<div class="section-header-row services">
+						<div class="section-header-left services">
+							<div class="section-header-left-imagebox services">
+								<img src="../assets/images/left-image.webp" class="img-fluid section-header-leftbar-img-services" data-speed="0.8"  alt="" />
+							</div>
+							<div class="section-header-left-plainbox">
+							</div>
+						</div>
+						<div class="section-header-main services">
+							<div class="section-header-main-firstcolumn services">
+								<div class="section-header-main-title services">
+									<h1>Search</h1>
+									<div class="section-header-main-title-bgbox bg-yellow services"></div>	
+									<img src="../assets/images/sec-titleimage.svg" class="img-fluid section-header-main-title-bg-services" data-speed="0.8" alt="" />
+								</div>	
+								<div class="section-header-main-directionbox services">	
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>	
 			<!-- InstanceEndEditable -->
 		</header>
 
@@ -686,71 +942,81 @@
 		<!-- InstanceEndEditable -->
 	</main>
 			
-		<footer>
-			<div class="footer">
-				<div>
-					<div class="logo">
-						
-						
-<div class="footer_icons">
-	
-	<div>
-              <a href="https://www.youtube.com/user/SEDCOHolding" target="_blank">
-                <i class="fa-brands fa-youtube"></i>
-              </a>
-            </div>
-	
- <div>
-              <a href="https://www.instagram.com/sedcoholding/" target="_blank">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-            </div>	
-	
-	
- <div>
-              <a href="https://www.facebook.com/SedcoHolding/" target="_blank">
-                <i class="fa-brands fa-facebook-f"></i>
-              </a>
-            </div>	
-	
+        <footer>
+          <div class="footer">
             <div>
-              <a href="https://x.com/SEDCOHolding" target="_blank">
-                <i class="fa-brands fa-x-twitter"></i>
-              </a>
+              <div class="logo">
+                <div class="footer_icons">
+                  <div>
+                    <a
+                      href="https://www.youtube.com/user/SEDCOHolding"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-youtube"></i>
+                    </a>
+                  </div>
+
+                  <div>
+                    <a
+                      href="https://www.instagram.com/sedcoholding/"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </div>
+
+                  <div>
+                    <a
+                      href="https://www.facebook.com/SedcoHolding/"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                  </div>
+
+                  <div>
+                    <a href="https://x.com/SEDCOHolding" target="_blank">
+                      <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                  </div>
+
+                  <div>
+                    <a
+                      href="https://www.linkedin.com/company/sedco/"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <p>
+                  <a href="https://sedco.com/" class="cpt" target="_blank"
+                    >SEDCO Holding 2025</a
+                  >
+                  © Copyright Reserved
+                </p>
+              </div>
+
+              <div class="gsarn">
+                <a
+                  href="https://www.gsarn.org/?no=SAU8700SEDCO0240000E111"
+                  target="_blank"
+                  rel="noopener"
+                  class=""
+                >
+                  <img
+                    style="height: 50px"
+                    src="../assets/images/GSARN_number_EN.svg"
+                    alt=""
+                  />
+                </a>
+              </div>
             </div>
-	
-	
-            <div>
-              <a href="https://www.linkedin.com/company/sedco/" target="_blank">
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
-            </div>
-           
-             
-           
-          </div>						
-						
-					</div>
-
-					<div class="gsarn">
-
-						<a href="https://www.gsarn.org/?no=SAU8700SEDCO0240000E111" target="_blank" rel="noopener" class="">
-							<img style="height: 50px;" src="../assets/images/GSARN_number_EN.svg" alt=""/>
-						</a>
-						
-					</div>
-				</div>
-				<div>
-					
-
- 
-
-					
-					
-					<p class="fz-14"><a href="https://sedco.com/" class="cpt" target="_blank">SEDCO Holding 2025</a>  © Copyright Reserved</p>
-				</div>
-			</div>
-		</footer>
+          </div>
+        </footer>
 			
 		</div>
 	</div>
@@ -764,13 +1030,16 @@
     </div>
     <!-- End Slide panel -->
 	  
+	<div class="page_up">
+      <i class="fa-solid fa-chevron-up"></i>
+    </div>
+	  
   	<script>
       // Preloader
       let progress = 0;
       let progressNumber = document.querySelector(
         ".preloader .progress-number"
       );
-      let loadLine = document.querySelector(".preloader .progress-bar-cover");
 
       function updateProgress(target, duration) {
         let interval = 20;
@@ -783,7 +1052,6 @@
             clearInterval(progressInterval);
           }
           progressNumber.textContent = Math.round(progress);
-          loadLine.style.width = 100 - progress + "%";
         }, interval);
       }
 
