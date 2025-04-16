@@ -27,8 +27,8 @@ header {
 
 .section-header-leftbar-img {
     position: absolute;
-    bottom: -40%;
-    height: 140%;
+    top: 100%;
+    height: 110%;
     scale: 1.5;
     width: auto;
     object-fit: cover;
@@ -244,6 +244,8 @@ img.section-header-main-sectionimg {
     height: 100%;
     mix-blend-mode: plus-lighter;
     z-index: 0;
+	-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 a.util-link-item {
@@ -416,13 +418,17 @@ a.slidedown-tooltip:hover img {
     .section-header-left {
         width: 85px;
     }
+	
+	.section-header-leftbar-img {
+		height: 120%;
+	}
 
     .section-header-main {
         width: calc(100% - 85px);
     }
 
     .section-header-left-imagebox {
-        height: calc(50% + 124px);
+        height: calc(50% + 125px);
     }
 
     .section-header-main-intro p {
@@ -592,6 +598,10 @@ a.slidedown-tooltip:hover img {
     .section-header-left {
         width: 70px;
     }
+	
+	.section-header-leftbar-img {
+		height: 120%;
+	}
 
     .section-header-main {
         width: calc(100% - 70px);
@@ -662,6 +672,10 @@ a.slidedown-tooltip:hover img {
     .section-header-left {
         width: 65px;
     }
+	
+	.section-header-leftbar-img {
+    	margin-bottom: -20px;
+	}
 
     .section-header-main {
         width: calc(100% - 65px);
@@ -672,7 +686,7 @@ a.slidedown-tooltip:hover img {
     }
 
     .section-header-left-imagebox {
-        height: calc(50% + 116px);
+        height: calc(50% + 112px);
     }
 
     .next-previous-box a#prevlink span,
@@ -734,6 +748,10 @@ a.slidedown-tooltip:hover img {
     .section-header-left {
         width: 60px;
     }
+	
+	.section-header-leftbar-img {
+		height: 120%;
+	}
 
     .section-header-main {
         width: calc(100% - 60px);
@@ -744,7 +762,7 @@ a.slidedown-tooltip:hover img {
     }
 
     .section-header-left-imagebox {
-        height: calc(50% + 105px);
+        height: calc(50% + 100px);
     }
 
     .next-previous-box a#prevlink span,
@@ -822,7 +840,7 @@ a.slidedown-tooltip:hover img {
     }
 
     .section-header-left-imagebox {
-        height: calc(50% + 100px);
+        height: calc(50% + 96px);
     }
 
     .section-header-main-title {
@@ -1210,6 +1228,31 @@ a.slidedown-tooltip:hover img {
     }
 }
 
+@media (max-width: 1024px) and (min-height: 900px) {
+  img.section-header-main-title-bg {
+    height: 120%;
+    margin-bottom: 15%;
+  }
+}
+
+@media (max-width: 1024px) and (min-height: 1024px) {
+  .section-header-leftbar-img {
+    height: 120%;
+  }
+  img.section-header-main-title-bg {
+    height: 120%;
+    margin-bottom: 25%;
+  }
+}
+
+@media (max-width: 767px) and (min-height: 1024px){
+	img.section-header-main-title-bg {
+		height: 120%;
+		margin-bottom: 17%;
+	}
+}
+
+
 /* header section css end */
 
 /* chariman section header css start */
@@ -1237,11 +1280,12 @@ a.slidedown-tooltip:hover img {
 
 .chairman .section-header-leftbar-img {
 	position: absolute;
-	height: 140%;
+	top: 100%;
+	height: 110%;
 	scale: 1.5;
 	width: auto;
 	object-fit: cover;
-	margin-bottom: -40%;
+	margin-bottom: -10%;
 }
 
 .chairman .section-header-left-plainbox {
@@ -1815,6 +1859,17 @@ a.slidedown-tooltip:hover img {
 	}
 }
 
+@media (max-width: 1024px) and (min-height: 1024px) {
+  .chairman .section-header-leftbar-img {
+    position: absolute;
+    top: 100%;
+    height: 120%;
+    scale: 1.5;
+    width: auto;
+    object-fit: cover;
+  }
+}
+
 /* chariman section header css end */
 
 
@@ -1845,8 +1900,8 @@ a.slidedown-tooltip:hover img {
 
 .simple .section-header-leftbar-img {
     position: absolute;
-    bottom: -40%;
-    height: 140%;
+	top: 100%;
+    height: 110%;
     scale: 1.5;
     width: auto;
     object-fit: cover;
@@ -2482,6 +2537,23 @@ a.slidedown-tooltip:hover img {
 
 }
 
+@media (max-width: 1024px) and (min-height: 900px) {
+  .simple img.section-header-main-title-bg {
+    height: 120%;
+    margin-bottom: 15%;
+  }
+}
+
+@media (max-width: 1024px) and (min-height: 1024px) {
+  .simple .section-header-leftbar-img {
+    height: 120%;
+  }
+  .simple img.section-header-main-title-bg {
+    height: 120%;
+    margin-bottom: 25%;
+  }
+}
+
 .section-header-main-firstcolumn.heighlight-custom {
     width: 100%;
 }
@@ -2568,8 +2640,8 @@ img.section-header-main-title-bg.heighlight-custom {
 
 .simple .section-header-leftbar-img {
     position: absolute;
-    bottom: -40%;
-    height: 140%;
+    top: 100%;
+    height: 110%;
     scale: 1.5;
     width: auto;
     object-fit: cover;
@@ -2739,7 +2811,7 @@ img.section-header-main-title-bg.heighlight-custom {
 
     .simple .section-header-main-title-bg {
         height: 130%;
-        margin-bottom: none;
+        margin-bottom: 0;
     }
 
     .simple .next-previous-box {
@@ -3206,6 +3278,32 @@ img.section-header-main-title-bg.heighlight-custom {
     }
 
 }
+
+@media (max-width: 1024px) and (min-height: 900px) {
+  .simple img.section-header-main-title-bg {
+    height: 120%;
+    margin-bottom: 15%;
+  }
+}
+	
+@media (max-width: 1024px) and (min-height: 1024px) {
+  .simple .section-header-leftbar-img {
+    top: 100%;
+    height: 120%;
+  }
+  .simple img.section-header-main-title-bg {
+    height: 120%;
+    margin-bottom: 25%;
+  }
+}
+
+@media (max-width: 767px) and (min-height: 1024px){
+	.simple img.section-header-main-title-bg {
+		height: 120%;
+		margin-bottom: 17%;
+	}
+}
+
 
 /* simple header common css end */
 
